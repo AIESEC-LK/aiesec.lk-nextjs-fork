@@ -7,5 +7,5 @@
 } */
 
 .navbar-list li{
-    @apply active:text-general-blue hover:text-general-blue;
+    @apply active:text-aiesec-blue hover:text-aiesec-blue font-body;
 }

@@ -4,7 +4,7 @@ import Nav from '@components/Nav';
 const RootLayout = () => {
   return (
     <html>
-        <div>
+        <div >
             <Nav />
             <h2>
                 AIESEC.lk Rewamp
