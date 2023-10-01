@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    font-family: ;
+} */
+
+.navbar-list li{
+    @apply active:text-general-blue hover:text-general-blue;
+}
