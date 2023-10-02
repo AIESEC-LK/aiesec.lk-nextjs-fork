@@ -15,6 +15,7 @@ module.exports = {
     },
     // Responsive Sizes
     screens: {
+        xsm: '20px',
         sm: '640px',
         md: '768px',
         lg: '1024px',
@@ -23,6 +24,8 @@ module.exports = {
 
     colors: {
         'aiesec-blue':'#037Ef3',
+        'white':'#FFFFFF',
+        'black':'#000000',
     },
     extend: {
       backgroundImage: {
