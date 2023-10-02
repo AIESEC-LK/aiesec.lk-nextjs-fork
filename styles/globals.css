@@ -6,6 +6,7 @@
     font-family: ;
 } */
 
+
 .navbar-list li{
     @apply active:text-general-blue hover:text-general-blue;
 }

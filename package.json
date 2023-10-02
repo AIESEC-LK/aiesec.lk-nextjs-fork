@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cloudinary-video-player": "^1.9.16",
+    "next": "latest",
+    "next-videos": "^1.4.1",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",
