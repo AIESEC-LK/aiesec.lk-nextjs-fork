@@ -7,5 +7,5 @@
 } */
 
 .navbar-list li{
-    @apply active:text-aiesec-blue hover:text-aiesec-blue font-body;
+    @apply active:text-aiesec-blue active:font-semibold hover:text-aiesec-blue font-body;
 }
