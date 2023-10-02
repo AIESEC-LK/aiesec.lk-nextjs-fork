@@ -11,7 +11,7 @@ function HomeVideo() {
       <div className=" bg-gradient-to-t from-general-blue transparent to-transparent z-10">
         <VideoPlayer/>
       </div>
-      <div className=" absolute bottom-5 left-5 sm:bottom-5 sm:left-5 md:bottom-5 md:left-5 lg:bottom-7 lg:left-6 xl:bottom-72 xl:left-32">
+      <div className=" absolute bottom-5 left-5 sm:bottom-10 sm:left-10 md:bottom-18 md:left-18 xl:bottom-72 xl:left-32 ">
         <MultiText />
       </div>
     </section>
