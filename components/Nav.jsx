@@ -4,18 +4,37 @@ import '@styles/globals.css';
 
 function Nav() {
   return (
-    <nav className=' grid grid-cols-3 gap-x-3 h-20'>
-      <div className='flex justify-center items-center'><Image src={AiesecLogo} alt="AIESEC Logo" width={250} className=' items-center'></Image></div>
-      <div className=' col-span-2'>
-        <ul className='navbar-list list-none grid grid-cols-7 grid-flow-row pt-7 text-md'>
-          <li>Home</li>
-          <li>Who Are We</li>
-          <li>Opportunities</li>
-          <li>Partners</li>
-          <li>Updates</li>
-          <li>Contact Us</li>
+    <nav className=' grid grid-cols-3 h-16 bg-white mx-14'>
+      <div className='flex md:flex-row  flex-col justify-center items-center'>
+        <Image src={AiesecLogo} alt="AIESEC Logo" width={170} className='hidden lg:block items-center mt-5'/>
+        {/* hidden lg:block */}
+        
+      </div>
+      <div className='lg:static absolute bg-white lg:min-h-fit min-h-[60vh] left-0 top-[9%] lg:w-auto w-full  col-span-2'>
+        <ul className="flex lg:flex-row flex-col xsm:items-center md:gap-[4vw] gap-10 pt-6">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+          <a href="">Who Are We</a>
+          </li>
+          <li>
+            <a href="">Opportunities</a>
+          </li>
+          <li>
+            <a href="">Partners</a>
+          </li> 
+          <li>
+            <a href="">Updates</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
         </ul>
       </div>
+      <div className='flex items-center gap-6'>
+          <ion-icon onclick="onToggleMenu(this)" name="menu-outline" className="text-3xl cursor-pointer xl:hidden"></ion-icon>
+        </div>
     </nav>
   );
 }

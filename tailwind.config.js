@@ -6,11 +6,33 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+<<<<<<< HEAD
     screens:{
+=======
+    fontFamily: {
+        sans: ['Lato', 'sans-serif'],
+        serif: ['Lato', 'sans-serif'],
+        mono: ['Lato', 'sans-serif'],
+        display: ['Lato', 'sans-serif'],
+        body: ['Lato', 'sans-serif'],
+    },
+    // Responsive Sizes
+    screens: {
+        xsm: '20px',
+>>>>>>> 86a926eb18ff1a1e17222fd06432be79e515feb8
         sm: '640px',
         md: '768px',
         lg: '1024px',
         xl: '1280px',
+<<<<<<< HEAD
+=======
+      },
+
+    colors: {
+        'aiesec-blue':'#037Ef3',
+        'white':'#FFFFFF',
+        'black':'#000000',
+>>>>>>> 86a926eb18ff1a1e17222fd06432be79e515feb8
     },
     extend: {
       colors: {
@@ -21,6 +43,7 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+<<<<<<< HEAD
       animation: {
         marquee: 'marquee 10s linear infinite',
       },
@@ -30,6 +53,11 @@ module.exports = {
           '100%': {transform: 'translateX(-50%)'},
         }
       }
+=======
+      padding: {
+        '17px': '500px',
+      },
+>>>>>>> 86a926eb18ff1a1e17222fd06432be79e515feb8
     },
   },
   plugins: [],

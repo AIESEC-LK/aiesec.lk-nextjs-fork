@@ -8,5 +8,5 @@
 
 
 .navbar-list li{
-    @apply active:text-general-blue hover:text-general-blue;
+    @apply active:text-aiesec-blue active:font-semibold hover:text-aiesec-blue font-body;
 }
