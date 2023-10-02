@@ -1,17 +1,37 @@
+'use client'
 import "@styles/globals.css";
+import { useEffect, useState } from "react";
 import Nav from "@components/Nav";
+import SplashScreen from "@components/SplashScreen";
+import { usePathname } from "next/navigation";
 
 
 const RootLayout = () => {
+  const pathname = usePathname()
+  const isHome = pathname === "/"
+  const [isLoading, setIsLoading] = useState(isHome) 
+
+  useEffect(() => {
+    if(isLoading )
+    return
+  }, [isLoading ])
   return (
     <html>
       <head>
         <title>AIESEC in Sri Lanka</title>
       </head>
-      <div>
+      <body>
+        {isLoading && isHome ? (
+          <SplashScreen finishLoading={()=>setIsLoading(false)}/>
+          ): (
+            <div>
         <Nav />
         <h2>AIESEC.lk Rewamp</h2>
       </div>
+          )
+        }
+      
+      </body>
     </html>
   );
 };
