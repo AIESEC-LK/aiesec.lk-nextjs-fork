@@ -9,20 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
+    "animejs": "^3.2.1",
     "cloudinary-video-player": "^1.9.16",
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.3",
     "next": "latest",
     "next-videos": "^1.4.1",
     "react": "latest",
     "react-countup": "^6.4.2",
     "react-dom": "latest",
     "typewriter-effect": "^2.21.0"
-=======
-    "animejs": "^3.2.1",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
->>>>>>> 8dd3aff50f9ff602b784d874ccee91488b1742be
   },
   "devDependencies": {
     "autoprefixer": "latest",

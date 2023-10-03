@@ -16,7 +16,7 @@ export default function Counter(){
                     <div className=" grid sm:grid-cols-4 sm:text-lg text-sm text-white m-14 grid-cols-1 grid-rows-4">
                         <div className=" flex justify-center align-middle sm:mb-0 mb-4">
                             <ul className=" list-none">
-                                <li className=" flex justify-center sm:text-7xl text-4xl"><span><CountUp start={1500} end={1600} duration={2} delay={0}/></span><span>+</span></li>
+                                <li className=" flex justify-center sm:text-7xl text-4xl"><span><CountUp start={100} end={1500} duration={2} delay={0}/></span><span>+</span></li>
                                 <li className=" flex justify-center">Active Members</li>
                             </ul>
                         </div>
