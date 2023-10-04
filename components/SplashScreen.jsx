@@ -1,9 +1,8 @@
 'use client'
 import React, {useEffect, useState} from 'react'
 import anime from 'animejs'
-import Image from 'next/image'
-import AiesecLogo from './Icons/bluelogo.png';
-import AiesecGif from './Icons/aiesec-animation.gif';
+import Image from 'next/image';
+
 
 
 export default function SplashScreen({finishLoading}) {
@@ -15,8 +14,8 @@ export default function SplashScreen({finishLoading}) {
         loader.add({
             targets: "#logo",
             delay: 0,
-            scale: 3,
-            duration: 2000,
+            scale: 1,
+            duration: 500,
             easing: "easeInOutExpo",
 
         })
@@ -35,7 +34,7 @@ export default function SplashScreen({finishLoading}) {
   return (
     <div className='flex h-screen items-center justify-center bg-aiesec-blue'
     isMounted={isMounted}>
-        <img id="logo" src={AiesecLogo} alt="animation" width={60} />
+        <img id="logo" src="https://media0.giphy.com/media/Q60YT16mePtbpTtHqG/giphy.gif?cid=6c09b952fh955vyes4fewnsgcq99oiwmjm2cq9553j144lbt&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="animation" width={300}/>
     </div>
   )
 }
