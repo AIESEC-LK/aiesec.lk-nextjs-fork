@@ -1,4 +1,5 @@
 import React from 'react';
+import '@styles/globals.css';
 
 const Home = () => {
   const column1Styles = {

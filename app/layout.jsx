@@ -1,5 +1,6 @@
 import "@styles/globals.css";
 import Nav from "@components/Nav";
+import Home from "@components/two-column";
 
 
 const RootLayout = () => {
@@ -11,6 +12,7 @@ const RootLayout = () => {
       <div>
         <Nav />
         <h2>AIESEC.lk Rewamp</h2>
+        <Home/>
       </div>
     </html>
   );
