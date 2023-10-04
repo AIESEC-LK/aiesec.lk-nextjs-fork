@@ -1,5 +1,23 @@
 import React from 'react';
 import '@styles/globals.css';
+import Image from 'next/image';
+import l1 from './Icons/le1.png';
+import l2 from './Icons/le2.png';
+import l3 from './Icons/le3.png';
+import l4 from './Icons/le4.png';
+import l5 from './Icons/le5.png';
+import l6 from './Icons/le6.png';
+import l7 from './Icons/le7.png';
+import l8 from './Icons/le8.png';
+import l9 from './Icons/u.png';
+import l10 from './Icons/u2.png';
+import l11 from './Icons/u3.png';
+import l12 from './Icons/u4.png';
+import l13 from './Icons/u5.png';
+import l14 from './Icons/u6.png';
+import l15 from './Icons/u7.png';
+
+
 
 const Home = () => {
   const column1Styles = {
@@ -32,12 +50,13 @@ const Home = () => {
     fontStyle: 'normal',
     lineHeight: 'normal',
   };
+  
 
   return (
     <div>
       {/* Two Column Layout */}
       <div className="flex">
-        <div className="w-1/2 bg-blue text-white font-lato text-right ">
+        <div className="w-1/2 aiesec-blue text-white font-lato text-right ">
           <h1 style={column1Styles} className="mx-4 mt-4 mb-4 ml-4 mr-4">
             Who Are We
           </h1>
@@ -70,52 +89,68 @@ const Home = () => {
           >
             Our Local Entities
           </h2>
-          <div className="flex flex-wrap text-center">
-            <div className="w-1/8 p-4">
+          <div class="flex justify-center items-center">
+            <div className="w-1/8 p-10">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l1} alt="AIESEC in Colombo Central logo" style={{ width: '100px', height: '100px' }} />
+                </i>
               </div>
               AIESEC in <br /> Colombo Central
             </div>
-            <div className="w-1/8 p-4 text-center">
+            <div className="w-1/8 p-10 text-center">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l2} alt="AIESEC in Colombo North logo" style={{ width: '100px', height: '100px' }} />
+                </i>
               </div>
               AIESEC in <br /> Colombo North
             </div>
-            <div className="w-1/8 p-4 text-center">
+            <div className="w-1/8 p-10 text-center">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l3} alt="AIESEC in Colombo South logo" style={{ width: '100px', height: '100px' }} />
+                </i>
               </div>
               AIESEC in <br /> Colombo South
             </div>
-            <div className="w-1/8 p-4 text-center">
+            <div className="w-1/8 p-10 text-center">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l4} alt="AIESEC in Kandy logo" style={{ width: '100px', height: '100px' }}  />
+                </i>
               </div>
               AIESEC in<br /> Kandy
             </div>
-            <div className="w-1/8 p-4 text-center">
+            <div className="w-1/8 p-10 text-center">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l5} alt="AIESEC in Ruhuna logo" style={{ width: '100px', height: '100px' }} />
+                </i>
               </div>
               AIESEC in<br /> Ruhuna
             </div>
-            <div className="w-1/8 p-4 text-center">
+            <div className="w-1/8 p-10 text-center">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l6} alt="AIESEC in SLITT logo" style={{ width: '100px', height: '100px' }} />
+                </i>
               </div>
               AIESEC in<br /> SLIIT
             </div>
-            <div className="w-1/8 p-4 text-center">
+            <div className="w-1/8 p-10 text-center">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l7} alt="AIESEC in USJ logo" style={{ width: '100px', height: '100px' }} />
+                </i>
               </div>
               AIESEC in<br /> USJ
             </div>
-            <div className="w-1/8 p-4 text-center">
+            <div className="w-1/8 p-10 text-center">
               <div className="text-2xl mb-2">
-                <i className="fas fa-icons"></i>
+                <i className="fas fa-icons">
+                <Image src={l8} alt="AIESEC in NSBM logo" style={{ width: '100px', height: '100px' }} />
+                </i>
               </div>
               AIESEC in<br /> NSBM
             </div>
@@ -196,19 +231,24 @@ const Home = () => {
           <div className="flex justify-center">
             {/* Icon 1 */}
             <div className="w-1/9 text-center">
-              <i className="fas fa-icon-1 text-4xl mb-2"></i>
-              Icon 1
+              <i className="fas fa-icon-1 text-4xl mb-2">
+              <Image src={l9} alt="AIESEC in Colombo Central logo" style={{ width: '50px', height: '50px' }} />
+              </i>
             </div>
 
             {/* Icon 2 */}
             <div className="w-1/9 text-center">
-              <i className="fas fa-icon-2 text-4xl mb-2"></i>
+              <i className="fas fa-icon-2 text-4xl mb-2">
+              <Image src={l10} alt="Uniliver logo" style={{ width: '50px', height: '50px' }} />
+              </i>
               Icon 2
             </div>
 
             {/* Icon 3 */}
             <div className="w-1/9 text-center">
-              <i className="fas fa-icon-3 text-4xl mb-2"></i>
+              <i className="fas fa-icon-3 text-4xl mb-2">
+              <Image src={l10} alt="Uniliver logo" style={{ width: '50px', height: '50px' }} />
+              </i>
               Icon 3
             </div>
 
