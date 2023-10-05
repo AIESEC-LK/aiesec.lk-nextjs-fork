@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import AiesecLogo from './Icons/bluelogo.png';
+// import AiesecLogo from './Icons/bluelogo.png';
+import AiesecLogo from '../public/assets/images/bluelogo.png'
 import '@styles/globals.css';
 
 function Nav() {
