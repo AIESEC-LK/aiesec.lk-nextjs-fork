@@ -11,11 +11,7 @@ import l7 from './Icons/le7.png';
 import l8 from './Icons/le8.png';
 import l9 from './Icons/u.png';
 import l10 from './Icons/u2.png';
-import l11 from './Icons/u3.png';
-import l12 from './Icons/u4.png';
-import l13 from './Icons/u5.png';
-import l14 from './Icons/u6.png';
-import l15 from './Icons/u7.png';
+
 
 
 
@@ -56,7 +52,7 @@ const Home = () => {
     <div>
       {/* Two Column Layout */}
       <div className="flex">
-        <div className="w-1/2 aiesec-blue text-white font-lato text-right ">
+        <div className="w-1/2 bg-aiesec-blue text-white font-lato text-right ">
           <h1 style={column1Styles} className="mx-4 mt-4 mb-4 ml-4 mr-4">
             Who Are We
           </h1>
@@ -67,7 +63,7 @@ const Home = () => {
         <div className="w-1/2 bg-white font-lato text-left mx-4">
           <h1
             style={column3Styles}
-            className="mx-4 mt-4 mb-4 ml-4 mr-4 text-blue"
+            className="mx-4 mt-4 mb-4 ml-4 mr-4 text-aiesec-blue"
           >
             About AIESEC in Sri Lanka
           </h1>
