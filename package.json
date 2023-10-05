@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "autoprefixer": "latest",
