@@ -3,9 +3,10 @@ import React from "react";
 import { useRef } from "react";
 import Image from "next/image"
 import banner1 from "@public/nlds2019.png";
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 import NumberTransition from "./Micro_components/Microcounter";
-
+import VisibilitySensor from "react-visibility-sensor";
+import CountUpComponent from "./Micro_components/Microcounter";
 
 export default function Counter(){
     return(
@@ -16,7 +17,7 @@ export default function Counter(){
                     <div className=" grid sm:grid-cols-4 sm:text-lg text-sm text-white m-14 grid-cols-1 grid-rows-4">
                         <div className=" flex justify-center align-middle sm:mb-0 mb-4">
                             <ul className=" list-none">
-                                <li className=" flex justify-center sm:text-7xl text-4xl"><span><CountUp start={100} end={1500} duration={2} delay={0}/></span><span>+</span></li>
+                                <li className=" flex justify-center sm:text-7xl text-4xl"><span><VisibilitySensor><CountUpComponent end={1500}/></VisibilitySensor></span><span>+</span></li>
                                 <li className=" flex justify-center">Active Members</li>
                             </ul>
                         </div>
@@ -41,8 +42,9 @@ export default function Counter(){
                     </div>
                 </div>
             </div>
+            <div className=" flex justify-center"><span className=" text-7xl text-aiesec-mid-grey text-center">AIESEC CREATES YOUNG LEADERS FROM</span></div>
             <div className=" relative flex overflow-x-hidden">
-                <div className=" animate-marquee whitespace-nowrap"><span className=" text-8xl text-aiesec-mid-grey">YOUTH LEADERSHIP EXPERIENCE YOUTH LEADERSHIP EXPERIENCE</span></div>
+                <div className=" animate-marquee whitespace-nowrap"><span className=" text-8xl text-aiesec-mid-grey"><span className=" text-aiesec-red">VOLUNTEERING EXPERIENCES</span> & <span className=" text-aiesec-orange">PROFESSIONAL INTERNSHIPS</span> & <span className=" text-aiesec-red">TEACHING OPPORTUNITIES</span> & <span className=" text-aiesec-orange">MEMBERSHIP EXPERIENCES</span>.</span></div>
             </div>
         </section>
     )

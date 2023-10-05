@@ -12,11 +12,11 @@ const ContactFrom = () => {
       <h2 className=" text-3xl font-semibold text-aiesec-blue text-center">
         Contact Us
       </h2>
-      <div className=" relative top-0 mt-52">
+      <div className="relative top-0 mt-52 max-sm:hidden sm:visible">
         <Image src={bgimage} />
       </div>
-      <div className=" absolute flex justify-center top-[40px] z-10">
-        <div className=" w-3/4 grid grid-cols-3 grid-flow-row bg-white p-3 rounded-lg shadow-lg shadow-aiesec-medium-grey">
+      <div className=" sm:absolute flex justify-center top-[40px] z-10">
+        <div className=" w-3/4 grid sm:grid-cols-3 sm:grid-flow-row bg-white p-3 rounded-lg shadow-lg shadow-aiesec-medium-grey ">
           <div className=" bg-aiesec-blue text-white rounded-xl">
             <h2 className=" text-2xl font-semibold float-left px-10 pt-5">
               Contact Us
@@ -47,7 +47,7 @@ const ContactFrom = () => {
           </div>
           <div className=" col-span-2">
             <form>
-              <div className=" grid grid-cols-2 grid-flow-row grid-rows-1">
+              <div className=" grid sm:grid-cols-2 sm:grid-flow-row grid-rows-1">
                 <div className=" p-4">
                   <label>First Name</label>
                   <br></br>

@@ -1,10 +1,27 @@
-'use client'
+'use Client'
+import React, { useState, useEffect } from "react";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 
-import React from 'react';
-import CountUp from 'react-countup';
+const CountUpComponent = ({ end }) => {
+  const [count, setCount] = useState(0);
+  const [isVisible, setIsVisible] = useState(false);
 
-const NumberTransition = (props) => {
-  return <CountUp {...props} />;
+  const startCountUp = () => {
+    setIsVisible(true);
+  };
+
+  useEffect(() => {
+    if (isVisible) {
+      setCount(end);
+    }
+  }, [isVisible, end]);
+
+  return (
+    <VisibilitySensor onChange={startCountUp} delayedCall>
+      <CountUp end={count} />
+    </VisibilitySensor>
+  );
 };
 
-export default NumberTransition;
+export default CountUpComponent;
