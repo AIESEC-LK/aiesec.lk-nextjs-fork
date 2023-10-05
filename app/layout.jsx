@@ -2,8 +2,12 @@
 import "@styles/globals.css";
 import { useEffect, useState } from "react";
 import Nav from "@components/Nav";
+
+import Home from "@components/two-column";
+
 import SplashScreen from "@components/SplashScreen";
 import { usePathname } from "next/navigation";
+
 
 
 const RootLayout = () => {
@@ -27,6 +31,7 @@ const RootLayout = () => {
             <div>
         <Nav />
         <h2>AIESEC.lk Rewamp</h2>
+        <Home/>
       </div>
           )
         }
