@@ -33,12 +33,12 @@ const RootLayout = () => {
         ) : (
           <div>
             <Nav />
-            {/* <HomeVideo />
+            <HomeVideo />
             <Counter />
             <Home/>
-            <EPCarousel/> */}
+            <EPCarousel/>
             <ContactFrom/>
-            {/* <Footer/> */}
+            <Footer/>
             <h2>AIESEC.lk Revamp</h2>
           </div>
         )}
