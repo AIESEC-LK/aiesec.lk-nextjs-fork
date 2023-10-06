@@ -13,7 +13,7 @@
     "cloudinary-video-player": "^1.9.16",
     "flowbite": "^1.8.1",
     "flowbite-react": "^0.6.3",
-    "next": "latest",
+    "next": "^13.5.4",
     "next-videos": "^1.4.1",
     "react": "latest",
     "react-countup": "^6.4.2",
