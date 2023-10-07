@@ -14,7 +14,7 @@ const Opportunities = () => {
         Our Opportunities
       </h2>
       <div className=" flex justify-center align-middle">
-        <div className=" grid grid-cols-3 px-56 gap-x-10">
+        <div className=" grid sm:grid-cols-3 sm:px-56 sm:gap-x-10">
           <OpptnBox image={image1} fnimage={igv} details="Lorem Ipsum is simply dummy text of 
           the printing and typesetting industry. Lorem Ipsum has been the 
           industry's standard dummy. Lorem Ipsum has been the industry's standard dummy"/>

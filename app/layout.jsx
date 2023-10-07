@@ -11,6 +11,8 @@ import ContactFrom from "@components/form";
 import Footer from "@components/Footer";
 import logo from "@public/aiesecwhite.png";
 import Opportunities from "@components/ouropts";
+import BlogsSection from "@components/blogsupdates";
+import NewsUpdates from "@components/newsupdates";
 // import Home from "@components/two-column";
 
 
@@ -39,6 +41,8 @@ const RootLayout = () => {
             <Counter />
             {/* <Home/> */}
             <Opportunities/>
+            <BlogsSection/>
+            <NewsUpdates/>
             <EPCarousel/>
             <ContactFrom/>
             <Footer/>

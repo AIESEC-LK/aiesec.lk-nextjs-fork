@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const OpptnBox = (props) => {
   return (
-    <div className="relative w-72">
+    <div className="relative w-72 py-4">
       <div className=" relative z-0">
         <Image src={props.image} />
       </div>
