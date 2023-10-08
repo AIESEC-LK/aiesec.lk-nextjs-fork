@@ -9,5 +9,46 @@
     @apply active:text-aiesec-blue active:font-semibold hover:text-aiesec-blue font-body;
 }
 
+.toggle-btn-show, .toggle-btn-hide{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .toggle-btn-show{
+        display: block; 
+        z-index: 1000;
+    }
+
+    .toggle-btn-hide{
+        display: none; 
+        z-index: 1000;
+    }
+
+    #mobile-nav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #mobile-nav-logo{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    #show{
+        display: block;
+    }
+    
+    #hide{
+        display: none;
+    }
+    
+  }
+
 
   
