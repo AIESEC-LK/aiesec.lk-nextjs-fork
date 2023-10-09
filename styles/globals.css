@@ -9,6 +9,16 @@
     @apply active:text-aiesec-blue active:font-semibold hover:text-aiesec-blue font-body;
 }
 
+.accordion-item{ 
+    @apply bg-white rounded-lg shadow-lg mb-4 font-bold ;
+}
+
+.accordion-item p{
+    @apply text-gray-600 font-normal font-body;
+}
+
+/* Navigation Bar Customization */
+
 .toggle-btn-show, .toggle-btn-hide{
     display: none;
 }
