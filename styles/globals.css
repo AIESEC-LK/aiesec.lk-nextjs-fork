@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+.info-num{
+    @apply flex justify-center sm:text-7xl text-4xl font-bold;
+}
 
 
 .navbar-list li{
