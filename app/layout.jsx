@@ -13,12 +13,9 @@ import logo from "@public/aiesecwhite.png";
 import Opportunities from "@components/ouropts";
 import BlogsSection from "@components/blogsupdates";
 import NewsUpdates from "@components/newsupdates";
-<<<<<<< HEAD
 import LocalChapters from "@components/chapters";
 import Partners from "@components/partners";
-=======
 import FnQ from "@components/FnQ";
->>>>>>> 0dd0548a04610f42324ba9f91fe1d4c5dba0c5b7
 // import Home from "@components/two-column";
 
 
@@ -48,15 +45,11 @@ const RootLayout = () => {
             <LocalChapters/>
             {/* <Home/> */}
             <Opportunities/>
-            
             <BlogsSection/>
             <NewsUpdates/>
             <EPCarousel/>
-<<<<<<< HEAD
             <Partners/>
-=======
             <FnQ/>  
->>>>>>> 0dd0548a04610f42324ba9f91fe1d4c5dba0c5b7
             <ContactFrom/>
             <Footer/>
             
