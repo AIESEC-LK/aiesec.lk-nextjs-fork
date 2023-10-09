@@ -42,9 +42,9 @@ const RootLayout = () => {
             <Counter />
             {/* <Home/> */}
             <Opportunities/>
+            <EPCarousel/>
             <BlogsSection/>
             <NewsUpdates/>
-            <EPCarousel/>
             <FnQ/>  
             <ContactFrom/>
             <Footer/>
