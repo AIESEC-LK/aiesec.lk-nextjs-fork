@@ -35,8 +35,7 @@ export default function App() {
             AIESEC is an international youth-run and led, non-governmental and
             not-for-profit organization that provides young people with
             leadership development, cross-cultural internships, and global
-            volunteer exchange experiences. The organization focuses on
-            empowering young people to make a progressive social impact
+            volunteer exchange experiences.
           </p>
         </AccordionItem>
         <AccordionItem

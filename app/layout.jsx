@@ -47,7 +47,6 @@ const RootLayout = () => {
             <Partners />
             <BlogsSection />
             <NewsUpdates />
-
             <FnQ />
             <ContactFrom />
             <Footer />
