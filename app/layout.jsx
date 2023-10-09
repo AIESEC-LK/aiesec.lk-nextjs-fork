@@ -45,10 +45,12 @@ const RootLayout = () => {
             <LocalChapters/>
             {/* <Home/> */}
             <Opportunities/>
+            <EPCarousel/>
             <BlogsSection/>
             <NewsUpdates/>
             <EPCarousel/>
             <Partners/>
+
             <FnQ/>  
             <ContactFrom/>
             <Footer/>
