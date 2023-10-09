@@ -10,7 +10,7 @@ export default function App() {
       <h2 className=" text-center text-3xl text-aiesec-blue font-semibold">
         Frequently Asked Questions
       </h2>
-      <Accordion variant="splitted" className="px-44">
+      <Accordion variant="splitted" className="px-10 sm:px-44">
         <AccordionItem
           key="1"
           aria-label="Accordion 1"
@@ -35,8 +35,7 @@ export default function App() {
             AIESEC is an international youth-run and led, non-governmental and
             not-for-profit organization that provides young people with
             leadership development, cross-cultural internships, and global
-            volunteer exchange experiences. The organization focuses on
-            empowering young people to make a progressive social impact
+            volunteer exchange experiences.
           </p>
         </AccordionItem>
         <AccordionItem
