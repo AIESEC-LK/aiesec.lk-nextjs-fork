@@ -7,7 +7,7 @@ import logo from "@public/aiesecwhite.png";
 
 function EPCarousel() {
   return (
-    <section className=" relative w-full mt-40 sm:mt-10">
+    <section className=" relative w-full mt-40">
       <h2 className=" text-center text-3xl text-aiesec-blue font-semibold">
         What they're talking about AIESEC
       </h2>

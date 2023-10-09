@@ -10,7 +10,7 @@ export default function App() {
       <h2 className=" text-center text-3xl text-aiesec-blue font-semibold">
         Frequently Asked Questions
       </h2>
-      <Accordion variant="splitted" className="px-44">
+      <Accordion variant="splitted" className="px-10 sm:px-44">
         <AccordionItem
           key="1"
           aria-label="Accordion 1"

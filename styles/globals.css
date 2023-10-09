@@ -13,7 +13,7 @@
 }
 
 .accordion-item{ 
-    @apply bg-white rounded-lg shadow-lg mb-4 font-bold ;
+    @apply bg-white rounded-lg shadow-lg font-bold ;
 }
 
 .accordion-item p{

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import "@styles/globals.css";
 import Nav from "@components/Nav";
 import SplashScreen from "@components/SplashScreen";
@@ -18,7 +18,6 @@ import Partners from "@components/partners";
 import FnQ from "@components/FnQ";
 // import Home from "@components/two-column";
 
-
 const RootLayout = () => {
   const pathname = usePathname();
   const isHome = pathname === "/";
@@ -34,7 +33,6 @@ const RootLayout = () => {
         <title>AIESEC in Sri Lanka</title>
       </head>
       <body>
-        
         {isLoading && isHome ? (
           <SplashScreen finishLoading={() => setIsLoading(false)} />
         ) : (
@@ -42,19 +40,18 @@ const RootLayout = () => {
             <Nav />
             <HomeVideo />
             <Counter />
-            <LocalChapters/>
+            <LocalChapters />
             {/* <Home/> */}
-            <Opportunities/>
-            <EPCarousel/>
-            <BlogsSection/>
-            <NewsUpdates/>
-            <EPCarousel/>
-            <Partners/>
+            <Opportunities />
+            <EPCarousel />
+            <Partners />
+            <BlogsSection />
+            <NewsUpdates />
 
-            <FnQ/>  
-            <ContactFrom/>
-            <Footer/>
-            
+            <FnQ />
+            <ContactFrom />
+            <Footer />
+
             <h2>AIESEC.lk Revamp</h2>
           </div>
         )}
