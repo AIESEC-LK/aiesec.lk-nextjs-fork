@@ -59,7 +59,7 @@ const Partners = () => {
   ]
 
   return (
-    <section>
+    <section id="partners">
       <div className="flex mt-10">
         <div className="mx-auto w-1/2">
           <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-10">

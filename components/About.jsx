@@ -4,7 +4,7 @@ import AboutAIESEC from "../public/assets/images/asl-img.jpg";
 
 function About() {
   return (
-    <div className="sm:flex  items-center px-10 sm:px-60 pt-14">
+    <div id="about" className="sm:flex  items-center px-10 sm:px-60 pt-14">
       <div className="text-right text-sm pt-11">
         <p>
           <span className="text-aiesec-blue font-semibold"><i>AIESEC</i></span> is the world’s largest youth-led organization,<br />

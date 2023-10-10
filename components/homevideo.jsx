@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from "react";
 
 function HomeVideo() {
   return (
-    <section className=" relative w-screen overflow-hidden">
+    <section id="home" className=" relative w-screen overflow-hidden">
       <div className=" overflow-hidden w-screen z-0">
         <VideoPlayer/>
       </div>
