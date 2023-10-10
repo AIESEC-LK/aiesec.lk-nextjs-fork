@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+.info-num{
+    @apply flex justify-center sm:text-7xl text-4xl font-bold;
+}
 
 
 .navbar-list li{
@@ -10,7 +13,7 @@
 }
 
 .accordion-item{ 
-    @apply bg-white rounded-lg shadow-lg mb-4 font-bold ;
+    @apply bg-white rounded-lg shadow-md font-bold ;
 }
 
 .accordion-item p{

@@ -15,7 +15,7 @@ export default function SplashScreen({finishLoading}) {
             targets: "#logo",
             delay: 0,
             scale: 1,
-            duration: 500,
+            duration: 0,
             easing: "easeInOutExpo",
 
         })

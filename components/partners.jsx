@@ -98,7 +98,7 @@ const Partners = () => {
         </div>
       </div>
       <div className=" mt-5">
-        <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
+        <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-16">
             Global Partners & Affliations
         </h2>
         <div className=" flex justify-center flex-wrap space-x-8 mt-5">
@@ -125,6 +125,9 @@ const Partners = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="text-center pt-7">
+      <button className=" text-white bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">Be A Partner</button>
       </div>
     </section>
   );

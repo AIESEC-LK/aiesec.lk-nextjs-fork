@@ -8,7 +8,7 @@ import logo from "@public/aiesecwhite.png";
 
 const ContactFrom = () => {
   return (
-    <section className=" relative mt-10">
+    <section id="contact" className=" relative mt-20">
       <h2 className=" text-3xl font-semibold text-aiesec-blue text-center">
         {/* Contact Us */}
       </h2>
