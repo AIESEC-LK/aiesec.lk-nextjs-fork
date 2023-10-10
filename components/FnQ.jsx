@@ -2,12 +2,10 @@ import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 
 export default function App() {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
+  
   return (
     <div>
-      <h2 className=" text-center text-3xl text-aiesec-blue font-semibold">
+      <h2 className=" text-center text-3xl text-aiesec-blue font-semibold pt-24 pb-4">
         Frequently Asked Questions
       </h2>
       <Accordion variant="splitted" className="px-10 sm:px-44">
