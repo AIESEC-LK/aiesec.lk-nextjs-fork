@@ -16,6 +16,7 @@ import NewsUpdates from "@components/newsupdates";
 import LocalChapters from "@components/chapters";
 import Partners from "@components/partners";
 import FnQ from "@components/FnQ";
+import About from "@components/About";
 // import Home from "@components/two-column";
 
 const RootLayout = () => {
@@ -40,6 +41,7 @@ const RootLayout = () => {
             <Nav />
             <HomeVideo />
             <Counter />
+            <About/>  
             <LocalChapters />
             {/* <Home/> */}
             <Opportunities />

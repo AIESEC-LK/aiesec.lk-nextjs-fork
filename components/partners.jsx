@@ -126,6 +126,9 @@ const Partners = () => {
           ))}
         </div>
       </div>
+      <div className="text-center">
+      <button className=" text-white border-2 bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl">Be A Partner</button>
+      </div>
     </section>
   );
 };
