@@ -12,15 +12,22 @@ const BlogsSection = () =>{
                 <div className="flex justify-center">
                     <div className=" w-4/5">
                         <p className=" text-xl font-semibold"><span className=" h-1 w-1 bg-aiesec-blue text-aiesec-blue rounded-xl mr-2" content=" ">.</span>Blogs</p>
-                        <div className=" sm:grid sm:grid-cols-4 sm:gap-x-5 sm:visible hidden">
+                        <div className=" lg:grid lg:grid-cols-4 lg:gap-x-5 lg:visible hidden">
                             <BlogSlide image={blogimage1} headphrase="The Demand For Leadership in IT Industry." entity={"NSBM"}/>
                             <BlogSlide image={blogimage2} headphrase="The Demand For Leadership in IT Industry." entity={"USJ"}/>
                             <BlogSlide image={blogimage3} headphrase="The Demand For Leadership in IT Industry." entity={"Ruhuna"}/>
                             <BlogSlide image={blogimage4} headphrase="The Demand For Leadership in IT Industry." entity={"CC"}/>
                         </div>
-                        <div className=" sm:hidden">
+                        <div className=" block sm:hidden">
                             <BlogSlide image={blogimage1} headphrase="The Demand For Leadership in IT Industry." entity={"NSBM"}/>
                         </div>
+                        <div className="md:block lg:hidden hidden">
+                            <div className=" grid grid-cols-2 gap-x-4">
+                            <BlogSlide image={blogimage1} headphrase="The Demand For Leadership in IT Industry." entity={"NSBM"}/>
+                            <BlogSlide image={blogimage2} headphrase="The Demand For Leadership in IT Industry." entity={"USJ"}/>
+                            </div>
+                        </div>
+
                     </div>    
                 </div>
                 <div className=" flex justify-center mt-5">

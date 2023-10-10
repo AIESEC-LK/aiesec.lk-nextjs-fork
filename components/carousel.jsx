@@ -11,10 +11,10 @@ function EPCarousel() {
       <h2 className=" text-center text-3xl text-aiesec-blue font-semibold">
         What they're talking about AIESEC
       </h2>
-      <div className="sm:block hidden">
+      <div className="lg:block hidden">
         <Carousel />
       </div> 
-      <div className="sm:hidden block mt-10 mb-0">
+      <div className="lg:hidden block mt-10 mb-0">
         <CarouselMobile />
       </div>
       
