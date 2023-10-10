@@ -28,22 +28,22 @@ function Nav() {
       <div className='lg:static absolute bg-white lg:min-h-fit min-h-[60vh] left-0 top-[9%] lg:w-auto w-full  col-span-2' id={showMenu ? 'show' : 'hide'}>
         <ul className="flex lg:flex-row flex-col xsm:items-center md:gap-[4vw] gap-10 pt-6">
           <li>
-            <a href="">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-          <a href="">Who Are We</a>
+          <a href="#about">Who Are We</a>
           </li>
           <li>
             <a href="#opp">Opportunities</a>
           </li>
           <li>
-            <a href="">Partners</a>
+            <a href="#partners">Partners</a>
           </li> 
           <li>
-            <a href="">Updates</a>
+            <a href="#updates">Updates</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>

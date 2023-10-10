@@ -9,7 +9,7 @@ import igv from "@public/product_GV-horizontal-white.png";
 
 const Opportunities = () => {
   return (
-    <section className="pt-10">
+    <section id="opp" className="pt-10">
       <h2 className="text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
         Our Opportunities
       </h2>

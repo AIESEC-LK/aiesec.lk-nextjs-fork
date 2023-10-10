@@ -9,7 +9,7 @@ import img4 from "@public/newsimg5.png";
 
 const NewsUpdates =()=>{
     return(
-        <section>
+        <section id="updates">
             <div className="flex justify-center mt-20">
                     <div className=" w-4/5">
                         <p className=" text-xl font-semibold"><span className=" h-1 w-1 bg-aiesec-blue text-aiesec-blue rounded-xl mr-2" content=" ">.</span>News & Events</p>
