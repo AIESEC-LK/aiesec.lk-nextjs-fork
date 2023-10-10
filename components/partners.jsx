@@ -62,7 +62,7 @@ const Partners = () => {
     <section>
       <div className="flex mt-10">
         <div className="mx-auto w-1/2">
-          <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
+          <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-10">
             National Partners
           </h2>
           <div className=" flex justify-center space-x-8 mt-5">
@@ -98,7 +98,7 @@ const Partners = () => {
         </div>
       </div>
       <div className=" mt-5">
-        <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
+        <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-16">
             Global Partners & Affliations
         </h2>
         <div className=" flex justify-center space-x-8 mt-5">
@@ -126,8 +126,8 @@ const Partners = () => {
           ))}
         </div>
       </div>
-      <div className="text-center">
-      <button className=" text-white border-2 bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl">Be A Partner</button>
+      <div className="text-center pt-7">
+      <button className=" text-white bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">Be A Partner</button>
       </div>
     </section>
   );

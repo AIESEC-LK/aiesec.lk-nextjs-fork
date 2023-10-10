@@ -7,8 +7,8 @@ import logo from "@public/aiesecwhite.png";
 
 function EPCarousel() {
   return (
-    <section className=" relative w-full mt-40">
-      <h2 className=" text-center text-3xl text-aiesec-blue font-semibold">
+    <section className=" relative w-full mt-24">
+      <h2 className=" text-center text-3xl text-aiesec-blue font-semibold pb-10">
         What they're talking about AIESEC
       </h2>
       <div className="sm:block hidden">

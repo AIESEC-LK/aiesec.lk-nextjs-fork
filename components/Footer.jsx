@@ -46,15 +46,16 @@ const Footer = () => {
             <li>Sign Up!</li>
           </ul>
         </div>
-        <div className=" sm:col-start-10 sm:col-span-2 pl-5 pt-8 col-start-6 col-span-6">
+        <div className=" sm:col-start-10 sm:col-span-2 col-start-6 col-span-6">
           <div className=" bg-white w-60 h-7 rounded-xl">
             <span><input className=" pt-1 ml-3 w-40 h-6 text-aiesec-blue border-0 placeholder-aiesec-blue" type="text" placeholder="Enter Your Email"></input></span>
-            <span className=" bg-aiesec-blue px-2 py-1 pt-0.5 rounded-xl"><buuton>Submit</buuton></span>
+            <span className=" bg-aiesec-blue px-2 py-1 pt-0.5 rounded-xl"><button>Submit</button></span>
             <p className=" mt-10">Privacy Policy</p>
             <p>Terms and Conditions</p>
           </div>
         </div>
       </div>
+      <hr />
     </section>
   );
 };

@@ -48,7 +48,7 @@ const Carousel = () =>{
     }, [currentSlide]);
 
     return(
-        <div className=" w-screen flex justify-center">
+        <div className=" w-screen flex justify-center pb-16">
             <div className=" w-3/4 overflow-hidden">
                 {slides.map((slide, index)=>(
                     <div 

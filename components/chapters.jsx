@@ -43,8 +43,8 @@ const LocalChapters = () => {
 
   
     return (
-      <div className="text-center">
-        <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">Local Chapters</h2>
+      <div className="text-center pt-10">
+        <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10 mb-9">Local Chapters</h2>
         <div className=" flex justify-center space-x-8 mt-5">
           {icons.map((icon, index) => (
             <div key={index} className="text-inline w-1/12">

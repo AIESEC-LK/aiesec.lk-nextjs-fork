@@ -4,10 +4,10 @@ import AboutAIESEC from "../public/assets/images/asl-img.jpg";
 
 function About() {
   return (
-    <div className="sm:flex  items-center px-10 sm:px-60 ">
+    <div className="sm:flex  items-center px-10 sm:px-60 pt-14">
       <div className="text-right text-sm pt-11">
         <p>
-          AIESEC is the world’s largest youth-led organization,<br />
+          <span className="text-aiesec-blue font-semibold"><i>AIESEC</i></span> is the world’s largest youth-led organization,<br />
           currently presentin over 110 nations with a vision to<br />
           achieve peace and fulfilment of human kind’s potential.
         </p>
@@ -19,7 +19,7 @@ function About() {
         </p>
         <br />
         <p>
-          AIESEC in Sri Lanka was established in 1995<br />
+        <span className="text-aiesec-blue font-semibold"><i>AIESEC in Sri Lanka</i></span> was established in 1995<br />
           as a member chapter of AIESEC International and has been<br />
           creating a positive impact ever since by providing leadership<br />
           opportunities to the youth of Sri Lanka to drive<br />

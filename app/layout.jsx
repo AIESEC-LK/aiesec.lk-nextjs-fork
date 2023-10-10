@@ -52,8 +52,6 @@ const RootLayout = () => {
             <FnQ />
             <ContactFrom />
             <Footer />
-
-            <h2>AIESEC.lk Revamp</h2>
           </div>
         )}
       </body>
