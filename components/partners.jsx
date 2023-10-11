@@ -60,7 +60,7 @@ const Partners = () => {
 
   return (
     <section>
-      <div className="md:flex mt-10">
+      <div id="partners" className="md:flex mt-10">
         <div className="md:mx-auto md:w-1/2 mx-0">
           <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
             National Partners
