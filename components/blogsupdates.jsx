@@ -30,6 +30,7 @@ const BlogsSection = () => {
     },
   ];
 
+<<<<<<< HEAD
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const previousSlide = () => {
@@ -70,6 +71,13 @@ const BlogsSection = () => {
 
                 Next
               </button>
+=======
+                    </div>    
+                </div>
+                <div className=" flex justify-center mt-10">
+                    <button href="https://www.aiesec.lk/blog/" className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">View All</button>
+                </div>
+>>>>>>> aaa45188aa59d4beada114f9d508d15186863688
             </div>
           </span>
             </p>
