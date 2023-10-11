@@ -24,7 +24,7 @@ const BlogsSection = () =>{
                     </div>    
                 </div>
                 <div className=" flex justify-center mt-10">
-                    <button className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">View All</button>
+                    <button href="https://www.aiesec.lk/blog/" className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">View All</button>
                 </div>
             </div>
         </section>
