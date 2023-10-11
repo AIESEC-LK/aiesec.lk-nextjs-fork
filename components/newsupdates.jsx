@@ -13,10 +13,10 @@ const NewsUpdates =()=>{
             <div className="flex justify-center mt-20">
                     <div className=" w-4/5">
                         <p className=" text-xl font-semibold"><span className=" h-1 w-1 bg-aiesec-blue text-aiesec-blue rounded-xl mr-2" content=" ">.</span>News & Events</p>
-                        <div className=" grid grid-cols-2 gap-x-2 mt-5">
+                        <div className=" grid lg:grid-cols-2 gap-x-2 mt-5">
                             <div><Image src={LargeImg}/></div>
                             <div className=" grid grid-cols-10">
-                                <div className=" col-span-7">
+                                <div className=" md:col-span-7 col-span-10">
                                     <div className=" grid grid-cols-9 p-2 shadow-lg rounded-lg">
                                         <div className=" col-span-3">
                                             <Image src={img4}/>
@@ -38,7 +38,7 @@ const NewsUpdates =()=>{
                                         </div>
                                     </div>
                                 </div>
-                                <div className=" col-span-3">
+                                <div className=" md:col-span-3 col-span-10">
                                     <Image src={img1} className=" p-3 shadow-lg rounded-xl"/>
                                     <Image src={img3} className=" p-3 shadow-lg rounded-xl"/>
                                 </div>

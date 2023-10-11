@@ -59,10 +59,10 @@ const Partners = () => {
   ]
 
   return (
-    <section id="partners">
-      <div className="flex mt-10">
-        <div className="mx-auto w-1/2">
-          <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-10">
+    <section>
+      <div className="md:flex mt-10">
+        <div className="md:mx-auto md:w-1/2 mx-0">
+          <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
             National Partners
           </h2>
           <div className=" flex justify-center space-x-8 mt-5">
@@ -71,7 +71,7 @@ const Partners = () => {
                 <Image
                   src={icon.url}
                   alt={icon.name}
-                  className="mx-auto w-18 h-16 mb-2 top-0"
+                  className="mx-auto w-18 md:h-16 mb-2 top-0"
                   width={icon.width}
                   height={400}
                 />
@@ -79,17 +79,17 @@ const Partners = () => {
             ))}
           </div>
         </div>
-        <div className="mx-auto w-1/2">
+        <div className="mx-auto md:w-1/2">
           <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
             National Talent Partners
           </h2>
           <div className=" flex justify-center space-x-8 mt-5">
           {iconset2.map((icon, index) => (
-            <div key={index} className="text-inline w-1/12">
+            <div key={index} className="text-inline md:w-1/12 w-2/12">
               <Image
                 src={icon.url}
                 alt={icon.name}
-                className="mx-auto w-18 h-16 mb-2 top-0"
+                className="mx-auto w-18 md:h-16 mb-2 top-0"
                 width={icon.width} height={500}
               />
             </div>
@@ -101,9 +101,9 @@ const Partners = () => {
         <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-16">
             Global Partners & Affliations
         </h2>
-        <div className=" flex justify-center space-x-8 mt-5">
+        <div className=" flex justify-center flex-wrap space-x-8 mt-5">
           {iconset3.map((icon, index) => (
-            <div key={index} className="text-inline w-1/12">
+            <div key={index} className="text-inline xl:w-1/12 md:w-1/6">
               <Image
                 src={icon.url}
                 alt={icon.name}
@@ -113,13 +113,13 @@ const Partners = () => {
             </div>
           ))}
         </div>
-        <div className=" flex justify-center space-x-8 mt-5">
+        <div className=" flex justify-center flex-wrap space-x-8 mt-5">
           {iconset3row2.map((icon, index) => (
-            <div key={index} className="text-inline w-1/12">
+            <div key={index} className="text-inline md:w-1/5 xl:w-1/12 mx-auto">
               <Image
                 src={icon.url}
                 alt={icon.name}
-                className="mx-auto w-18 h-20 mb-2 top-0"
+                className="mx-auto w-18 h-18 md:h-20 mb-2 top-0"
                 width={icon.width} height={200}
               />
             </div>

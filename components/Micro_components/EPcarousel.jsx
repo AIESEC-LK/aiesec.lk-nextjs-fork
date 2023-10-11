@@ -48,8 +48,8 @@ const Carousel = () =>{
     }, [currentSlide]);
 
     return(
-        <div className=" w-screen flex justify-center pb-16">
-            <div className=" w-3/4 overflow-hidden">
+        <div className=" w-screen flex justify-center mt-10">
+            <div className=" xl:w-3/4 overflow-hidden w-full mx-10">
                 {slides.map((slide, index)=>(
                     <div 
                     key={index}
@@ -59,20 +59,20 @@ const Carousel = () =>{
                         index === currentSlide ? "translate-x-0" : "translate-x-full"
                       }`}
                     >
-                        <div className=" grid grid-cols-2 grid-rows-1 grid-flow-row">
+                        <div className=" grid grid-cols-2 grid-rows-1 grid-flow-row mb-10">
                             <div className=" relative ">
-                                <div className=" relative z-0 float-right"><Image src={slide.img1} width={300} /></div>
-                                <div className=" relative w-64 pt-8 pb-8 px-6 py-6 z-10 bg-white rounded-2xl shadow-aiesec-mid-grey shadow-2xl top-[70px] -right-20">
+                                <div className=" relative z-0 float-right"><Image src={slide.img1} width={300} className=""/></div>
+                                <div className=" absolute float-left xl:float-none w-64 md:pt-8 md:pb-8 px-6 py-6 z-10 bg-white rounded-2xl shadow-aiesec-mid-grey shadow-2xl xl:top-[70px] xl:right-44 top-[50px]">
                                     <h2 className=" text-aiesec-light-blue font-semibold text-center">{slide.title1}</h2><br></br>
                                     <p className=" text-center">{slide.content1}</p>
                                 </div>
                             </div>
                             <div className=" relative">
-                            <div className="relative z-0 float-right"><Image src={slide.img2} width={300} /></div>
-                                <div className=" relative w-64 pt-8 pb-8 px-6 py-6 z-10 bg-white rounded-2xl shadow-aiesec-mid-grey shadow-2xl top-[70px] -right-20">
-                                    <h2 className=" text-aiesec-red font-semibold text-center">{slide.title2}</h2><br></br>
+                            <div className="relative z-0 float-right "><Image src={slide.img2} width={300} className=""/></div>
+                            <div className="absolute float-left xl:float-none w-64 pt-8 pb-8 px-6 py-6 z-10 bg-white rounded-2xl shadow-aiesec-mid-grey shadow-2xl xl:top-[70px] xl:right-44 top-[50px]">
+                                <h2 className=" text-aiesec-red font-semibold text-center">{slide.title2}</h2><br></br>
                                     <p className=" text-center">{slide.content2}</p>
-                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
