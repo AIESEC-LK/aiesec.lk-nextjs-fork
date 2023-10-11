@@ -8,14 +8,14 @@ import logo from "@public/aiesecwhite.png";
 
 const ContactFrom = () => {
   return (
-    <section id="contact" className=" relative mt-20">
+    <section id="contact" className=" relative mt-20 sm:mb-72 lg:mb-0">
       <h2 className=" text-3xl font-semibold text-aiesec-blue text-center">
         {/* Contact Us */}
       </h2>
-      <div className=" top-0 mt-52 max-sm:hidden sm:visible">
+      <div className=" top-0 mt-52 hidden md:block">
         <Image src={bgimage} />
       </div>
-      <div className=" sm:absolute flex justify-center flec-wrap top-[35px] z-10">
+      <div className=" sm:absolute flex justify-center flex-wrap xl:top-[-35px] lg:top-[-140px] md:top-[-150px] z-10">
         <div className=" w-3/4 grid sm:grid-cols-3 sm:grid-flow-row bg-white p-3 rounded-lg shadow-lg shadow-aiesec-medium-grey ">
           <div className=" bg-aiesec-blue text-white rounded-xl col-span-full lg:col-span-1">
             <h2 className=" text-2xl font-semibold float-left px-10 pt-5">
