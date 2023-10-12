@@ -45,9 +45,9 @@ const LocalChapters = () => {
     return (
       <div className="text-center">
         <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">Local Chapters</h2>
-        <div className=" grid grid-cols-3 sm:grid-cols-3 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 flex-row justify-items-center xl:mx-8">
+        <div className=" grid grid-cols-3 sm:grid-cols-3 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 flex-row justify-items-center xl:mx-8 px-5">
           {icons.map((icon, index) => (
-            <div key={index} className="text-inline sm:col-span-1 mt-5 md:w-1/5">
+            <div key={index} className="text-inline sm:col-span-1 mt-5 md:w-1/5 xl:w-1/12">
               <Image
                 src={icon.url}
                 alt={icon.name}
@@ -58,7 +58,7 @@ const LocalChapters = () => {
             </div>
           ))}
         </div>
-        <div className=" grid grid-cols-2 md:grid-cols-4 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 ">
+        <div className=" grid grid-cols-2 md:grid-cols-4 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 px-5">
           {iconsRow2.map((icon, index) => (
             <div key={index} className="text-inline xl:w-1/12 mt-5 md:w-1/4">
               <Image

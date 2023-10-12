@@ -17,6 +17,7 @@ import LocalChapters from "@components/chapters";
 import Partners from "@components/partners";
 import FnQ from "@components/FnQ";
 import About from "@components/About";
+import NewsSlider from "@components/Micro_components/newsslider";
 // import Home from "@components/two-column";
 
 const RootLayout = () => {
