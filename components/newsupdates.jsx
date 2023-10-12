@@ -1,33 +1,37 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import LargeImg from "@public/newsimg1.png";
-import img1 from "@public/newsimg2.png";
-import img2 from "@public/newsimg3.png";
-import img3 from "@public/newsimg4.png";
-import img4 from "@public/newsimg5.png";
+import LargeImg from "@public/assets/images/events/nlds-min.jpg";
+import img1 from "@public/assets/images/events/nlds2-min.jpg";
+import img2 from "@public/assets/images/events/insight-min.jpg";
+import img3 from "@public/assets/images/events/Odyssey-min.jpg";
+import img4 from "@public/assets/images/events/inception-min.jpeg";
 import NewsSlider from "./Micro_components/newsslider";
 
 const NewsUpdates = () => {
   const news = [
     {
       image: img1,
-      Title: "Lorem ipsum dolor sit amet 1",
-      Desp: "1 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus.",
+      Title: "National Leadership Develeopment Seminar 2023",
+      Desp: "FRI, OCT 13 - OCT 15 at Hotel Carolina",
+      Desp: "NLDS 2023 is a three days long conference which focuses on delivering leadership development experiences, networking spaces, outbound training and much more!"
     },
     {
       image: img2,
-      Title: "Lorem ipsum dolor sit amet 2",
-      Desp: "2 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus.",
+      Title: "Insight 2023",
+      Desp: "WED, NOV 22 AT 9 AM at University of Colombo",
+      Desp: "Insight 2023, the largest corporate day organized by AIESEC in University of Colombo, brings together students, undergraduates, and corporate leaders to share knowledge, connect, and collaborate.",
     },
     {
       image: img3,
-      Title: "Lorem ipsum dolor sit amet 3",
-      Desp: "3 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus.",
+      Title: "Odyssey 3.0",
+      Desp: "SAT, OCT 28 - OCT 29 at Lavanga Beach Resort",
+      Desp: "LDS 3.0 will be the biggest conference organized by AIESEC in University of Ruhuna in 2023 where 150+ individuals from a diverse set of fields meet in one place to have a remarkable leadership experience.",
     },
     {
       image: img4,
-      Title: "Lorem ipsum dolor sit amet 4",
-      Desp: "4 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus.",
+      Title: "Inception 4.0",
+      Desp: "THU, NOV 2 AT 10 AM at NSBM",
+      Desp: "Inception 4.0 continues AIESEC's legacy of youth leadership. It offers undergraduates a unique platform to enhance their leadership skills while addressing the challenges they'll encounter.",
     },
   ];
 
@@ -62,10 +66,12 @@ const NewsUpdates = () => {
           <div className=" grid lg:grid-cols-2 gap-x-2 mt-5">
             <div className="md:block hidden">
               <Image src={LargeImg} />
+              <h2 className="text-xl font-semibold pt-3">National Leadership Development Seminar 2023</h2>
+              <p>FRI, OCT 13 - OCT 15 at Hotel Carolina</p>
             </div>
             <div className=" grid grid-cols-1 lg:mt-0 mt-3">
               <div>
-                <div className=" w-full grid grid-cols-9 p-2 shadow-lg rounded-lg mt-5 ">
+                <div className=" w-full grid grid-cols-9 ml-2 shadow-lg rounded-lg ">
                   <div className=" col-span-3">
                     <Image src={news[currentSlide].image} width={150} />
                   </div>

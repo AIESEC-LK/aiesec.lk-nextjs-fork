@@ -1,20 +1,20 @@
 import React from 'react';
 import Image from 'next/image';
-import img1 from '@public/assets/images/chapters/University of Peradeniya.png';
-import img2 from '@public/assets/images/chapters/University of Ruhuna.gif';
-import img3 from '@public/assets/images/chapters/University of Kelaniya.png';
-import img4 from '@public/assets/images/chapters/University of Sri Jayewardenepura.png';
-import img5 from '@public/assets/images/chapters/University of Moratuwa.png';
-import img6 from '@public/assets/images/chapters/University of Colombo.png';
-import img7 from '@public/assets/images/chapters/Sri Lanka Institute of Information Technology.png';
-import img8 from '@public/assets/images/chapters/General Sir John Kotelawala Defense University.png';
-import img9 from '@public/assets/images/chapters/Informatics Institute of Technology.png';
-import img10 from '@public/assets/images/chapters/National Institute of Business Management.png';
-import img11 from '@public/assets/images/chapters/National School of Business Management.png';
-import img12 from '@public/assets/images/chapters/Wayamba University of Sri Lanka.png';
-import img13 from '@public/assets/images/chapters/Rajarata University of Sri Lanka.png';
-import img14 from '@public/assets/images/chapters/Asia Pacific Institute of Information Technology.jpg';
-import img15 from '@public/assets/images/chapters/Saegis Campus.png';
+import img1 from '@public/assets/images/chapters/University of Peradeniya-min.png';
+import img2 from '@public/assets/images/chapters/University of Ruhuna-min.gif';
+import img3 from '@public/assets/images/chapters/University of Kelaniya-min.png';
+import img4 from '@public/assets/images/chapters/University of Sri Jayewardenepura-min.png';
+import img5 from '@public/assets/images/chapters/University of Moratuwa-min.png';
+import img6 from '@public/assets/images/chapters/University of Colombo-min.png';
+import img7 from '@public/assets/images/chapters/Sri Lanka Institute of Information Technology-min.png';
+import img8 from '@public/assets/images/chapters/General Sir John Kotelawala Defense University-min.png';
+import img9 from '@public/assets/images/chapters/Informatics Institute of Technology-min.png';
+import img10 from '@public/assets/images/chapters/National Institute of Business Management-min.png';
+import img11 from '@public/assets/images/chapters/National School of Business Management-min.png';
+import img12 from '@public/assets/images/chapters/Wayamba University of Sri Lanka-min.png';
+import img13 from '@public/assets/images/chapters/Rajarata University of Sri Lanka-min.png';
+import img14 from '@public/assets/images/chapters/Asia Pacific Institute of Information Technology-min.jpg';
+import img15 from '@public/assets/images/chapters/Saegis Campus-min.png';
 
 const LocalChapters = () => {
     // Define an array of objects with icon URLs and names

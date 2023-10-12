@@ -2,7 +2,7 @@
 import React from "react";
 import { useRef } from "react";
 import Image from "next/image"
-import banner1 from "@public/nlds2019.png";
+import banner1 from "@public/assets/images/landing/nlds2019-min.png";
 // import CountUp from 'react-countup';
 import NumberTransition from "./Micro_components/Microcounter";
 import VisibilitySensor from "react-visibility-sensor";
