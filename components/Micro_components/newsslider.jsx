@@ -1,17 +1,17 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
-import img1 from "@public/newsimg2.png";
-import img2 from "@public/newsimg3.png";
-import img3 from "@public/newsimg4.png";
-import img4 from "@public/newsimg5.png";
+import img1 from "@public/assets/images/events/nlds2-min.jpg";
+import img2 from "@public/assets/images/events/insight-min.jpg";
+import img3 from "@public/assets/images/events/Odyssey-min.jpg";
+import img4 from "@public/assets/images/events/inception-min.jpeg";
 
 const NewsSlider = () => {
   const news = [
     {image:img1, Title:"Lorem ipsum dolor sit amet 1", Desp:"1 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus."},
-    {image:img2, Title:"Lorem ipsum dolor sit amet 2", Desp:"2 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus."},
-    {image:img3, Title:"Lorem ipsum dolor sit amet 3", Desp:"3 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus."},
-    {image:img4, Title:"Lorem ipsum dolor sit amet 4", Desp:"4 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus."},
+    {image:img1, Title:"Lorem ipsum dolor sit amet 2", Desp:"2 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus."},
+    {image:img1, Title:"Lorem ipsum dolor sit amet 3", Desp:"3 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus."},
+    {image:img1, Title:"Lorem ipsum dolor sit amet 4", Desp:"4 Lorem ipsum dolor sit amet consectetur. Purus ut varius quis egestas eleifend condimentum. Pellentesque nunc vitae felis imperdiet scelerisque tellus ornare magna tempor. Malesuada tellus."},
 ];
 
 const [currentSlide, setCurrentSlide] = useState(0);
