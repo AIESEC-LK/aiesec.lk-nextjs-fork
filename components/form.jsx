@@ -17,7 +17,7 @@ const ContactFrom = () => {
       </div>
       <div className=" sm:absolute flex justify-center flex-wrap xl:top-[-35px] lg:top-[-140px] md:top-[-150px] z-10">
         <div className=" w-3/4 grid sm:grid-cols-3 sm:grid-flow-row bg-white p-3 rounded-lg shadow-lg shadow-aiesec-medium-grey ">
-          <div className=" bg-aiesec-blue text-white rounded-xl col-span-full lg:col-span-1">
+          <div className=" bg-aiesec-blue text-white rounded-xl col-span-full lg:col-span-1 sm:w-full w-4/5">
             <h2 className=" text-2xl font-semibold float-left px-10 pt-5">
               Contact Us
             </h2>
@@ -54,7 +54,7 @@ const ContactFrom = () => {
                   <input
                     type="text"
                     name="fame"
-                    className=" w-full border-b-2 border-0 mb-5 h-8"
+                    className=" sm:w-full border-b-2 border-0 mb-5 h-8 w-4/5"
                   />
                   <br />
                   <label>Email</label>
@@ -62,7 +62,7 @@ const ContactFrom = () => {
                   <input
                     type="email"
                     name="email"
-                    className=" w-full border-b-2 border-0 mb-5 h-8"
+                    className=" sm:w-full border-b-2 border-0 mb-5 h-8 w-4/5"
                   />
                 </div>
                 <div className=" p-4">
@@ -71,7 +71,7 @@ const ContactFrom = () => {
                   <input
                     type="text"
                     name="lame"
-                    className=" w-full border-b-2 border-0 mb-5 h-8"
+                    className=" sm:w-full border-b-2 border-0 mb-5 h-8 w-4/5"
                   />
                   <br />
                   <label>Phone Number</label>
@@ -79,7 +79,7 @@ const ContactFrom = () => {
                   <input
                     type="text"
                     name="pnumber"
-                    className=" w-full border-b-2 border-0 mb-5 h-8"
+                    className=" sm:w-full border-b-2 border-0 mb-5 h-8 w-4/5"
                   />
                 </div>
               </div>
@@ -125,10 +125,10 @@ const ContactFrom = () => {
                 <input
                   type="text"
                   name="message"
-                  className=" px-2 w-full border-b-2 border-0 mb-5 h-8"
+                  className=" px-2 sm:w-full border-b-2 border-0 mb-5 h-8 w-4/5"
                 />
               </div>
-              <button className=" bg-aiesec-blue text-white float-right px-5 py-2 rounded-lg">
+              <button className=" bg-aiesec-blue text-white float-right px-5 py-2 rounded-lg sm:mr-0 mr-10">
                 Send Message
               </button>
             </form>

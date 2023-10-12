@@ -101,7 +101,7 @@ const Partners = () => {
         <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-16">
             Global Partners & Affliations
         </h2>
-        <div className=" flex justify-center flex-wrap space-x-8 mt-5">
+        <div className=" flex justify-center flex-wrap space-x-8 mt-5 px-3">
           {iconset3.map((icon, index) => (
             <div key={index} className="text-inline xl:w-1/12 md:w-1/6">
               <Image
@@ -113,7 +113,7 @@ const Partners = () => {
             </div>
           ))}
         </div>
-        <div className=" flex justify-center flex-wrap space-x-8 mt-5">
+        <div className=" flex justify-center flex-wrap space-x-8 mt-5 px-0">
           {iconset3row2.map((icon, index) => (
             <div key={index} className="text-inline md:w-1/5 xl:w-1/12 mx-auto">
               <Image
