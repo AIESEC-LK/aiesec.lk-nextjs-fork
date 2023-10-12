@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import blogimage1 from "@public/blogimg1.png";
-import blogimage2 from "@public/blogimg2.png";
-import blogimage3 from "@public/blogimg3.png";
-import blogimage4 from "@public/blogimg4.png";
+import blogimage1 from "@public/assets/images/blogs/blog1-min.jpg";
+import blogimage2 from "@public/assets/images/blogs/blog2-min.jpg";
+import blogimage3 from "@public/assets/images/blogs/blog3-min.jpg";
+import blogimage4 from "@public/assets/images/blogs/blog4-min.jpg";
 import BlogSlide from "./Micro_components/blogslide";
 
 const BlogsSection = () => {
@@ -76,23 +76,23 @@ const BlogsSection = () => {
             <div className="w-full lg:grid lg:grid-cols-4 lg:gap-x-5 lg:visible hidden">
               <BlogSlide
                 image={blogimage1}
-                headphrase="The Demand For Leadership in IT Industry."
+                headphrase="Japanese Approaches to Purposeful Leadership."
                 entity={"NSBM"}
               />
               <BlogSlide
                 image={blogimage2}
-                headphrase="The Demand For Leadership in IT Industry."
-                entity={"USJ"}
+                headphrase="Bravery Beyond Bullets. Hacksaw Ridge's Quiet Hero"
+                entity={"NSBM"}
               />
               <BlogSlide
                 image={blogimage3}
-                headphrase="The Demand For Leadership in IT Industry."
-                entity={"Ruhuna"}
+                headphrase="Leadership Beyond Titles:My AIESEC Self-Discovery"
+                entity={"CN"}
               />
               <BlogSlide
                 image={blogimage4}
-                headphrase="The Demand For Leadership in IT Industry."
-                entity={"CC"}
+                headphrase="SoundUp 2.0 rewind! A night of music, togetherness and endless fun"
+                entity={"NSBM"}
               />
             </div>
             <div className=" block sm:hidden">
@@ -119,9 +119,11 @@ const BlogsSection = () => {
           </div>
         </div>
         <div className=" flex justify-center mt-10">
+          <a href="https://www.aiesec.lk/blog/" target="_blank">
           <button className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">
             View All
           </button>
+          </a>
         </div>
       </div>
     </section>
