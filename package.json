@@ -24,6 +24,7 @@
     "react-countup": "^6.4.2",
     "react-dom": "latest",
     "react-visibility-sensor": "^5.1.1",
+    "react-youtube": "^10.1.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
