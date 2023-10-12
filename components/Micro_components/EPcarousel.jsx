@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react"
 import Image from "next/image";
-import image1 from "@public/Epimg1.png";
-import image2 from "@public/Epimg2.png";
+import image1 from "@public/assets/blogs/Prabashi-min.jpg";
+import image2 from "@public/assets/blogs/India1-min.jpg";
+import image3 from "@public/assets/blogs/India2-min.jpg";
+import image4 from "@public/assets/blogs/Prabashi2-min.jpg";
 
 const Carousel = () =>{
     const slides = [
@@ -9,19 +11,19 @@ const Carousel = () =>{
             id:1,
             img1:image1,
             img2:image2,
-            title1: 'Lorem Ipsum',
-            title2: 'Lorem Ipsum',
-            content1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the industry's standard dummy",
-            content2:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the industry's standard dummy"
+            title1: 'Project On The Map - Prabashi Wanigasinghe',
+            title2: 'The Most Remarkable Occasion',
+            content1:"Volunteering in a foreign country taught me self-reliance and boosted my self-confidence. Despite the language barrier with Egyptians, I made an effort to learn some Arabic and successfully navigated the exchange experience",
+            content2:"The highlight of my exchange experience was getting to play sports like cricket and football with locals and my host family and host community. It encapsulated the friendliness and welcome of my trip."
         },
         {
             id:2,
-            img1:image1,
-            img2:image2,
-            title1: 'Lorem Ipsum',
-            title2: 'Lorem Ipsum',
-            content1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the industry's standard dummy",
-            content2:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the industry's standard dummy"
+            img1:image3,
+            img2:image4,
+            title1: 'My Eye-Opening Time Spent on Exchange in India',
+            title2: 'Project On The Map - Prabashi Wanigasinghe',
+            content1:"There is both anticipation and apprehension associated with taking part in an exchange programme. My trip to India was motivated by my interest in both making a positive contribution to the SDGs and seeing a new culture.",
+            content2:"Volunteering in a foreign country taught me self-reliance and boosted my self-confidence. Despite the language barrier with Egyptians, I made an effort to learn some Arabic and successfully navigated the exchange experience. "
         
         },
 
