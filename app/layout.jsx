@@ -9,7 +9,7 @@ import Counter from "@components/CounterSection";
 import EPCarousel from "@components/carousel";
 import ContactFrom from "@components/form";
 import Footer from "@components/Footer";
-import logo from "@public/aiesecwhite.png";
+import logo from "@public/icon.ico";
 import Opportunities from "@components/ouropts";
 import BlogsSection from "@components/blogsupdates";
 import NewsUpdates from "@components/newsupdates";
