@@ -13,11 +13,7 @@ function HomeVideo() {
       <div className="absolute bottom-5 left-5 sm:bottom-10 sm:left-10 md:bottom-18 md:left-18 xl:bottom-72 xl:left-32 z-20 ">
         <MultiText />
       </div>
-<<<<<<< HEAD
-      <div className="absolute bg-gradient-to-t from-aiesec-blue to-transparent h-96 z-10 w-screen bottom-0"></div>
-=======
       <div className=" absolute bg-gradient-to-t from-aiesec-blue to-transparent h-2/3 z-10 w-screen bottom-0"></div>
->>>>>>> 6a62be6e3297c873e11f8955f06c5210f83fbe90
     </section>
   );
 }
