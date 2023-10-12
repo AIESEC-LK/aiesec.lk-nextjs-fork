@@ -9,7 +9,7 @@ const VideoPlayer = () => {
     }
   }, []);
   return (
-    <video className=" w-screen" autoPlay loop>
+    <video className=" w-screen" autoPlay loop muted>
       <source src="/aslvideo.mp4" type="video/mp4" className=""/>
     </video>
   );
