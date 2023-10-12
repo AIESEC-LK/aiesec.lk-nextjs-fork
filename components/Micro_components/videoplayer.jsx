@@ -10,7 +10,7 @@ const VideoPlayer = () => {
   }, []);
   return (
     <video className=" w-screen" autoPlay loop>
-      <source src="/aiesecegypt.mp4" type="video/mp4" className=""/>
+      <source src="/aslvideo.mp4" type="video/mp4" className=""/>
     </video>
   );
 };
