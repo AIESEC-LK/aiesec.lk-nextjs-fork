@@ -1,7 +1,7 @@
 import OpptnBox from "./Micro_components/opptnbox";
-import image1 from "@public/Rectangle 9.png";
-import image2 from "@public/Rectangle 10.png";
-import image3 from "@public/Rectangle 11.png";
+import image1 from "@public/assets/images/landing/gv-min.png";
+import image2 from "@public/assets/images/landing/gt-min.png";
+import image3 from "@public/assets/images/landing/gte-min.png";
 import gv from "@public/assets/images/products/logos/product_GV-horizontal-white-min.png";
 import gt from "@public/assets/images/products/logos/product_GT-horizontal-white-min.png";
 import gte from "@public/assets/images/products/logos/product_GTe-horizontal-white-min.png";
