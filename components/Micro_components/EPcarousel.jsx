@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
 import Image from "next/image";
-import image1 from "@public/assets/blogs/Prabashi-min.jpg";
-import image2 from "@public/assets/blogs/India1-min.jpg";
-import image3 from "@public/assets/blogs/India2-min.jpg";
-import image4 from "@public/assets/blogs/Prabashi2-min.jpg";
+import image1 from "@public/assets/testimonials/Prabashi-min.jpg";
+import image2 from "@public/assets/testimonials/India1-min.jpg";
+import image3 from "@public/assets/testimonials/India2-min.jpg";
+import image4 from "@public/assets/testimonials/Prabashi2-min.jpg";
 
 const Carousel = () =>{
     const slides = [
