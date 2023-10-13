@@ -46,7 +46,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-          'partner-hero': 'url("../public/assets/images/landing/nlds2019large-min.png")',
+          'partner-hero': 'url("../public/assets/images/PartnerPortal/Partner Portal picture-01-min.jpg")',
       },
       animation: {
         marquee: 'marquee 20s linear infinite',
