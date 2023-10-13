@@ -4,6 +4,7 @@ import {jsonData} from "@pages/partner-portal/data.json";
 import PartnerInfoSection from "@components/partner-portal/PartnerInfoSection";
 import PartnerOpportunitiesSection from "@components/partner-portal/PartnerOpportunitiesSection";
 import CustomFooter from "@components/partner-portal/CustomFooter";
+import Footer from "@components/Footer";
 
 const PartnerPage = () => {
   const router = useRouter();
@@ -15,7 +16,7 @@ const PartnerPage = () => {
     <>
       <PartnerInfoSection partnerData={partnerData}/>
       <PartnerOpportunitiesSection opportunities={partnerData?.opportunities}/>
-      <CustomFooter/>
+      <Footer/>
     </>
   )
 }
