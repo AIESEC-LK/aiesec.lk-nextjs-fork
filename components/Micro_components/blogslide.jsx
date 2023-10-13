@@ -16,9 +16,9 @@ const BlogSlide = (props) =>{
                     <h2 className=" text-sm font-semibold text-aiesec-dark-grey">AIESEC in {props.entity}</h2>
                     <p className=" text-xs text-aiesec-dark-grey">Oct 11, 2023</p>
                 </div>
-                <div className=" mt-5">
+                {/* <div className=" mt-5">
                     <Image src={icon2}/>
-                </div>
+                </div> */}
             </div>
         </div>
     )
