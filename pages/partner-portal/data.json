@@ -2,9 +2,9 @@
   "jsonData": [
     {
       "id": 1,
-      "type": "National Partner",
-      "name": "Partner 1",
-      "logo": "/assets/images/partners/global/1489406725.png",
+      "type": "National Talent Partner",
+      "name": "Unilever",
+      "logo": "/assets/images/partners/national/Unilever - National Talent Partner-min.png",
       "link": "1",
       "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci amet atque beatae blanditiis commodi deleniti dicta dolorem dolores ea eligendi est eum fugit iusto libero maxime mollitia officia officiis perspiciatis possimus quis quod recusandae repellendus, reprehenderit saepe sit soluta totam! Aperiam beatae cupiditate eum ipsam quo ut voluptas voluptate?",
       "testimonials": [

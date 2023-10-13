@@ -49,20 +49,20 @@ const NewsUpdates = () => {
     <section id="updates">
       <div className="flex justify-center mt-20">
         <div className=" w-4/5">
-          <p className=" text-xl font-semibold">
+          <div className=" text-xl font-semibold">
             <span
               className=" h-1 w-1 bg-aiesec-blue text-aiesec-blue rounded-xl mr-2"
               content=" ">
               .
             </span>
             News & Events
-            <span>
+            <div className="flex">
             <div className=" float-right text-sm">
             <button onClick={previousSlide} className=" py-0.5 px-2 text-aiesec-dark-grey hover:text-white hover:bg-aiesec-blue rounded-l-md border-2 border-aiesec-dark-grey hover:border-aiesec-blue">Prev</button>
             <button onClick={nextSlide} className=" py-0.5 px-2 text-aiesec-dark-grey hover:text-white hover:bg-aiesec-blue rounded-r-md border-2 border-aiesec-dark-grey hover:border-aiesec-blue">Next</button>
         </div>
-            </span>
-          </p>
+            </div>
+          </div>
           <div className=" grid lg:grid-cols-2 gap-x-2 mt-5">
             <div className="md:block hidden">
               <Image src={LargeImg} />

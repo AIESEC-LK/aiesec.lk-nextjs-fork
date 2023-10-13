@@ -127,7 +127,9 @@ const Partners = () => {
         </div>
       </div>
       <div className="text-center pt-7">
+      <a href="/partner-portal" >
       <button className=" text-white bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">Be A Partner</button>
+      </a>
       </div>
     </section>
   );

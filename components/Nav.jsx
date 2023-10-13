@@ -41,7 +41,7 @@ function Nav() {
             <a href="#opp">Opportunities</a>
           </li>
           <li>
-            <a href="/partner-portal">Partners</a>
+            <a href="#partners">Partners</a>
           </li> 
           <li>
             <a href="#updates">Updates</a>
