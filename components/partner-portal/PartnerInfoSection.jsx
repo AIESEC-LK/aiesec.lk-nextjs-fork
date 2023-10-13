@@ -1,65 +1,36 @@
 import {Link} from "@nextui-org/react";
 import {Avatar, Button, Card, Carousel} from "flowbite-react";
 import {HiArrowLeft} from "react-icons/hi";
+import YouTubePlayer from "@components/partner-portal/Youtube";
 
 const PartnerInfoSection = ({partnerData}) => {
   return (
     <section className="items-center justify-center text-center mx-auto">
       <div
         className="container-fluid hero-section">
-        <div className="bg-aiesec-blue h-[120px] w-full shadow-xl p-5 text-left">
-          <Link href="/partner-portal/#main">
-            <Button
-              className="px-2"
-              size="sm"
-              color="light"
-              pill
-            >
-              <HiArrowLeft/>&ensp;
-              Back to all partners
-            </Button>
-          </Link>
+        <div className="bg-aiesec-blue  w-full shadow-xl  text-center">
+          
 
         </div>
-        <Avatar
-          size="xl"
-          className="absolute top-[60px] left-0 right-0 mx-auto bg-white"
-          bordered
-          img={partnerData?.logo}
-          rounded
-        />
-        <div className="bg-white h-[120px] w-full"/>
-        <h1 className="text-4xl p-0 m-0">{partnerData?.name}</h1>
-        <h3 className="text-2xl py-4 text-aiesec-mid-grey">{partnerData?.type}</h3>
+        <div>
+          
+        </div>
+        
       </div>
-      <div className="flex justify-center mt-2 mb-8 gap-6">
-        <Link
-          href="#opportunities"
-          className="w-fit shadow-lg py-3 px-5 inline-block acrounded-2xl transition ease-in shadow-gray-200 hover:shadow-gray-200 hover:shadow-md">
-          <h5 className="text-3xl p-0 text-aiesec-blue">{
-            partnerData?.opportunities ? partnerData?.opportunities?.length : 0
-          }</h5>
-          <p className="text-md p-1 text-aiesec-dark-grey font-bold">
-            {
-              partnerData?.opportunities?.length === 1 ?
-                "Opportunity" :
-                "Opportunities"
-            }
-          </p>
-        </Link>
-      </div>
-
-      <div className="my-4 container mx-auto">
-        <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">About {partnerData?.name}</h4>
-        <hr className="w-1/2 mx-auto mt-1 mb-4"/>
-        <p className="text-lg font-body p-4 pb-8">{partnerData?.about}</p>
-      </div>
+      
+      
 
       <div className="my-4 container mx-auto">
         <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">Partnership between AIESEC and {partnerData?.name}</h4>
         <hr className="w-1/2 mx-auto mt-1 mb-4"/>
         <p className="text-lg font-body p-4 pb-8">{partnerData?.partnership}</p>
       </div>
+
+      {/* Video */}
+      {/* <div className="pb-6">
+      <YouTubePlayer videoId="juKVUM1-cKE" />
+      </div> */}
+
 
       
 
