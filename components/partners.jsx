@@ -130,6 +130,12 @@ const Partners = () => {
       <a href="/partner-portal" >
       <button className=" text-white bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">Be A Partner</button>
       </a>
+      <br /><br />
+      <a href="/partner-portal">
+            <button className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">
+              Our Partner Opportunities
+            </button>
+          </a>
       </div>
     </section>
   );

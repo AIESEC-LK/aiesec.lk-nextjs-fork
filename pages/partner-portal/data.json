@@ -6,19 +6,8 @@
       "name": "Unilever",
       "logo": "/assets/images/partners/national/Unilever - National Talent Partner-min.png",
       "link": "1",
-      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci amet atque beatae blanditiis commodi deleniti dicta dolorem dolores ea eligendi est eum fugit iusto libero maxime mollitia officia officiis perspiciatis possimus quis quod recusandae repellendus, reprehenderit saepe sit soluta totam! Aperiam beatae cupiditate eum ipsam quo ut voluptas voluptate?",
-      "testimonials": [
-        {
-          "name": "Testimonial 1",
-          "role": "Role",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-        },
-        {
-          "name": "Testimonial 2",
-          "role": "Role",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-        }
-      ],
+      "about": "Unilever Sri Lanka is a Sri Lankan consumer goods company located in Colombo. It is wholly owned by Unilever, a British multinational consumer goods company. Its products include food, beauty products, personal care, pharmaceuticals, and baby products.",
+     
       "projects": [
         {
           "title": "Project 1",
@@ -32,111 +21,37 @@
       "opportunities": [
         {
           "id": 1,
-          "title": "Opportunity 1",
+          "title": "HR Business Partner",
           "postedDate": "2023-10-01",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-          "link": "https://google.lk"
+          "description": "Agarapathana",
+          "link": "https://360.aiesec.lk/"
         },
         {
           "id": 2,
-          "title": "Opportunity 2",
+          "title": "Corporate Communications",
           "postedDate": "2023-10-10",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-          "link": "https://google.lk"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "type": "Other Partner",
-      "name": "Partner 2",
-      "logo": "/assets/images/partners/global/1489438110.png",
-      "link": "2",
-      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci amet atque beatae blanditiis commodi deleniti dicta dolorem dolores ea eligendi est eum fugit iusto libero maxime mollitia officia officiis perspiciatis possimus quis quod recusandae repellendus, reprehenderit saepe sit soluta totam! Aperiam beatae cupiditate eum ipsam quo ut voluptas voluptate?",
-      "testimonials": [
-        {
-          "name": "Testimonial 1",
-          "role": "Role",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+          "description": "Intern",
+          "link": "https://360.aiesec.lk/"
         },
         {
-          "name": "Testimonial 2",
-          "role": "Role",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-        }
-      ],
-      "projects": [
-        {
-          "title": "Project 1",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Beauty_of_Sigiriya_by_Binuka.jpg"
+          "id": 3,
+          "title": "Information Technology",
+          "postedDate": "2023-10-08",
+          "description": "Intern",
+          "link": "https://360.aiesec.lk/"
         },
         {
-          "title": "Project 2",
-          "image": "https://digitaltravelcouple.com/wp-content/uploads/2020/01/mirissa-sri-lanka-things-to-do.jpg?ezimgfmt=rs%3Adevice%2Frscb19-1"
-        }
-      ],
-      "opportunities": [
-        {
-          "id": 1,
-          "title": "Opportunity 1",
-          "postedDate": "2023-10-01",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-          "link": "https://google.lk"
-        },
-        {
-          "id": 2,
-          "title": "Opportunity 2",
-          "postedDate": "2023-10-10",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-          "link": "https://google.lk"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "type": "Other Partner",
-      "name": "Partner 3",
-      "logo": "/assets/images/partners/global/1497265137.png",
-      "link": "3",
-      "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci amet atque beatae blanditiis commodi deleniti dicta dolorem dolores ea eligendi est eum fugit iusto libero maxime mollitia officia officiis perspiciatis possimus quis quod recusandae repellendus, reprehenderit saepe sit soluta totam! Aperiam beatae cupiditate eum ipsam quo ut voluptas voluptate?",
-      "testimonials": [
-        {
-          "name": "Testimonial 1",
-          "role": "Role",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-        },
-        {
-          "name": "Testimonial 2",
-          "role": "Role",
-          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-        }
-      ],
-      "projects": [
-        {
-          "title": "Project 1",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Beauty_of_Sigiriya_by_Binuka.jpg"
-        },
-        {
-          "title": "Project 2",
-          "image": "https://digitaltravelcouple.com/wp-content/uploads/2020/01/mirissa-sri-lanka-things-to-do.jpg?ezimgfmt=rs%3Adevice%2Frscb19-1"
-        }
-      ],
-      "opportunities": [
-        {
-          "id": 1,
-          "title": "Opportunity 1",
-          "postedDate": "2023-10-01",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-          "link": "https://google.lk"
-        },
-        {
-          "id": 2,
-          "title": "Opportunity 2",
-          "postedDate": "2023-10-10",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-          "link": "https://google.lk"
+          "id": 4,
+          "title": "Senior Brands Projects Executive",
+          "postedDate": "2023-10-06",
+          "description": "-",
+          "link": "https://360.aiesec.lk/"
         }
       ]
     }
+    
+      
+      
+    
   ]
 }
