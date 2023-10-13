@@ -18,12 +18,12 @@ const PartnerOpportunitiesSection = ({opportunities}) => {
                     d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
           </div>
-          <input type="search" id="default-search"
+          {/* { <input type="search" id="default-search"
                  className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                 placeholder="Search opportunities..." required/>
+                 placeholder="Search opportunities..." required/> }
           <button type="submit"
                   className="text-white absolute right-2.5 bottom-2.5 bg-aiesec-blue hover:bg-aiesec-mid-grey hover:text-aiesec-dark-grey transition ease-in focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search
-          </button>
+          </button> */}
         </div>
       </form>
 
@@ -40,14 +40,16 @@ const PartnerOpportunitiesSection = ({opportunities}) => {
                   <h5 className="text-2xl font-bold text-black mt-0 mb-0">
                     {opportunity?.title}
                   </h5>
-                  <div className="inline-block w-fit px-0 m-0 text-center mx-auto"><Badge
+                  <div className="inline-block w-fit px-0 m-0 text-center mx-auto">
+                    {/* <Badge
                     color="gray"
                     icon={HiClock}
                   >
                   <span className="pr-2 pl-1 text-md">{
                     Math.floor((new Date() - new Date(opportunity?.postedDate)) / (1000 * 60 * 60 * 24))
                   } days ago</span>
-                  </Badge></div>
+                  </Badge> */}
+                  </div>
                   <div className="font-normal text-sm py-1 text-aiesec-dark-grey">
                     {
                       opportunity?.description

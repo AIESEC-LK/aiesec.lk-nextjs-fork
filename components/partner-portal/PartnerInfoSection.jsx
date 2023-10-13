@@ -23,7 +23,7 @@ const PartnerInfoSection = ({partnerData}) => {
         </div>
         <Avatar
           size="xl"
-          className="absolute top-[60px] left-0 right-0 mx-auto"
+          className="absolute top-[60px] left-0 right-0 mx-auto bg-white"
           bordered
           img={partnerData?.logo}
           rounded
