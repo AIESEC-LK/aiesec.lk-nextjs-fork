@@ -53,25 +53,27 @@ const BlogsSection = () => {
             <p className=" text-xl font-semibold ">
               <span
                 className=" h-1 w-1 bg-aiesec-blue text-aiesec-blue rounded-xl mr-2"
-                content=" ">
+                content=" "
+              >
                 .
               </span>
               Blogs
-              <span>
-            <div className=" float-right">
-              <button
-                onClick={previousSlide}
-                className="text-sm py-0.5 px-2 text-aiesec-dark-grey hover:text-white hover:bg-aiesec-blue rounded-l-md border-2 border-aiesec-dark-grey hover:border-aiesec-blue">
-                Prev
-              </button>
-              <button
-                onClick={nextSlide}
-                className=" text-sm py-0.5 px-2 text-aiesec-dark-grey hover:text-white hover:bg-aiesec-blue rounded-r-md border-2 border-aiesec-dark-grey hover:border-aiesec-blue">
-
-                Next
-              </button>
-            </div>
-          </span>
+              {/* <span>
+                <div className=" float-right">
+                  <button
+                    onClick={previousSlide}
+                    className="text-sm py-0.5 px-2 text-aiesec-dark-grey hover:text-white hover:bg-aiesec-blue rounded-l-md border-2 border-aiesec-dark-grey hover:border-aiesec-blue"
+                  >
+                    Prev
+                  </button>
+                  <button
+                    onClick={nextSlide}
+                    className=" text-sm py-0.5 px-2 text-aiesec-dark-grey hover:text-white hover:bg-aiesec-blue rounded-r-md border-2 border-aiesec-dark-grey hover:border-aiesec-blue"
+                  >
+                    Next
+                  </button>
+                </div>
+              </span> */}
             </p>
             <div className="w-full lg:grid lg:grid-cols-4 lg:gap-x-5 lg:visible hidden">
               <BlogSlide
@@ -120,9 +122,9 @@ const BlogsSection = () => {
         </div>
         <div className=" flex justify-center mt-10">
           <a href="https://www.aiesec.lk/blog/" target="_blank">
-          <button className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">
-            View All
-          </button>
+            <button className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">
+              View All
+            </button>
           </a>
         </div>
       </div>
