@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link'
 import img1 from "@public/assets/images/partners/national/EFL Global Sri Lanka - National Partner-min.png";
 import img2 from "@public/assets/images/partners/national/DIMO - National Partner_page-0001-min.jpg";
 import img3 from "@public/assets/images/partners/national/Innovate - National Partner-min.png";
@@ -127,15 +128,15 @@ const Partners = () => {
         </div>
       </div>
       <div className="text-center pt-7">
-      <a href="/partner-portal" >
+      <Link href="/partner-portal" >
       <button className=" text-white bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">Be A Partner</button>
-      </a>
+      </Link>
       <br /><br />
-      <a href="/partner-portal">
+      <Link href="/partner-portal">
             <button className=" text-aiesec-blue border-2 border-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">
               Our Partner Opportunities
             </button>
-          </a>
+          </Link>
       </div>
     </section>
   );

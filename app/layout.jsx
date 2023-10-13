@@ -7,6 +7,7 @@ import React, {useEffect, useState} from "react";
 
 // import Home from "@components/two-column";
 
+
 const RootLayout = ({children}) => {
   const pathname = usePathname();
   const isHome = pathname === "/";

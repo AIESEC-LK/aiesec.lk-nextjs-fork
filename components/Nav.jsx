@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link'
 // import AiesecLogo from './Icons/bluelogo.png';
 import AiesecLogo from '../public/assets/images/bluelogo.png'
 import '@styles/globals.css';
@@ -32,22 +33,22 @@ function Nav() {
       <div className='lg:static absolute bg-white lg:min-h-fit min-h-[60vh] left-0 top-[9%] lg:w-auto w-full  col-span-2' id={showMenu ? 'show' : 'hide'}>
         <ul className="flex lg:flex-row flex-col xsm:items-center md:gap-[4vw] gap-10 pt-6">
           <li>
-            <a href="#home">Home</a>
+            <Link href="/#home">Home</Link>
           </li>
           <li>
-          <a href="#about">Who Are We</a>
+          <Link href="/#about">Who Are We</Link>
           </li>
           <li>
-            <a href="#opp">Opportunities</a>
+            <Link href="/#opp">Opportunities</Link>
           </li>
           <li>
-            <a href="#partners">Partners</a>
+            <Link href="/#partners">Partners</Link>
           </li> 
           <li>
-            <a href="#updates">Updates</a>
+            <Link href="/#updates">Updates</Link>
           </li>
           <li>
-            <a href="#contact">Contact Us</a>
+            <Link href="/#contact">Contact Us</Link>
           </li>
         </ul>
       </div>
