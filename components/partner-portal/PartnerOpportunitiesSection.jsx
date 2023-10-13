@@ -55,7 +55,7 @@ const PartnerOpportunitiesSection = ({opportunities}) => {
                   </div>
                   <div className="mt-1 text-center">
                     <Button
-                      className="px-2 mx-auto font-bold"
+                      className="px-2 mx-auto font-bold bg-aiesec-blue"
                       size="sm"
                       color="success"
                       pill
