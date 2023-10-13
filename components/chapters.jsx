@@ -1,20 +1,20 @@
 import React from 'react';
 import Image from 'next/image';
-import img1 from '@public/assets/images/chapters/University of Peradeniya.png';
-import img2 from '@public/assets/images/chapters/University of Ruhuna.gif';
-import img3 from '@public/assets/images/chapters/University of Kelaniya.png';
-import img4 from '@public/assets/images/chapters/University of Sri Jayewardenepura.png';
-import img5 from '@public/assets/images/chapters/University of Moratuwa.png';
-import img6 from '@public/assets/images/chapters/University of Colombo.png';
-import img7 from '@public/assets/images/chapters/Sri Lanka Institute of Information Technology.png';
-import img8 from '@public/assets/images/chapters/General Sir John Kotelawala Defense University.png';
-import img9 from '@public/assets/images/chapters/Informatics Institute of Technology.png';
-import img10 from '@public/assets/images/chapters/National Institute of Business Management.png';
-import img11 from '@public/assets/images/chapters/National School of Business Management.png';
-import img12 from '@public/assets/images/chapters/Wayamba University of Sri Lanka.png';
-import img13 from '@public/assets/images/chapters/Rajarata University of Sri Lanka.png';
-import img14 from '@public/assets/images/chapters/Asia Pacific Institute of Information Technology.jpg';
-import img15 from '@public/assets/images/chapters/Saegis Campus.png';
+import img1 from '@public/assets/images/chapters/University of Peradeniya-min.png';
+import img2 from '@public/assets/images/chapters/University of Ruhuna-min.gif';
+import img3 from '@public/assets/images/chapters/University of Kelaniya-min.png';
+import img4 from '@public/assets/images/chapters/University of Sri Jayewardenepura-min.png';
+import img5 from '@public/assets/images/chapters/University of Moratuwa-min.png';
+import img6 from '@public/assets/images/chapters/University of Colombo-min.png';
+import img7 from '@public/assets/images/chapters/Sri Lanka Institute of Information Technology-min.png';
+import img8 from '@public/assets/images/chapters/General Sir John Kotelawala Defense University-min.png';
+import img9 from '@public/assets/images/chapters/Informatics Institute of Technology-min.png';
+import img10 from '@public/assets/images/chapters/National Institute of Business Management-min.png';
+import img11 from '@public/assets/images/chapters/National School of Business Management-min.png';
+import img12 from '@public/assets/images/chapters/Wayamba University of Sri Lanka-min.png';
+import img13 from '@public/assets/images/chapters/Rajarata University of Sri Lanka-min.png';
+import img14 from '@public/assets/images/chapters/Asia Pacific Institute of Information Technology-min.jpg';
+import img15 from '@public/assets/images/chapters/Saegis Campus-min.png';
 
 const LocalChapters = () => {
     // Define an array of objects with icon URLs and names
@@ -45,9 +45,9 @@ const LocalChapters = () => {
     return (
       <div className="text-center">
         <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">Local Chapters</h2>
-        <div className=" grid grid-cols-3 sm:grid-cols-3 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 flex-row justify-items-center xl:mx-8">
+        <div className=" grid grid-cols-3 sm:grid-cols-3 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 flex-row justify-items-center xl:mx-8 px-5">
           {icons.map((icon, index) => (
-            <div key={index} className="text-inline sm:col-span-1 mt-5 md:w-1/5">
+            <div key={index} className="text-inline sm:col-span-1 mt-5 md:w-1/5 xl:w-1/12">
               <Image
                 src={icon.url}
                 alt={icon.name}
@@ -58,7 +58,7 @@ const LocalChapters = () => {
             </div>
           ))}
         </div>
-        <div className=" grid grid-cols-2 md:grid-cols-4 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 ">
+        <div className=" grid grid-cols-2 md:grid-cols-4 md:flex-wrap md:flex md:justify-center xl:space-x-8 mt-5 px-5">
           {iconsRow2.map((icon, index) => (
             <div key={index} className="text-inline xl:w-1/12 mt-5 md:w-1/4">
               <Image

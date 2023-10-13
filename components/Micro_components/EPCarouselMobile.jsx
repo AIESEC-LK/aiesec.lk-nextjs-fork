@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react"
 import Image from "next/image";
-import image1 from "@public/Epimg1.png";
-import image2 from "@public/Epimg2.png";
+import image1 from "@public/assets/images/testimonials/Prabashi-min.jpg";
+import image3 from "@public/assets/images/testimonials/India2-min.jpg";
 
 const CarouselMobile = () =>{
     const slides = [
         {
             id:1,
             img1:image1,
-            title1: 'Lorem Ipsum',
-            content1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the industry's standard dummy",
+            title1: 'Project On The Map - Prabashi Wanigasinghe',
+            content1:"Volunteering in a foreign country taught me self-reliance and boosted my self-confidence. Despite the language barrier with Egyptians, I made an effort to learn some Arabic and successfully navigated the exchange experience",
         },
         {
             id:2,
-            img1:image2,
-            title1: 'Lorem Ipsum',
-            content1:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the industry's standard dummy",
+            img1:image3,
+            title1: 'My Eye-Opening Time Spent on Exchange in India',
+            content1:"There is both anticipation and apprehension associated with taking part in an exchange programme. My trip to India was motivated by my interest in both making a positive contribution to the SDGs and seeing a new culture.",
         },
 
     ]

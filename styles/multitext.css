@@ -5,12 +5,12 @@
 
 .multitext::after{
     content: "";
-    animation: change 3s linear infinite;
+    animation: change 7s linear infinite;
 }
 
 @keyframes change{
     0% {
-        content: "Develop";
+        content: "develop";
         animation:smooth 1s linear;
     }
     33% {
@@ -18,11 +18,11 @@
         animation:smooth 1s linear;
     }
     66%{
-        content: "Gain";
+        content: "gain";
         animation:smooth 1s linear;
     }
     100%{
-        content: "Develop";
+        content: "develop";
         animation:smooth 1s linear;
     }
 }

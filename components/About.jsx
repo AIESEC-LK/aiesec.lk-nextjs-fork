@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AboutAIESEC from "../public/assets/images/asl-img.jpg";
+import AboutAIESEC from "../public/assets/images/landing/asl-img-min.jpg";
 
 function About() {
   return (

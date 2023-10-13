@@ -1,26 +1,26 @@
 import React from "react";
 import Image from "next/image";
-import img1 from "@public/assets/images/partners/national/EFL Global Sri Lanka - National Partner.png";
-import img2 from "@public/assets/images/partners/national/DIMO - National Partner_page-0001.jpg";
-import img3 from "@public/assets/images/partners/national/Innovate - National Partner.png";
-import img4 from "@public/assets/images/partners/national/Unilever - National Talent Partner.png";
-import img5 from "@public/assets/images/partners/global/3mywAr3TX9X99bbv5pyqYCp6.png";
-import img6 from "@public/assets/images/partners/global/1489406725.png";
-import img7 from "@public/assets/images/partners/global/1489438110.png";
-import img8 from "@public/assets/images/partners/global/1497265965.png";
-import img9 from "@public/assets/images/partners/global/1497265137.png";
-import img10 from "@public/assets/images/partners/global/1497266521.png";
-import img11 from "@public/assets/images/partners/global/1570517070.jpeg";
-import img12 from "@public/assets/images/partners/global/BCc6JuncxYDQPnBFM38TXfnm.png";
-import img13 from "@public/assets/images/partners/global/CoqxUGJETQodgp2tZiYvcTMb.png";
-import img14 from "@public/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY.png";
-import img15 from "@public/assets/images/partners/global/Flag-United-Nations-Logo.png";
-import img16 from "@public/assets/images/partners/global/kFznpVuqY1KDVS9EZ3YsdCbA.png";
-import img17 from "@public/assets/images/partners/global/KLoHsfbN1W2G1waW1hkKQpyG.png";
-import img18 from "@public/assets/images/partners/global/NEpMTxrxJxe7bRvYG38fb7Qa.png";
-import img19 from "@public/assets/images/partners/global/nX3K6ZTAG2XUWUuTTCkj95eC.jpeg";
-import img20 from "@public/assets/images/partners/global/Seap2BPiKnbsrJfMELDusawd.jpeg";
-import img21 from "@public/assets/images/partners/global/UNDP-Logo-Blue-Large-Transparent.png";
+import img1 from "@public/assets/images/partners/national/EFL Global Sri Lanka - National Partner-min.png";
+import img2 from "@public/assets/images/partners/national/DIMO - National Partner_page-0001-min.jpg";
+import img3 from "@public/assets/images/partners/national/Innovate - National Partner-min.png";
+import img4 from "@public/assets/images/partners/national/Unilever - National Talent Partner-min.png";
+import img5 from "@public/assets/images/partners/global/3mywAr3TX9X99bbv5pyqYCp6-min.png";
+import img6 from "@public/assets/images/partners/global/1489406725-min.png";
+import img7 from "@public/assets/images/partners/global/1489438110-min.png";
+import img8 from "@public/assets/images/partners/global/1497265965-min.png";
+import img9 from "@public/assets/images/partners/global/1497265137-min.png";
+import img10 from "@public/assets/images/partners/global/1497266521-min.png";
+import img11 from "@public/assets/images/partners/global/1570517070-min.jpeg";
+import img12 from "@public/assets/images/partners/global/BCc6JuncxYDQPnBFM38TXfnm-min.png";
+import img13 from "@public/assets/images/partners/global/CoqxUGJETQodgp2tZiYvcTMb-min.png";
+import img14 from "@public/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png";
+import img15 from "@public/assets/images/partners/global/Flag-United-Nations-Logo-min.png";
+import img16 from "@public/assets/images/partners/global/kFznpVuqY1KDVS9EZ3YsdCbA-min.png";
+import img17 from "@public/assets/images/partners/global/KLoHsfbN1W2G1waW1hkKQpyG-min.png";
+import img18 from "@public/assets/images/partners/global/NEpMTxrxJxe7bRvYG38fb7Qa-min.png";
+import img19 from "@public/assets/images/partners/global/nX3K6ZTAG2XUWUuTTCkj95eC-min.jpeg";
+import img20 from "@public/assets/images/partners/global/Seap2BPiKnbsrJfMELDusawd-min.jpeg";
+import img21 from "@public/assets/images/partners/global/UNDP-Logo-Blue-Large-Transparent-min.png";
 
 
 const Partners = () => {
@@ -60,7 +60,7 @@ const Partners = () => {
 
   return (
     <section>
-      <div className="md:flex mt-10">
+      <div id="partners" className="md:flex mt-10">
         <div className="md:mx-auto md:w-1/2 mx-0">
           <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
             National Partners
@@ -101,7 +101,7 @@ const Partners = () => {
         <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-10 mt-16">
             Global Partners & Affliations
         </h2>
-        <div className=" flex justify-center flex-wrap space-x-8 mt-5">
+        <div className=" flex justify-center flex-wrap space-x-8 mt-5 px-3">
           {iconset3.map((icon, index) => (
             <div key={index} className="text-inline xl:w-1/12 md:w-1/6">
               <Image
@@ -113,7 +113,7 @@ const Partners = () => {
             </div>
           ))}
         </div>
-        <div className=" flex justify-center flex-wrap space-x-8 mt-5">
+        <div className=" flex justify-center flex-wrap space-x-8 mt-5 px-0">
           {iconset3row2.map((icon, index) => (
             <div key={index} className="text-inline md:w-1/5 xl:w-1/12 mx-auto">
               <Image

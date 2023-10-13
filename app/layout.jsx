@@ -1,8 +1,10 @@
 "use client";
 import "@styles/globals.css";
 import SplashScreen from "@components/SplashScreen";
+
 import {usePathname} from "next/navigation";
 import React, {useEffect, useState} from "react";
+
 // import Home from "@components/two-column";
 
 const RootLayout = ({children}) => {
