@@ -84,41 +84,8 @@ const ContactFrom = () => {
                 </div>
               </div>
               <div className=" pl-4">
-                <p>Select Subject</p>
-                <div className=" flex">
-                  <label className=" px-2">
-                    <input
-                      type="radio"
-                      name="subject"
-                      value="General Inquiry"
-                    />
-                    -General Inquiry
-                  </label>
-                  <label className=" px-2">
-                    <input
-                      type="radio"
-                      name="subject"
-                      value="General Inquiry"
-                    />
-                    -General Inquiry
-                  </label>
-                  <label className=" px-2">
-                    <input
-                      type="radio"
-                      name="subject"
-                      value="General Inquiry"
-                    />
-                    -General Inquiry
-                  </label>
-                  <label className=" px-2">
-                    <input
-                      type="radio"
-                      name="subject"
-                      value="General Inquiry"
-                    />
-                    -General Inquiry
-                  </label>
-                </div>
+                
+                
               </div>
               <div className=" px-3 pt-5">
                 <label className=" px-2">Message</label>
