@@ -50,10 +50,18 @@ const PartnerInfoSection = ({partnerData}) => {
       </div>
 
       <div className="my-4 container mx-auto">
-        <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">About</h4>
+        <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">About {partnerData?.name}</h4>
         <hr className="w-1/2 mx-auto mt-1 mb-4"/>
         <p className="text-lg font-body p-4 pb-8">{partnerData?.about}</p>
       </div>
+
+      <div className="my-4 container mx-auto">
+        <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">Partnership between AIESEC and {partnerData?.name}</h4>
+        <hr className="w-1/2 mx-auto mt-1 mb-4"/>
+        <p className="text-lg font-body p-4 pb-8">{partnerData?.partnership}</p>
+      </div>
+
+      
 
       {partnerData?.testimonials?.length > 0 && <div className="my-4 container mx-auto">
         <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">Testimonials</h4>
