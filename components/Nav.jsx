@@ -18,11 +18,13 @@ function Nav() {
   };
 
   return (
-    <nav id='mobile-nav' className=' grid grid-cols-3 h-20 bg-white fixed z-50 w-full'>
+    <nav id='mobile-nav' className='pt-1 grid grid-cols-3 h-20 bg-white fixed z-50 w-full shadow-lg'>
       <div id='mobile-nav-logo' className='flex md:flex-row justify-center items-center'>
+
         <a href="#home">
           <Image src={AiesecLogo} alt="AIESEC Logo" width={170} className='hidden xsm:block'/>
         </a>
+
         {/* hidden lg:block */}
         <button className={showMenu ? 'toggle-btn-hide' : 'toggle-btn-show'} onClick={toggle}><HiMenuAlt3 size={'1.5rem'} color='#037Ef3' /></button>
         <button className={showMenu ? 'toggle-btn-show' : 'toggle-btn-hide'} onClick={toggleClose}><AiOutlineClose size={'1.5rem'} color='#037Ef3' /></button>
@@ -39,7 +41,7 @@ function Nav() {
             <a href="#opp">Opportunities</a>
           </li>
           <li>
-            <a href="#partners">Partners</a>
+            <a href="/partner-portal">Partners</a>
           </li> 
           <li>
             <a href="#updates">Updates</a>
