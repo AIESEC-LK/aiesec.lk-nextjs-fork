@@ -4,7 +4,7 @@ const HeroSection = () => {
       <div className="z-10">
         <div className="content text-white mb-5">
           <div className="w-100">
-            <h1 className="px-8 text-5xl lg:text-6xl font-bold p-5 ">Partner Portal</h1>
+            <h1 className="px-8 text-5xl lg:text-6xl font-bold p-5 mt-2">Partner Portal</h1>
 
             <svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
               <defs>
@@ -21,11 +21,15 @@ const HeroSection = () => {
               </svg>
             </div>
           </div>
-          <h6 className="text-xl lg:text-2xl p-2 font-thin mt-16 px-8">Hey there! Welcome to the Partner Portal,<br></br>
+          <h4 className="text-2xl lg:text-2xl p-2 font-thin mt-16 px-8 mb-8">Hey there! Welcome to the Partner Portal,<br></br>
             Your one-stop hub for growth opportunities tailored for you from our partners.<br></br>
-            Discover, connect and grow with AIESEC, where extraordinary journeys begin.</h6>
+          </h4>
+
         </div>
         <a href="#main" className="p-8">
+         <h5 className="text-xl text-white m-auto w-full lg:w-1/2 mt-4 lg:mt-16">
+            Discover, connect and grow with AIESEC, where extraordinary journeys begin.
+          </h5>
           <div className="scroll-down"></div>
         </a>
       </div>
