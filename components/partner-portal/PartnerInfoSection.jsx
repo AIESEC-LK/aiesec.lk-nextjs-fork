@@ -1,6 +1,7 @@
 import {Avatar, Button, Card, Carousel} from "flowbite-react";
 import YouTubePlayer from "@components/partner-portal/YoutubePlayer";
 import Link from "next/link";
+import Image from "next/image";
 
 const PartnerInfoSection = ({partnerData}) => {
   return (
@@ -60,8 +61,10 @@ const PartnerInfoSection = ({partnerData}) => {
                     return (
                       <div className="relative h-full" key={index}>
                         <div className="absolute inset-0 flex items-center justify-center">
-                          <img
+                          <Image
                             alt="Photograph"
+                            width={500}
+                            height={500}
                             src={image}
                             className="object-cover w-full h-full"
                           />
@@ -132,7 +135,9 @@ const PartnerInfoSection = ({partnerData}) => {
                 return (
                   <div className="relative h-full" key={index}>
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <img
+                      <Image
+                        width={500}
+                        height={500}
                         alt={project?.title + " image"}
                         src={project?.image}
                         className="object-cover w-full h-full"

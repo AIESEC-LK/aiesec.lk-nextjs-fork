@@ -12,7 +12,7 @@ import FnQ from "@components/FnQ";
 import ContactFrom from "@components/form";
 import Footer from "@components/Footer";
 
-export default function () {
+const MainPage = () => {
   return (
     <>
       <Nav/>
@@ -32,3 +32,7 @@ export default function () {
     </>
   )
 }
+
+MainPage.displayName = 'Home Page';
+
+export default MainPage;
