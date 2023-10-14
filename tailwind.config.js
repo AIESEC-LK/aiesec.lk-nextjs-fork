@@ -17,6 +17,7 @@ module.exports = {
       mono: ['Lato', 'sans-serif'],
       display: ['Lato', 'sans-serif'],
       body: ['Lato', 'sans-serif'],
+      cursive: ['Dancing Script', 'cursive'], // Replace 'CustomFont' with the actual font name
     },
     // Responsive Sizes
     screens: {
@@ -44,17 +45,16 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-          'partner-hero': 'url("../public/assets/images/PartnerPortal/Partner Portal picture-01-min.jpg")',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'partner-hero': 'url("../public/assets/images/partner-portal/partner-portal-bg.webp")',
       },
       animation: {
         marquee: 'marquee 20s linear infinite',
       },
       keyframes: {
         marquee: {
-          '0%': { transform: 'translateX(50%)' },
-          '100%': { transform: 'translateX(-100%)' },
+          '0%': {transform: 'translateX(50%)'},
+          '100%': {transform: 'translateX(-100%)'},
         },
       },
       padding: {
