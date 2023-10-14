@@ -58,9 +58,8 @@ const PartnerOpportunitiesSection = ({opportunities}) => {
                   </div>
                   <div className="mt-1 text-center">
                     <Button
-                      className="px-2 mx-auto font-bold bg-aiesec-blue"
+                      className="px-2 mx-auto font-bold bg-aiesec-blue hover:scale-105 transition ease-in hover:bg-aiesec-green"
                       size="sm"
-                      color="success"
                       pill
                       onClick={() => window.open(opportunity?.link, "_blank")
                       }
