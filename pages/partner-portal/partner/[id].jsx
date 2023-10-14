@@ -5,11 +5,10 @@ import PartnerInfoSection from "@components/partner-portal/PartnerInfoSection";
 import PartnerOpportunitiesSection from "@components/partner-portal/PartnerOpportunitiesSection";
 import Footer from "@components/Footer";
 import PartnerHero from "@components/partner-portal/PartnerHero";
-import PostalHeader from "@components/partner-portal/PostalHeader";
 import {useEffect, useState} from "react";
 import Nav from "@components/Nav";
-import Head from 'next/head';
 import FullscreenLoadingSpinner from "@components/partner-portal/FullscreenLoadingSpinner";
+import HtmlHead from "@components/partner-portal/HtmlHead";
 
 
 const PartnerPage = () => {
@@ -31,14 +30,12 @@ const PartnerPage = () => {
 
   return (
     isLoading ? <>
-      <Head>
-        <title>{"Loading"}</title>
-      </Head>
+      <HtmlHead title={"Loading"}
+                description={"Partner details page"}/>
       <FullscreenLoadingSpinner/>
     </> : <>
-      <Head>
-        <title>{`${partnerData?.name}'s Partner Portal`}</title>
-      </Head>
+      <HtmlHead title={`${partnerData?.name}'s Partner Portal`}
+                description={""}/>
       <Nav/>
       <PartnerHero/>
       {/*<PostalHeader/>*/}
