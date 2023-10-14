@@ -18,6 +18,7 @@ const YouTubePlayer = ({ videoId }) => {
   
     return (
       <YouTube
+        className="rounded-xl shadow-xl shadow-gray-200"
         videoId={videoId}
         onReady={onReady}
         onError={onError}

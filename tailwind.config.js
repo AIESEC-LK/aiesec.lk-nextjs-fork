@@ -44,17 +44,16 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-          'partner-hero': 'url("../public/assets/images/PartnerPortal/Partner Portal picture-01-min.jpg")',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'partner-hero': 'url("../public/assets/images/PartnerPortal/Partner Portal picture-01-min.jpg")',
       },
       animation: {
         marquee: 'marquee 20s linear infinite',
       },
       keyframes: {
         marquee: {
-          '0%': { transform: 'translateX(50%)' },
-          '100%': { transform: 'translateX(-100%)' },
+          '0%': {transform: 'translateX(50%)'},
+          '100%': {transform: 'translateX(-100%)'},
         },
       },
       padding: {
