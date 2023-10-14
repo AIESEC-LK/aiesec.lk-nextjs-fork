@@ -21,13 +21,14 @@ const HeroSection = () => {
               </svg>
             </div>
           </div>
-          <h4 className="text-2xl lg:text-2xl p-2 font-thin mt-16 px-8 mb-8">Hey there! Welcome to the Partner Portal,<br></br>
+          <h4 className="text-2xl lg:text-2xl p-2 font-thin mt-16 px-8 mb-8">Hey there! Welcome to the Partner
+            Portal,<br></br>
             Your one-stop hub for growth opportunities tailored for you from our partners.<br></br>
           </h4>
 
         </div>
         <a href="#main" className="p-8">
-         <h5 className="text-xl text-white m-auto w-full lg:w-1/2 mt-4 lg:mt-16">
+          <h5 className="text-xl text-white m-auto w-full lg:w-1/2 mt-4 lg:mt-12">
             Discover, connect and grow with AIESEC, where extraordinary journeys begin.
           </h5>
           <div className="scroll-down"></div>
