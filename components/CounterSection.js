@@ -23,7 +23,7 @@ export default function Counter(){
                         </div>
                         <div className=" flex justify-center align-middle sm:mb-0 mb-4">
                             <ul className=" list-none">
-                                <li className=" info-num"><span id="unicount"><CountUpComponent end={19}/></span><span>+</span></li>
+                                <li className=" info-num"><span id="unicount"><CountUpComponent end={15}/></span><span>+</span></li>
                                 <li className=" flex justify-center">Universities</li>
                             </ul>
                         </div>

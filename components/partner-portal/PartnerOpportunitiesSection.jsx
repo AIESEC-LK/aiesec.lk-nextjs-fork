@@ -3,7 +3,7 @@ import {HiArrowRight, HiClock} from "react-icons/hi";
 
 const PartnerOpportunitiesSection = ({opportunities}) => {
   return (
-    <section className="container-fluid bg-aiesec-blue pt-12 pb-12" id="opportunities">
+    <section id="partneropp" className="container-fluid bg-aiesec-blue pt-12 pb-12" id="opportunities">
       <h4 className="text-3xl p-3 text-white font-bold text-center">Opportunities</h4>
       <hr className="w-1/2 mx-auto mt-1 mb-8"/>
 
