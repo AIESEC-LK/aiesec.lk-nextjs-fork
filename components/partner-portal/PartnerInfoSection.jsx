@@ -1,38 +1,92 @@
-import {Link} from "@nextui-org/react";
 import {Avatar, Button, Card, Carousel} from "flowbite-react";
-import {HiArrowLeft} from "react-icons/hi";
-import YouTubePlayer from "@components/partner-portal/Youtube";
+import YouTubePlayer from "@components/partner-portal/YoutubePlayer";
+import Link from "next/link";
 
 const PartnerInfoSection = ({partnerData}) => {
   return (
     <section className="items-center justify-center text-center mx-auto">
-      <div
-        className="container-fluid hero-section">
-        <div className="bg-aiesec-blue  w-full shadow-xl  text-center">
-          
+      {/*<div*/}
+      {/*  className="container-fluid hero-section">*/}
+      {/*  <div className="bg-aiesec-blue  w-full shadow-xl  text-center">*/}
 
-        </div>
-        <div>
-          
-        </div>
-        
-      </div>
-      
-      
 
-      <div className="my-4 container mx-auto">
-        <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">Partnership between AIESEC and {partnerData?.name}</h4>
-        <hr className="w-1/2 mx-auto mt-1 mb-4"/>
-        <p className="text-lg font-body p-4 pb-8">{partnerData?.partnership}</p>
-      </div>
+      {/*  </div>*/}
+      {/*  <div>*/}
+
+      {/*  </div>*/}
+
+      {/*</div>*/}
+
+      {
+        partnerData?.about && <div className="mt-4 mb-12 container mx-auto">
+          <div>
+            <h2 className='text-4xl font-bold text-center mb-6 py-10 leading-10'>
+              <div className="font-cursive text-6xl pb-2 text-aiesec-mid-grey">Welcome to</div>
+              <div><span className="text-aiesec-blue">Unilever's</span> Partner Portal</div>
+            </h2>
+          </div>
+          <div className='flex items-center px-8 gap-8 my-4 flex-wrap lg:flex-nowrap'>
+            {
+              partnerData?.youtubeVideoID && <div className='pr-8 m-auto'>
+                <YouTubePlayer videoId={partnerData?.youtubeVideoID}/>
+              </div>
+            }
+            {/* <img src="../public/assets/images/landing/../public/assets/images/landing/asl-img-min.jpg.png" alt="uniliever" width={180} /> */}
+            <div className="mb-4">
+              <h2 className='text-2xl p-3 text-aiesec-dark-grey font-bold'>About {partnerData?.name}</h2>
+              <hr className="mx-auto mt-1 mb-4"/>
+              <p className="mt-4 text-justify font-body p-2 pb-6">{partnerData?.about}</p>
+              <Link href="#opportunities" className="mt-2">
+                <Button className=" text-white bg-aiesec-blue px-8 font-bold rounded-3xl">Explore Our
+                  Opportunities
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      }
+
+
+      {
+        partnerData?.partnership && <div className="my-8 container mx-auto">
+          <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">Partnership between AIESEC
+            and {partnerData?.name}</h4>
+          <hr className="w-1/2 mx-auto mt-1 mb-4"/>
+          {
+            partnerData?.partnership?.images && <div className="h-[480px] mt-10 mb-8 px-8">
+              <Carousel pauseOnHover className="shadow-xl">
+                {
+                  partnerData?.partnership?.images.map((image, index) => {
+                    return (
+                      <div className="relative h-full" key={index}>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <img
+                            alt="Photograph"
+                            src={image}
+                            className="object-cover w-full h-full"
+                          />
+                        </div>
+                        {/*<div*/}
+                        {/*  className="absolute inset-0 bg-gradient-to-t gradien from-black to-transparent opacity-80"></div>*/}
+                        {/*<div className="absolute flex items-center justify-center bottom-16 right-0 left-0">*/}
+                        {/*  <h4 className="text-xl text-white text-center">{project?.title}</h4>*/}
+                        {/*</div>*/}
+                      </div>
+                    );
+                  })
+                }
+              </Carousel>
+            </div>
+          }
+          <p className="text-lg font-body pt-4 px-8 pb-8 text-justify">{partnerData?.partnership.description}</p>
+        </div>
+      }
 
       {/* Video */}
       {/* <div className="pb-6">
       <YouTubePlayer videoId="juKVUM1-cKE" />
       </div> */}
 
-
-      
 
       {partnerData?.testimonials?.length > 0 && <div className="my-4 container mx-auto">
         <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">Testimonials</h4>

@@ -6,12 +6,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
-html{
-    scroll-behavior: smooth;
+iframe {
+    border-radius: 0.5rem;
 }
-
 
 .info-num{
     @apply flex justify-center sm:text-7xl text-4xl font-bold;

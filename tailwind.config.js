@@ -17,6 +17,7 @@ module.exports = {
       mono: ['Lato', 'sans-serif'],
       display: ['Lato', 'sans-serif'],
       body: ['Lato', 'sans-serif'],
+      cursive: ['Dancing Script', 'cursive'], // Replace 'CustomFont' with the actual font name
     },
     // Responsive Sizes
     screens: {
