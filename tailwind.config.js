@@ -46,7 +46,7 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'partner-hero': 'url("../public/assets/images/PartnerPortal/partner-portal-bg.webp")',
+        'partner-hero': 'url("../public/assets/images/partner-portal/partner-portal-bg.webp")',
       },
       animation: {
         marquee: 'marquee 20s linear infinite',
