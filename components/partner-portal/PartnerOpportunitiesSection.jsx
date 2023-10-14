@@ -1,5 +1,5 @@
-import {Badge, Button, Card} from "flowbite-react";
-import {HiArrowRight, HiClock} from "react-icons/hi";
+import {Button, Card} from "flowbite-react";
+import {HiArrowRight} from "react-icons/hi";
 
 const PartnerOpportunitiesSection = ({opportunities}) => {
   return (
@@ -27,7 +27,8 @@ const PartnerOpportunitiesSection = ({opportunities}) => {
       {/*  </div>*/}
       {/*</form>*/}
 
-      <div className="container-fluid px-8 lg:container mx-auto justify-center mt-16 mb-10 flex flex-wrap gap-x-8 gap-y-8">
+      <div
+        className="container-fluid px-8 lg:px-0 lg:container mx-auto justify-center mt-16 mb-10 flex flex-wrap gap-x-8 gap-y-8">
         {
           opportunities?.length > 0 ?
             opportunities?.map((opportunity, index) => {
