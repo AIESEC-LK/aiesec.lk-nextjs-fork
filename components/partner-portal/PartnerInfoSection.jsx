@@ -18,7 +18,7 @@ const PartnerInfoSection = ({partnerData}) => {
       {/*</div>*/}
 
       {
-        partnerData?.about && <div className="mt-4 mb-12 container mx-auto">
+        partnerData?.about && <div className="mt-4 mb-12 container-fluid lg:container mx-auto">
           <div>
             <h2 className='text-4xl font-bold text-center mb-6 py-10 leading-10'>
               <div className="font-cursive text-6xl pb-2 text-aiesec-mid-grey">Welcome to</div>
@@ -27,7 +27,7 @@ const PartnerInfoSection = ({partnerData}) => {
           </div>
           <div className='flex items-center px-8 gap-8 my-4 flex-wrap lg:flex-nowrap'>
             {
-              partnerData?.youtubeVideoID && <div className='pr-8 m-auto'>
+              partnerData?.youtubeVideoID && <div className='lg:pr-8 m-auto'>
                 <YouTubePlayer videoId={partnerData?.youtubeVideoID}/>
               </div>
             }
@@ -48,12 +48,12 @@ const PartnerInfoSection = ({partnerData}) => {
 
 
       {
-        partnerData?.partnership && <div className="my-8 container mx-auto">
+        partnerData?.partnership && <div className="my-8 container-fluid lg:container mx-auto">
           <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">Partnership between AIESEC
             and {partnerData?.name}</h4>
           <hr className="w-1/2 mx-auto mt-1 mb-4"/>
           {
-            partnerData?.partnership?.images && <div className="h-[480px] mt-10 mb-8 px-8">
+            partnerData?.partnership?.images && <div className="h-[25vh] md:h-[50vh] mt-10 mb-8 px-8">
               <Carousel pauseOnHover className="shadow-xl">
                 {
                   partnerData?.partnership?.images.map((image, index) => {

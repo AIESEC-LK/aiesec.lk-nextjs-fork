@@ -8,6 +8,7 @@ html {
 
 iframe {
     border-radius: 0.5rem;
+    max-width: 80vw!important;
 }
 
 .info-num{

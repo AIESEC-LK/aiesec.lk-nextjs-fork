@@ -27,14 +27,14 @@ const PartnerOpportunitiesSection = ({opportunities}) => {
       {/*  </div>*/}
       {/*</form>*/}
 
-      <div className="container mx-auto justify-center mt-16 mb-10 flex flex-wrap gap-x-8 gap-y-8">
+      <div className="container-fluid px-8 lg:container mx-auto justify-center mt-16 mb-10 flex flex-wrap gap-x-8 gap-y-8">
         {
           opportunities?.length > 0 ?
             opportunities?.map((opportunity, index) => {
               return (
                 <Card
                   key={index}
-                  className="w-72 rounded-xl shadow-2xl shadow-aiesec-mid-grey text-center p-2 hover:shadow-md transition ease-in"
+                  className="w-full md:w-96 lg:w-72 rounded-xl shadow-2xl shadow-aiesec-mid-grey text-center p-2 hover:shadow-md transition ease-in"
 
                 >
                   <h5 className="text-2xl font-bold text-black mt-0 mb-0">
