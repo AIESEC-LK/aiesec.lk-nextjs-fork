@@ -4,9 +4,9 @@ const PartnersListSection = ({partners}) => {
   const uniqueTypes = [...new Set(partners.map((partner) => partner.type))];
 
   return (
-    <section className="partners-list-section mt-0 mb-16 justify-center container-fluid lg:container mx-auto pt-2" id="main">
-      <div className="w-full mb-32 justify-center px-8 lg:px-0">
-        <h2 className="text-4xl text-center mt-12 mb-6 w-100 font-medium"><span
+    <section className="partners-list-section m-0 pb-8 justify-center container-fluid mx-auto z-10 bg-white relative pt-24" id="main">
+      <div className="w-full mb-32 justify-center px-8 lg:px-0 lg:container mx-auto">
+        <h2 className="text-4xl text-center mb-6 w-100 font-medium"><span
           className="text-aiesec-blue font-bold">Opportunities</span> from
           our partners</h2>
 

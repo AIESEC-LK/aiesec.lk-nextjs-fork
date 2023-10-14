@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="hero-section bg-partner-hero min-h-[80vh] flex items-center justify-center text-center relative ">
+    <div className="z-10 hero-section bg-transparent min-h-[80vh] flex items-center justify-center text-center relative ">
       <div className="z-10">
         <div className="content text-white mb-5">
           <div className="w-100">
