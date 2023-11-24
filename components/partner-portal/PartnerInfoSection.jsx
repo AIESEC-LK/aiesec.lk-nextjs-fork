@@ -28,7 +28,7 @@ const PartnerInfoSection = ({partnerData}) => {
           </div>
           <div className='flex items-center px-8 gap-8 my-4 flex-wrap lg:flex-nowrap'>
             {
-              partnerData?.youtubeVideoID && <div className='lg:pr-8 m-auto'>
+              partnerData?.youtubeVideoID && <div className='lg:pr-8 m-auto pt-14'>
                 <YouTubePlayer videoId={partnerData?.youtubeVideoID}/>
               </div>
             }
@@ -36,13 +36,19 @@ const PartnerInfoSection = ({partnerData}) => {
             <div className="mb-4">
               <h2 className='text-2xl p-3 text-aiesec-dark-grey font-bold'>About {partnerData?.name}</h2>
               <hr className="mx-auto mt-1 mb-4"/>
-              <p className="mt-4 text-justify font-body p-2 pb-6">{partnerData?.about}</p>
-              <Link href="#opportunities" className="mt-2">
+              <p className="mt-2 text-justify font-body mb-5">{partnerData?.about.para1}</p>
+              <p className="text-justify font-body p-0">{partnerData?.about.para2}</p>
+              
+            </div>
+            
+          </div>
+          <div className="px-6">
+          <p className=" text-justify font-body p-2 pb-6">{partnerData?.about.para2}</p>
+              <Link href="#opportunities" className="mt-2 flex justify-center">
                 <Button className=" text-white bg-aiesec-blue px-8 font-bold rounded-3xl">Explore Our
                   Opportunities
                 </Button>
               </Link>
-            </div>
           </div>
         </div>
       }
