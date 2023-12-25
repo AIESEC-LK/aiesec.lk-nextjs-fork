@@ -44,7 +44,7 @@ export default function Counter(){
             </div>
             <div className=" flex justify-center sm:mt-0 mt-40 font-semibold"><span className=" md:text-7xl text-4xl text-aiesec-mid-grey text-center">AIESEC CREATES YOUNG LEADERS FROM</span></div>
             <div className=" relative flex overflow-x-hidden">
-                <div className=" animate-marquee whitespace-nowrap"><span className=" md:text-8xl text-6xl text-aiesec-mid-grey font-bold"><span className=" text-aiesec-red">VOLUNTEERING EXPERIENCES</span> & <span className=" text-aiesec-orange">PROFESSIONAL INTERNSHIPS</span> & <span className=" text-aiesec-red">TEACHING OPPORTUNITIES</span> & <span className=" text-aiesec-orange">MEMBERSHIP EXPERIENCES</span>.</span></div>
+                <div className=" animate-marquee whitespace-nowrap"><span className=" md:text-8xl text-6xl text-aiesec-mid-grey font-bold"><span className=" text-global-volunteer">VOLUNTEERING EXPERIENCES</span> & <span className=" text-aiesec-orange">PROFESSIONAL INTERNSHIPS</span> & <span className=" text-global-volunteer">TEACHING OPPORTUNITIES</span> & <span className=" text-aiesec-orange">MEMBERSHIP EXPERIENCES</span>.</span></div>
             </div>
         </section>
     )

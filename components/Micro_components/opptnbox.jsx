@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 const OpptnBox = (props) => {
   return (
@@ -10,7 +11,10 @@ const OpptnBox = (props) => {
         <div className=" flex justify-center mt-10"><Image src={props.fnimage} width={200}/></div>
         <p className=" text-white px-5 text-center mt-8">{props.details}</p>
         <div className=" flex justify-center">
-            <button className=" border-2 border-white px-10 py-1 text-white rounded-full mt-4">Learn More</button>
+        <Link href={{pathname: props.url}}>
+          <button className=" border-2 border-white px-10 py-1 text-white rounded-full mt-4">Learn More</button>
+        </Link>
+        
         </div>
       </div>
       
