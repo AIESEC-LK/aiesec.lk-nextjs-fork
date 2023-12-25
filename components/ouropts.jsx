@@ -19,6 +19,7 @@ const Opportunities = () => {
               image={image1}
               fnimage={gv}
               details="Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."
+              url={`products/global-volunteer`}
             />
           </div>
           <div>
@@ -26,6 +27,7 @@ const Opportunities = () => {
               image={image2}
               fnimage={gt}
               details="Global Talent is an internship experience for young people aiming towards professional career development in a global setting."
+              url={`products/global-talent`}
             />
           </div>
           <div className=" sm:col-span-2 lg:col-span-1 md:flex md:justify-center col-span-1">
@@ -33,6 +35,7 @@ const Opportunities = () => {
               image={image3}
               fnimage={gte}
               details="Global Teacher is a global teaching internship opportunity for young people who seek to develop themselves and their career by engaging with a professional teaching experience."
+              url={`products/global-teacher`}
             />
           </div>
         </div>
