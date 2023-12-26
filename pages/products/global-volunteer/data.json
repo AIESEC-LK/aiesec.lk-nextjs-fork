@@ -1,10 +1,69 @@
 [
     {
         "name": "Global Volunteer",
-        "description": "Global Volunteer is a non-profit organization that provides volunteer opportunities for individuals of all ages and backgrounds. We offer volunteer programs in 20 countries, working on projects including conservation, teaching, childcare, community development, and more.",
+        "description": "Global Volunteer is a non-profit organization that provides volunteer opportunities for individuals of all ages and backgrounds. We offer volunteer programs in 20 countries, working on projects including conservation, teaching, childcare, community development, and more."
     },
     {
         "testimonial1": "",
         "testimonial2": ""
+    },
+    {
+        "ourprojects":[
+            {
+                "id":1,
+                "title": "Project Heartbeat",
+                "path": "/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":2,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":3,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":4,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":5,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":6,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":7,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":1,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":1,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":1,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":1,
+                "title": "Project Heartbeat",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            }
+        ]
     }
 ]
