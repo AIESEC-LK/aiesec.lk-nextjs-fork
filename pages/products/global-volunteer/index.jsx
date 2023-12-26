@@ -12,21 +12,20 @@ function Volunteer() {
     <>
       <HtmlHead title={"Global Volunteer - AIESEC in Sri Lanka"} description={"Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."}/>
       <Nav/>
-      <Layout textColor="global-volunteer">
+      <Layout bgColor="global-volunteer" textColor="white">
       {/* Use bgColor everywhere you need global volunteer colour */}
       
-      {/* <HomeVideo/>
-      <Counter/> */}
+      <HomeVideo/>
+      {/*<Counter/> */}
       <br />
       <br />
-      <br />
-      <br />
-      <h1>Description</h1>
       <VideoTestimonials/>
-      <h1>This is Page 1</h1>
+      </Layout>
+      <Layout textColor="global-volunteer">
       <Projectsigv/>
+      </Layout>
 
-    </Layout>
+    
 
 
 
