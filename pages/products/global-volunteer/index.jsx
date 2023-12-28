@@ -6,6 +6,8 @@ import Counter from "@components/CounterSection";
 import VideoTestimonials from '@components/products/VideoTestimonials';
 import Layout from '@components/products/Layout';
 import Projectsigv from '@components/products/projects';
+import Whyvolunteer from '@components/products/whyvolunteer';
+import IgvSignupbanner from '@components/products/signupbanner';
 
 function Volunteer() {
   return (
@@ -22,6 +24,8 @@ function Volunteer() {
       <h1>Description</h1>
       <VideoTestimonials/>
       <Projectsigv/>
+      <Whyvolunteer/><br/>
+      <IgvSignupbanner/><br/>
       <br/>
       <br/>
       <h1>This is Page 1</h1>
