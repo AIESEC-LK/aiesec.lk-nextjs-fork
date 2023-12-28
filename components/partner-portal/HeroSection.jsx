@@ -37,6 +37,8 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black opacity-25"></div>
     </div>
 
+    
+
   )
 }
 
