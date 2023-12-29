@@ -1,4 +1,4 @@
-// Layout.jsx used to make the structure of the page to change colours
+// Layout.js
 import React from 'react';
 
 const Layout = ({ children, textColor, bgColor }) => {
