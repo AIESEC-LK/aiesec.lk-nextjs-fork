@@ -6,3 +6,12 @@
     background-color: #f5f5f5;
     padding: 50px 0;
 }
+
+.signup-banner{
+    background-image: url('/assets/images/products/igv/Rectangle_3844.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 22%;
+    width: 100vw;
+    height: 0;
+  }

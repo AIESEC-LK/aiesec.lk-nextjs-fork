@@ -4,8 +4,10 @@ import Image from "next/image";
 
 function Projectsigv() {
   return (
-    <div className="text-center">
-      <h2 className="text-3xl font-bold pt-14 pb-14">Our Projects</h2>
+
+    <div className="text-center bg-white">
+      <h2 className="text-global-volunteer text-3xl font-bold pb-14">Our Projects</h2>
+
       <div id="projectsmapping" className="container mx-auto">
         {Projects &&
           Projects.map((record) => (

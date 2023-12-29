@@ -65,5 +65,67 @@
                 "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
             }
         ]
+    },
+    {
+        "whyvolunteer":[
+            {
+                "index":1,
+                "leftimage":[
+                    {
+                        "path":"/assets/images/products/igv/Rectangle_3861.png",
+                        "tick":"/assets/images/products/igv/checked.png"
+                    }
+                ]
+            },
+            {
+                "index":2,
+                "points":[
+                    {
+                        "id":1,
+                        "content":"Affordable cost"
+                    },
+                    {
+                        "id":2,
+                        "content":"Internationally recognized certificate from AIESEC"
+                    },
+                    {
+                        "id":3,
+                        "content":"Lead an international team"
+                    },
+                    {
+                        "id":4,
+                        "content":"Accommodation and food (Provided and covered in most countries)"
+                    },
+                    {
+                        "id":5,
+                        "content":"A local volunteer to support you with application process and outgoing preparation"
+                    },
+                    {
+                        "id":6,
+                        "content":"A local volunteer in the host country to help you with project preparation"
+                    },
+                    {
+                        "id":7,
+                        "content":"Access to leadership development assessment tools"
+                    },
+                    {
+                        "id":8,
+                        "content":"Online and offline support and program guide"
+                    },
+                    {
+                        "id":9,
+                        "content":"Support with VISA documents and insurance"
+                    },
+                    {
+                        "id":10,
+                        "content":"Outgoing preparation sessions before the program"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "signupbanneriamge":"/assets/images/products/igv/Rectangle_3844.png",
+        "content":"Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."
     }
 ]
