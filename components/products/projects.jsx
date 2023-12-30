@@ -8,6 +8,7 @@ function Projectsigv() {
     <div className="text-center bg-white">
       <h2 className="text-global-volunteer text-3xl font-bold pb-14">Our Projects</h2>
       <div id="projectsmapping" className=" mx-auto">
+
         {Projects &&
           Projects.map((record) => (
             <div key={record.name} className="flex flex-wrap justify-center sm:m-auto">
