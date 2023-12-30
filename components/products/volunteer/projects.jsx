@@ -6,7 +6,7 @@ function Projectsigv() {
   return (
 
     <div className="text-center bg-white">
-      <h2 className="text-global-volunteer text-3xl font-bold pb-14">Our Projects</h2>
+      <h2 className="text-global-volunteer text-3xl font-bold pb-14 p-8">Our Projects</h2>
       <div id="projectsmapping" className=" mx-auto">
 
         {Projects &&
