@@ -6,7 +6,7 @@ import Counter from "@components/CounterSection";
 import VideoTestimonials from "@components/products/volunteer/VideoTestimonials";
 import Layout from "@components/products/Layout";
 import Projects from "@components/products/volunteer/projects";
-import ProjectDestinations from "@components/products/projects2";
+import ProjectDestinations from "@components/products/volunteer/projects2";
 import Whyvolunteer from "@components/products/volunteer/whyvolunteer";
 import Signupbanner from "@components/products/volunteer/signupbanner";
 
