@@ -14,13 +14,13 @@ function Projectsigv2() {
                   record.ourdestination.map((data) => (
                     <div key={data.id} className="flex flex-col items-center m-2 mx-3 pb-5 w-full"> {/* Adjusted margin and padding here */}
                       {data.path && (
-                        <div className="rounded-md overflow-hidden max-w-full max-h-24">
-                          <Image src={data.path} alt="aiesec-logo" width={150} height={150} />
+                        <div className="rounded-md overflow-hidden max-w-full max-h-40 ">
+                          <Image src={data.path} alt="aiesec-logo" width={300} height={350} />
                         </div>
                       )}
                       <br />
-                      <h3 className="text-center text-md text-sm">{data.countryname}</h3>
-                      <h3 className="text-center text-md text-sm">{data.projecttype}</h3>
+                      <h3 className=" text-md text-sm font-bold">{data.countryname}</h3>
+                      <h3 className="text-md text-sm">{data.projecttype}</h3>
                       {/* You can include other project details here */}
                     </div>
                   ))}
