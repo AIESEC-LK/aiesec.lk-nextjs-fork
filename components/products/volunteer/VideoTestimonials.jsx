@@ -1,7 +1,8 @@
 import React from 'react'
-import Video from "@components/products/testivideo";
+import Video from "@components/products/volunteer/testivideo";
 
 function VideoTestimonials() {
+
   return (
     <div className=' pt-10'>
       <h2 className=" text-center text-3xl font-semibold pb-8 px-3 text-global-volunteer">
