@@ -3,17 +3,16 @@ import HtmlHead from "@components/partner-portal/HtmlHead";
 import Nav from "@components/Nav";
 import HomeVideo from "@components/homevideo";
 import Counter from "@components/CounterSection";
-import VideoTestimonials from '@components/products/VideoTestimonials';
-import Layout from '@components/products/Layout';
-import Projectsigv from '@components/products/projects';
-import Projectsigv2 from '@components/products/projects2';
-import Whyvolunteer from '@components/products/whyvolunteer';
-import IgvSignupbanner from '@components/products/signupbanner';
-import TheProcess from '@components/products/theprocess';
+import VideoTestimonials from "@components/products/volunteer/VideoTestimonials";
+import Layout from "@components/products/Layout";
+import Projects from "@components/products/volunteer/projects";
+import ProjectDestinations from "@components/products/projects2";
+import Whyvolunteer from "@components/products/volunteer/whyvolunteer";
+import Signupbanner from "@components/products/volunteer/signupbanner";
+
 // import { Footer } from 'flowbite-react';
 import Footer from "@components/Footer";
-
-
+import ContactFrom from "@components/form";
 
 function Volunteer() {
   return (
@@ -25,48 +24,20 @@ function Volunteer() {
         }
       />
       <Nav />
-      <div bgColor="global-volunteer" textColor="white">
-        {/* Use bgColor everywhere you need global volunteer colour */}
-
-        <HomeVideo />
-        {/*<Counter/> */}
-        <br />
-        <br />
-        <VideoTestimonials />
-        <h1>kkkbk</h1>
-      </div>
-
-      <Projectsigv />
-
+      <HomeVideo />
+      {/* Counter */}
+      {/* Signup space   */}
+      {/* why sighup space */}
+      <VideoTestimonials />
+      <Projects />
+      <ProjectDestinations />
       <Whyvolunteer />
-      <br />
-      <IgvSignupbanner />
-      <br />
-      <VideoTestimonials/>
-      </Layout>
-      <Layout textColor="global-volunteer">
-      <Projectsigv/>
-      <Projectsigv2/>
-      <TheProcess/>
-      <aboutaiesec/>
-
-      <Whyvolunteer/><br/>
-      <IgvSignupbanner/><br/>
-      <br/>
-      <br/>
-      <h1>This is Page 1</h1>
-      {/* <ProcessLayout/> */}
-      {/* <DestinationsLayout/> */}
-    </Layout>
-
-
-
-  
-
-      <br />
-      <br />
+      {/* the process */}
+      {/* testimonial */}
+      <Signupbanner />
+      {/* FaQ */}
+      <ContactFrom />
       <Footer />
-
     </>
   );
 }
