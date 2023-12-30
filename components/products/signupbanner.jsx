@@ -6,8 +6,8 @@ import "@styles/products.css";
 function IgvSignupbanner() {
   return (
     <div className=" mt-10 overflow-hidden bg-white">
-      <div className="w-screen overflow-hidden signup-banner rounded-[40px] relative">
-      <div className="absolute inset-0 bg-aiesec-orange-dark opacity-50 rounded-[40px]"></div>
+      <div className="w-screen signup-banner sm:rounded-[40px] rounded-2xl relative">
+      <div className="absolute inset-0 bg-aiesec-orange-dark opacity-50 sm:rounded-[40px] rounded-2xl"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <span className="text-center mx-8">Global Volunteer is a cross-cultural experience for youth (age 18 - 30) who want to gain personal development and leave an impact on the world.</span>
           <br/>
