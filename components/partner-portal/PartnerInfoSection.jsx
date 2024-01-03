@@ -43,7 +43,7 @@ const PartnerInfoSection = ({partnerData}) => {
             
           </div>
           <div className="px-6">
-          <p className=" text-justify font-body p-2 pb-6">{partnerData?.about.para2}</p>
+          <p className=" text-justify font-body pb-6">{partnerData?.about.para3}</p>
               <Link href="#opportunities" className="mt-2 flex justify-center">
                 <Button className=" text-white bg-aiesec-blue px-8 font-bold rounded-3xl">Explore Our
                   Opportunities
