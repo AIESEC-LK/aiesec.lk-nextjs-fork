@@ -13,6 +13,7 @@ import Signupbanner from "@components/products/volunteer/signupbanner";
 // import { Footer } from 'flowbite-react';
 import Footer from "@components/Footer";
 import ContactFrom from "@components/form";
+import Intro from "@components/products/volunteer/Intro";
 
 function Volunteer() {
   return (
@@ -25,9 +26,8 @@ function Volunteer() {
       />
       <Nav />
       <HomeVideo />
-      {/* Counter */}
-      {/* Signup space   */}
-      {/* why sighup space */}
+      <Counter />
+      <Intro />
       <VideoTestimonials />
       <Projects />
       <ProjectDestinations />
