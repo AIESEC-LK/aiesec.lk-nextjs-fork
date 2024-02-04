@@ -1,10 +1,16 @@
 [
     {
-        "basicdetails": {
+        "basicdetails": [
+            {
             "title": "Global Volunteer",
+            "color": "global-volunteer",
             "path": "/assets/images/products/igv/Rectangle_3844.png",
-            "content": "Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."
-        }
+            "content": "Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world.",
+            "logo": "/assets/images/products/logos/product_GV-horizontal-orange-min.png",
+            "duration": "6-8 weeks",
+            "organization": "NGO and School"
+            }
+        ]
     },
     {
         "testimonial1": "",
