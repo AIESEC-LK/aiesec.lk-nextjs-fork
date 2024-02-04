@@ -1,7 +1,10 @@
 [
     {
-        "name": "Global Volunteer",
-        "description": "Global Volunteer is a non-profit organization that provides volunteer opportunities for individuals of all ages and backgrounds. We offer volunteer programs in 20 countries, working on projects including conservation, teaching, childcare, community development, and more."
+        "basicdetails": {
+            "title": "Global Volunteer",
+            "path": "/assets/images/products/igv/Rectangle_3844.png",
+            "content": "Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."
+        }
     },
     {
         "testimonial1": "",
