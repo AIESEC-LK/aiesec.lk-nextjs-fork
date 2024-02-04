@@ -9,13 +9,23 @@ import Projects from "@components/products/volunteer/projects";
 import ProjectDestinations from "@components/products/volunteer/projects2";
 import Whyvolunteer from "@components/products/volunteer/whyvolunteer";
 import Signupbanner from "@components/products/volunteer/signupbanner";
-
-// import { Footer } from 'flowbite-react';
+import ProjectsData from "@pages/products/global-volunteer/data.json";
 import Footer from "@components/Footer";
 import ContactFrom from "@components/form";
 import Intro from "@components/products/volunteer/Intro";
 
 function Volunteer() {
+  //ProjectData
+  const projectDetails = ProjectsData.map((info) => (
+    info.ourprojects && info.ourprojects.map((project) => (
+      <Projects
+        key={project.id}
+        title={project.title}
+        img={project.path}
+      />
+    ))
+  ));
+
   return (
     <>
       <HtmlHead
@@ -29,13 +39,13 @@ function Volunteer() {
       <Counter />
       <Intro />
       <VideoTestimonials />
-      <Projects />
+      <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">Our Projects</h2>
+      <div className="flex flex-wrap justify-center">
+      {projectDetails}
+      </div>
       <ProjectDestinations />
       <Whyvolunteer />
-      {/* the process */}
-      {/* testimonial */}
       <Signupbanner />
-      {/* FaQ */}
       <ContactFrom />
       <Footer />
     </>

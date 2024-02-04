@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Intro() {
   return (
-    <div className='flex justify-around items-center'>
+    <div className='flex flex-col items-center md:flex-row'>
       <div>
         <Image
           src="/assets/images/products/volunteer/gv-intro-image.png"
@@ -20,7 +20,7 @@ function Intro() {
           height={500}
           alt="Intro Image"
         />
-        <p className="pr-28 pb-3">Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world.</p>
+        <p className="pb-3">Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world.</p>
         <div className="flex">
           <p className="mr-7"><span className="font-bold">Duration:</span> 6 - 8 Weeks</p>
           <p><span className="font-bold">Organization:</span> NGO or School</p>
