@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from "@components/products/volunteer/testivideo";
+import Video from "@components/products/testivideo";
 
 function VideoTestimonials() {
 
