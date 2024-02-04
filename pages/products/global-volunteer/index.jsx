@@ -29,6 +29,22 @@ function Volunteer() {
   useEffect(() => {
     if (isLoading) return;
   }, [isLoading]);
+
+  //Product Intro Data
+  const introData = GVData.map((data) => (
+    data.basicdetails && data.basicdetails.map((pdata) => (
+      <Intro
+        key={pdata.id}
+        title={pdata.title}
+        color={pdata.color}
+        logo={pdata.logo}
+        description={pdata.content}
+        duration={pdata.duration}
+        organization={pdata.organization}
+      />
+    ))
+  ));
+
   //ProjectData
   const projectDetails = GVData.map((info) => (
     info.ourprojects && info.ourprojects.map((project) => (
@@ -36,6 +52,18 @@ function Volunteer() {
         key={project.id}
         title={project.title}
         img={project.path}
+      />
+    ))
+  ));
+
+  //DestinationData
+  const destinationDetails = GVData.map((info) => (
+    info.ourdestination && info.ourdestination.map((destination) => (
+      <ProjectDestinations
+        key={destination.id}
+        countryname={destination.countryname}
+        projecttype={destination.projecttype}
+        path={destination.path}
       />
     ))
   ));
@@ -55,13 +83,16 @@ function Volunteer() {
         <Nav />
       <HomeVideo />
       <Counter />
-      <Intro />
+      {introData}
       <VideoTestimonials />
       <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">Our Projects</h2>
       <div className="flex flex-wrap justify-center">
       {projectDetails}
       </div>
-      <ProjectDestinations />
+      <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">Our Destinations</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {destinationDetails}
+      </div>
       <Whyvolunteer />
       <Process />
       <Signupbanner />
