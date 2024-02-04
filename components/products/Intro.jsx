@@ -4,6 +4,7 @@ import Image from "next/image";
 function Intro() {
   return (
     <div className="pb-10">
+      {/* Nicely Responsive */}
       <div className='flex flex-col items-center md:flex-row'>
       <div>
         <Image
@@ -28,13 +29,14 @@ function Intro() {
         </div>
         <div>
           <button className="bg-global-volunteer text-white px-6 py-2 rounded-md mt-4 mr-6">Sign Up</button>
-          <button className="border-2 border-global-volunteer border-global-volunteer text-global-volunteer px-6 py-2 rounded-md mt-4">Learn More</button>
+          <button className="border-2 border-global-volunteer text-global-volunteer px-6 py-2 rounded-md mt-4">Learn More</button>
 
         </div>
       </div>
     </div>
-    <div className="flex flex-wrap justify-around">
-    <div>
+    
+    <div className="flex flex-col justify-around items-center md:flex-row">
+    <div className="m-5">
         <Image
           src="/assets/images/products/volunteer/Cross culture.png"
           width={100}
@@ -43,7 +45,7 @@ function Intro() {
         />
         <p>Cross Cultural Experience</p>
       </div>
-      <div>
+      <div className="m-5">
         <Image
           src="/assets/images/products/volunteer/SDGs.png"
           width={100}
@@ -52,7 +54,7 @@ function Intro() {
         />
         <p>Contribution Towards the SDGs</p>
       </div>
-      <div>
+      <div className="m-5">
         <Image
           src="/assets/images/products/volunteer/Personal growth.png"
           width={100}
