@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Intro() {
   return (
-    <div>
+    <div className="pb-10">
       <div className='flex flex-col items-center md:flex-row'>
       <div>
         <Image
@@ -13,7 +13,7 @@ function Intro() {
           alt="Intro Image"
         />
       </div>
-      <div className="p-14">
+      <div className="p-10">
         <h1 className="text-global-volunteer text-4xl font-bold pb-4">What is Global Volunteer?</h1>
         <Image className="pb-3"
           src="/assets/images/products/logos/product_GV-horizontal-orange-min.png"
@@ -33,7 +33,35 @@ function Intro() {
         </div>
       </div>
     </div>
-    
+    <div className="flex flex-wrap justify-around">
+    <div>
+        <Image
+          src="/assets/images/products/volunteer/Cross culture.png"
+          width={100}
+          height={100}
+          alt="Cross culture"
+        />
+        <p>Cross Cultural Experience</p>
+      </div>
+      <div>
+        <Image
+          src="/assets/images/products/volunteer/SDGs.png"
+          width={100}
+          height={100}
+          alt="SDGs"
+        />
+        <p>Contribution Towards the SDGs</p>
+      </div>
+      <div>
+        <Image
+          src="/assets/images/products/volunteer/Personal growth.png"
+          width={100}
+          height={100}
+          alt="Personal Development"
+        />
+        <p>Personal Development</p>
+      </div>
+    </div>
     </div>
   );
 }
