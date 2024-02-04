@@ -15,11 +15,14 @@ import ContactFrom from "@components/form";
 import Intro from "@components/products/volunteer/Intro";
 import SplashScreen from "@components/SplashScreen";
 
+
 import {usePathname} from "next/navigation";
 import {useEffect, useState} from "react";
+import Advantages from "@components/products/volunteer/Advantages";
 
 function Volunteer() {
   const pathname = usePathname();
+  //change the path here
   const isHome = pathname === "/products/global-volunteer";
   const [isLoading, setIsLoading] = useState(isHome);
 
@@ -53,8 +56,9 @@ function Volunteer() {
       <HomeVideo />
       <Counter />
       <Intro />
+      <Advantages />
       <VideoTestimonials />
-      <h2 className="text-global-volunteer flexjustify-center text-3xl font-bold pb-14 p-8">Our Projects</h2>
+      <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">Our Projects</h2>
       <div className="flex flex-wrap justify-center">
       {projectDetails}
       </div>
