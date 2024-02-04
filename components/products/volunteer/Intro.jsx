@@ -3,7 +3,8 @@ import Image from "next/image";
 
 function Intro() {
   return (
-    <div className='flex flex-col items-center md:flex-row'>
+    <div>
+      <div className='flex flex-col items-center md:flex-row'>
       <div>
         <Image
           src="/assets/images/products/volunteer/gv-intro-image.png"
@@ -31,6 +32,8 @@ function Intro() {
 
         </div>
       </div>
+    </div>
+    
     </div>
   );
 }
