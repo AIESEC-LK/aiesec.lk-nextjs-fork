@@ -8,9 +8,7 @@ function VideoTestimonials() {
       <h2 className=" text-center text-3xl font-semibold pb-4 px-3 text-white">
         What they’re talking about Volunteering with AIESEC
       </h2>
-      <div className='flex-row lg:flex justify-evenly p-9'>
-      <Video/>
-      <br />
+      <div>
       <Video/>
       </div>
     </div>
