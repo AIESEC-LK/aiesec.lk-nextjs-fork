@@ -13,8 +13,16 @@
         ]
     },
     {
-        "testimonial1": "",
-        "testimonial2": ""
+        "testimonials":[
+            {
+                "id":1,
+                "video": "Jo9qj8r8SE8"
+            },
+            {
+                "id":2,
+                "video": "kWI9awY7iEo"
+            }
+        ]
     },
     
     {

@@ -1,6 +1,8 @@
+// Global Volunteer
 import React from "react";
 import {usePathname} from "next/navigation";
 import {useEffect, useState} from "react";
+import GVData from "@pages/products/global-volunteer/data.json";
 
 import HtmlHead from "@components/partner-portal/HtmlHead";
 import Nav from "@components/Nav";
@@ -11,7 +13,6 @@ import Projects from "@components/products/projects";
 import ProjectDestinations from "@components/products/projects2";
 import Whyvolunteer from "@components/products/whyvolunteer";
 import Signupbanner from "@components/products/signupbanner";
-import GVData from "@pages/products/global-volunteer/data.json";
 import Footer from "@components/Footer";
 import ContactFrom from "@components/form";
 import Intro from "@components/products/Intro";
