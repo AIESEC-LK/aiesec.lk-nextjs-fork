@@ -95,7 +95,19 @@ function Volunteer() {
       <br />
       <Whyvolunteer />
       <Process />
-      <Signupbanner />
+      <div>
+      {
+          GVData.map((info) => (
+            info.signupbanner && info.signupbanner.map((banner) => (
+              <Signupbanner
+                key={banner.id}
+                content={banner.content}
+                img={banner.path}
+                
+              />
+            ))
+          ))}
+      </div>
       <ContactFrom />
       <Footer />
       </div>

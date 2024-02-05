@@ -16,6 +16,7 @@
         "testimonial1": "",
         "testimonial2": ""
     },
+    
     {
         "ourprojects":[
             {
@@ -135,8 +136,13 @@
         ]
     },
     {
-        "signupbanneriamge":"/assets/images/products/igv/Rectangle_3844.png",
-        "content":"Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."
+        "signupbanner":[
+            {
+                "id":1,
+                "path":"/assets/images/products/igv/Rectangle_3844.png",
+                "content":"Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."
+            }
+        ]
     },
     {   
         "ourdestination":[
