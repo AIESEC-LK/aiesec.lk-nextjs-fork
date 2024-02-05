@@ -7,7 +7,7 @@ function Process() {
         Process
       </h2>
       <div className="flex flex-col justify-around md:flex-row">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mb-20">
           <Image
             src="/assets/images/products/volunteer/Signup.png"
             width={100}
@@ -19,9 +19,9 @@ function Process() {
             Sign up to create your account and access our opportunities. It's
             free!
           </p>
-          <br />
+          
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mb-20">
           <Image
             src="/assets/images/products/volunteer/Apply.png"
             width={100}
@@ -32,9 +32,9 @@ function Process() {
           <p className="w-2/3 text-center">
             Fill out your profile and apply for opportunities.
           </p>
-          <br />
+          
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mb-20">
           <Image
             src="/assets/images/products/volunteer/Selection.png"
             width={100}
@@ -46,8 +46,8 @@ function Process() {
             You will be contacted for an interview by the company
           </p>
         </div>
-        <br />
-        <div className="flex flex-col items-center justify-center">
+        
+        <div className="flex flex-col items-center justify-center mb-20">
           <Image
             src="/assets/images/products/volunteer/Approved.png"
             width={100}
@@ -60,8 +60,8 @@ function Process() {
             registration fee to get approved..
           </p>
         </div>
-        <br />
-        <div className="flex flex-col items-center justify-center">
+        
+        <div className="flex flex-col items-center justify-center mb-20">
           <Image
             src="/assets/images/products/volunteer/Lets go.png"
             width={100}

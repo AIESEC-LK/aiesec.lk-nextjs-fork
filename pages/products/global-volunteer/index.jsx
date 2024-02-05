@@ -59,6 +59,7 @@ function Volunteer() {
                 description={pdata.content}
                 duration={pdata.duration}
                 organization={pdata.organization}
+                url={pdata.url}
               />
             ))
           ))}
@@ -106,6 +107,7 @@ function Volunteer() {
                 key={banner.id}
                 content={banner.content}
                 img={banner.path}
+                url={banner.url}
                 
               />
             ))
