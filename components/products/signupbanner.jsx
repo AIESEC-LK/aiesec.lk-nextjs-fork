@@ -12,7 +12,7 @@ function IgvSignupbanner(props) {
           <span className="text-center mx-8">{props.content}</span>
           <br/>
           <span className=" flex-col">
-            <button className=" bg-aiesec-orange-dark px-10 py-1 rounded-3xl">Sign Up</button>
+            <a href={props.url} target="_blank"><button className=" bg-aiesec-orange-dark px-10 py-1 rounded-3xl">Sign Up</button></a>
           </span>
         </div>
       </div>

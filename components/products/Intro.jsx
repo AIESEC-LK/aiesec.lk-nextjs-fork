@@ -28,8 +28,8 @@ function Intro(props) {
           <p><span className="font-bold">Organization:</span> {props.organization}</p>
         </div>
         <div>
-          <button className={`bg-${props.color} text-white px-6 py-2 rounded-md mt-4 mr-6`}>Sign Up</button>
-          <button className={`border-2 border-${props.color} text-${props.color} px-6 py-2 rounded-md mt-4`}>Learn More</button>
+          <a href={props.url} target="_blank"><button className={`bg-${props.color} text-white px-6 py-2 rounded-md mt-4 mr-6`}>Sign Up</button></a>
+          <a href={props.url} target="_blank"><button className={`border-2 border-${props.color} text-${props.color} px-6 py-2 rounded-md mt-4`}>Learn More</button></a>
 
         </div>
       </div>
