@@ -17,6 +17,7 @@ import ContactFrom from "@components/form";
 import Intro from "@components/products/Intro";
 import SplashScreen from "@components/SplashScreen";
 import Process from "@components/products/Process";
+import FnQ from "@components/FnQ";
 
 function Volunteer() {
   const pathname = usePathname();
@@ -77,7 +78,7 @@ function Volunteer() {
           ))}
         
       </div>
-
+      {/* Our Destinations */}
       <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">Our Destinations</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {
@@ -95,6 +96,7 @@ function Volunteer() {
       <br />
       <Whyvolunteer />
       <Process />
+      {/* Sign Up Banner */}
       <div>
       {
           GVData.map((info) => (
@@ -108,6 +110,7 @@ function Volunteer() {
             ))
           ))}
       </div>
+      <FnQ/>
       <ContactFrom />
       <Footer />
       </div>
