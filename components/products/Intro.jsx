@@ -36,32 +36,32 @@ function Intro(props) {
     </div>
     
     <div className="flex flex-col justify-around items-center md:flex-row">
-    <div className="m-5">
+    <div className="m-5 flex flex-col items-center justify-center">
         <Image
           src="/assets/images/products/volunteer/Cross culture.png"
           width={100}
           height={100}
           alt="Cross culture"
         />
-        <p>Cross Cultural Experience</p>
+        <p className="mt-3">Cross Cultural Experience</p>
       </div>
-      <div className="m-5">
+      <div className="m-5 flex flex-col items-center justify-center">
         <Image
           src="/assets/images/products/volunteer/SDGs.png"
           width={100}
           height={100}
           alt="SDGs"
         />
-        <p>Contribution Towards the SDGs</p>
+        <p className="mt-3">Contribution Towards the SDGs</p>
       </div>
-      <div className="m-5">
+      <div className="m-5 flex flex-col items-center justify-center">
         <Image
           src="/assets/images/products/volunteer/Personal growth.png"
           width={100}
           height={100}
           alt="Personal Development"
         />
-        <p>Personal Development</p>
+        <p className="mt-3">Personal Development</p>
       </div>
     </div>
     </div>
