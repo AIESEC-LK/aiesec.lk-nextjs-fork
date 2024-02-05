@@ -3,9 +3,6 @@ import Image from "next/image";
 function Process() {
   return (
     <div>
-      <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">
-        Process
-      </h2>
       <div className="flex flex-col justify-around md:flex-row">
         <div className="flex flex-col items-center justify-center mb-20">
           <Image

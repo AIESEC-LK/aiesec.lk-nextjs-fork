@@ -21,6 +21,7 @@ import Process from "@components/products/Process";
 import FnQ from "@components/FnQ";
 
 function Volunteer() {
+  const volunteerColor = 'global-volunteer';
   const pathname = usePathname();
   //change the path here
   const isHome = pathname === "/products/global-volunteer";
@@ -64,9 +65,17 @@ function Volunteer() {
             ))
           ))}
       </div>
-      <VideoTestimonials />
+      {
+          GVData.map((data) => (
+            data.basicdetails && data.basicdetails.map((pdata) => (
+              <VideoTestimonials
+                key={pdata.id}
+                color={pdata.color}
+              />
+            ))
+          ))}
       {/* Our Projects */}
-      <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">Our Projects</h2>
+      <h2 className={`text-${volunteerColor} flex justify-center text-3xl font-bold pb-14 p-8`}>Our Projects</h2>
       <div className="flex flex-wrap justify-center">
         {
           GVData.map((info) => (
@@ -81,7 +90,7 @@ function Volunteer() {
         
       </div>
       {/* Our Destinations */}
-      <h2 className="text-global-volunteer flex justify-center text-3xl font-bold pb-14 p-8">Our Destinations</h2>
+      <h2 className={`text-${volunteerColor} flex justify-center text-3xl font-bold pb-14 p-8`}>Our Destinations</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {
           GVData.map((info) => (
@@ -97,6 +106,7 @@ function Volunteer() {
       </div>
       <br />
       <Whyvolunteer />
+      <h2 className={`text-${volunteerColor} flex justify-center text-3xl font-bold pb-14 p-8`}>Process</h2>
       <Process />
       {/* Sign Up Banner */}
       <div>
