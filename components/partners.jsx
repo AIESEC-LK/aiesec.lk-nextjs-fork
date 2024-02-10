@@ -30,11 +30,12 @@ const Partners = () => {
         {url: img1, width: 70, name: "EFL Global Sri Lanka"},
         {url: img2, width: 200, name: "DIMO"},
         {url: img3, width: 80, name: "Innovate"},
+        {url: emerald, width: 80, name: "Emerald"},
   ];
 
   const iconset2 = [
         {url: img4, width: 100, name: "Unilever"},
-        {url: emerald, name: "Emerald"},
+
   ];
 
   const iconset3 = [
@@ -84,7 +85,7 @@ const Partners = () => {
         </div>
         <div className="mx-auto md:w-1/2">
           <h2 className=" text-center text-3xl text-aiesec-blue font-semibold mb-5 mt-10">
-            National Talent Partners
+            National Talent Partner
           </h2>
           <div className=" flex justify-center space-x-8 mt-5">
           {iconset2.map((icon, index) => (
