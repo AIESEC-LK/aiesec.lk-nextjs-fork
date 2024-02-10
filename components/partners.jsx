@@ -131,8 +131,8 @@ const Partners = () => {
         </div>
       </div>
       <div className="text-center pt-7">
-      <Link href="/partner-portal" >
-      <button className=" text-white bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">Be A Partner</button>
+      <Link href="https://docs.google.com/presentation/d/e/2PACX-1vTjo_b7Zoq6nioUmy86OQ69YuQnsv_PKMsUYR8l1cets-jIKR0SatPo5wyG3azhNvsaYIyF6r_2PI4X/pub?start=false&loop=false&delayms=3000" target="_blank" >
+      <button className=" text-white bg-aiesec-blue px-10 py-1 font-semibold rounded-3xl ">Partner with AIESEC</button>
       </Link>
       <br /><br />
       <Link href="/partner-portal">
