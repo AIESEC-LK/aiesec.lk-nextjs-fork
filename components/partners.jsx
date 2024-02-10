@@ -5,6 +5,7 @@ import img1 from "@public/assets/images/partners/national/EFL Global Sri Lanka -
 import img2 from "@public/assets/images/partners/national/DIMO - National Partner_page-0001-min.jpg";
 import img3 from "@public/assets/images/partners/national/Innovate - National Partner-min.png";
 import img4 from "@public/assets/images/partners/national/unilever/croped-unilever-logo.png";
+import emerald from "@public/assets/images/partners/national/emerald (2).png";
 import img5 from "@public/assets/images/partners/global/3mywAr3TX9X99bbv5pyqYCp6-min.png";
 import img6 from "@public/assets/images/partners/global/1489406725-min.png";
 import img7 from "@public/assets/images/partners/global/1489438110-min.png";
@@ -32,7 +33,8 @@ const Partners = () => {
   ];
 
   const iconset2 = [
-        {url: img4, width: 400, name: "Unilever"},
+        {url: img4, width: 100, name: "Unilever"},
+        {url: emerald, name: "Emerald"},
   ];
 
   const iconset3 = [
