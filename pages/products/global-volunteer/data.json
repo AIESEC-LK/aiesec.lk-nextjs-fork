@@ -10,9 +10,12 @@
             "duration": "6-8 weeks",
             "organization": "NGO and School",
             "url":"https://www.aiesec.lk/global-volunteer/#disclaimer"
+            
             }
         ]
     },
+    
+    
     {
         "testimonials":[
             {
@@ -243,6 +246,25 @@
                 "projecttype": "Volunteer and Intern",
                 "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
             }
+        ]
+    },
+    {
+        "whyproducts": [
+            {
+            "id":1,
+            "title": "Cross Cultural Experience",
+            "image": "/assets/images/products/volunteer/Cross culture.png"
+        },
+        {
+            "id":2,
+            "title": "Contribution Towards the SDGs",
+            "image": "/assets/images/products/volunteer/SDGs.png"
+        },
+        {
+            "id":3,
+            "title": "Personal Development",
+            "image": "/assets/images/products/volunteer/Personal growth.png"
+        }
         ]
     }
 ]
