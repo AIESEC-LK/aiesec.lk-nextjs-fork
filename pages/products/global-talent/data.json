@@ -118,7 +118,8 @@
                 "id":1,
                 "path":"/assets/images/products/talent/TalentBanner.png",
                 "content":"Global Talent is an internship experience for young people aiming towards professional career development in a global setting.",
-                "url":"https://www.aiesec.lk/global-talent/"
+                "url":"https://www.aiesec.lk/global-talent/",
+                "color":"global-talent"
             }
         ]
     },

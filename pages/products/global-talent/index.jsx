@@ -150,6 +150,7 @@ function Volunteer() {
                 content={banner.content}
                 img={banner.path}
                 url={banner.url}
+                color={banner.color}
                 
               />
             ))
