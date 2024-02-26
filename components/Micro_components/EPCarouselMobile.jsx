@@ -56,7 +56,7 @@ const CarouselMobile = () =>{
                             <div className="relative">
                                 <div className=" relative z-0 float-right -mb-20 mt-5 sm:mb-10"><Image src={slide.img1} width={250} h={400}/></div>
                                 <div className=" relative float-left w-64 pt-4 pb-10 px-4 py-2 z-10 bg-white rounded-2xl shadow-aiesec-mid-grey shadow-2xl -top-[180px] md:-top-[-30px] -right-10 sm:right-0 sm:-bottom-10">
-                                    <h2 className=" text-aiesec-light-blue font-semibold text-center">{slide.title1}</h2><br></br>
+                                    <h2 className=" text-global-talent font-semibold text-center">{slide.title1}</h2><br></br>
                                     <p className=" text-center w-full">{slide.content1}</p>
                                 </div>
                             </div>

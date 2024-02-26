@@ -53,8 +53,6 @@ function Intro(props) {
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 }

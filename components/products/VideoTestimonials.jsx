@@ -4,7 +4,7 @@ import Video from "@components/products/testivideo";
 function VideoTestimonials(props) {
 
   return (
-    <div className={`pt-10 pb-5 bg-${props.color}`}>
+    <div className={`pt-10 pb-5`}>
       <h2 className=" text-center text-3xl font-semibold pb-4 px-3 text-white">
         What they’re talking about Volunteering with AIESEC
       </h2>

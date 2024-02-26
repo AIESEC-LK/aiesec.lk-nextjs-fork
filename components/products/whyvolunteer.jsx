@@ -11,7 +11,7 @@ function Whyvolunteer(){
                 <Image src={Data[3].whyvolunteer[0].leftimage[0].path} alt="leftimage" width="800" height="800"/>
             </div>
             <div className=" sm:w-3/5 py-6">
-                <h2 className=" text-4xl text-global-volunteer font-bold pb-6 sm:text-left text-center">Why Volunteer with AIESEC</h2>
+                <h2 className=" text-4xl text-aiesec-blue font-bold pb-6 sm:text-left text-center">Why Volunteer with AIESEC</h2>
                 <div className=" mx-5">
                     {
                         pointdata && pointdata.map((data)=>(

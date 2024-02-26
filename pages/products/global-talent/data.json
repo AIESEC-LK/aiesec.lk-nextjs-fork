@@ -2,14 +2,14 @@
     {
         "basicdetails": [
             {
-            "title": "Global Volunteer",
-            "color": "global-volunteer",
+            "title": "Global Talent",
+            "color": "global-talent",
             "path": "/assets/images/products/igv/Rectangle_3844.png",
-            "content": "Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world.",
-            "logo": "/assets/images/products/logos/product_GV-horizontal-orange-min.png",
-            "duration": "6-8 weeks",
-            "organization": "NGO and School",
-            "url":"https://www.aiesec.lk/global-volunteer/#disclaimer"
+            "content": "Global Talent is an internship experience for young people aiming towards professional career development in a global setting.",
+            "logo": "/assets/images/products/logos/talent-logo.png",
+            "duration": "6-8 weeks/9-78 Weeks",
+            "organization": "MNCs, SMEs, Start-Ups, NGOs, Incubators, Accelerators and other umbrella organizations",
+            "url":"https://www.aiesec.lk/global-talent/"
             
             }
         ]
@@ -116,9 +116,9 @@
         "signupbanner":[
             {
                 "id":1,
-                "path":"/assets/images/products/igv/Rectangle_3844.png",
-                "content":"Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world.",
-                "url":"https://www.aiesec.lk/global-volunteer/#disclaimer"
+                "path":"/assets/images/products/talent/TalentBanner.png",
+                "content":"Global Talent is an internship experience for young people aiming towards professional career development in a global setting.",
+                "url":"https://www.aiesec.lk/global-talent/"
             }
         ]
     },
@@ -165,51 +165,6 @@
                 "countryname": "Egypt",
                 "projecttype": "NOUR Project",
                 "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":8,
-                "countryname": "Mexico",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":9,
-                "countryname": "Mexico",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":10,
-                "countryname": "Turkey",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":11,
-                "countryname": "Italy",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":12,
-                "countryname": "India",
-                "projecttype": "Volunteer and Intern",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },          {
-                "id":13,
-                "countryname": "Portugaul",
-                "projecttype": "Volunteer and Intern",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },          {
-                "id":14,
-                "countryname": "Greece",
-                "projecttype": "Volunteer and Intern",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },          {
-                "id":15,
-                "countryname": "Sri Lanka",
-                "projecttype": "Volunteer and Intern",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
             }
         ]
     },
@@ -218,17 +173,17 @@
             {
             "id":1,
             "title": "Cross Cultural Experience",
-            "image": "/assets/images/products/volunteer/Cross culture.png"
+            "image": "/assets/images/products/Talent/Cross-culture.png"
         },
         {
             "id":2,
             "title": "Contribution Towards the SDGs",
-            "image": "/assets/images/products/volunteer/SDGs.png"
+            "image": "/assets/images/products/talent/SDGs.png"
         },
         {
             "id":3,
             "title": "Personal Development",
-            "image": "/assets/images/products/volunteer/Personal growth.png"
+            "image": "/assets/images/products/talent/Personal-growth.png"
         }
         ]
     },
@@ -238,31 +193,31 @@
                 "id": 1,
                 "title": "Sign Up",
                 "description": "Sign up to create your account and access our opportunities. It's free!",
-                "image":"/assets/images/products/volunteer/Signup.png"
+                "image":"/assets/images/products/talent/Signup.png"
             },
             {
                 "id": 2,
                 "title": "Apply",
                 "description": "Fill out your profile and apply for opportunities.",
-                "image":"/assets/images/products/volunteer/Apply.png"
+                "image":"/assets/images/products/talent/Apply.png"
             },
             {
                 "id": 3,
                 "title": "Selection",
                 "description": "You will be contacted for an interview by the compan",
-                "image":"/assets/images/products/volunteer/Selection.png"
+                "image":"/assets/images/products/talent/Selection.png"
             },
             {
                 "id": 4,
                 "title": "Approved",
                 "description": "Once the interview is completed successfully, pay the AIESEC program registration fee to get approved.",
-                "image":"/assets/images/products/volunteer/Approved.png"
+                "image":"/assets/images/products/talent/Approved.png"
             },
             {
                 "id": 5,
                 "title": "Let’s Go",
                 "description": "AIESEC will now support in visa, departure and experience abroad.",
-                "image":"/assets/images/products/volunteer/Lets go.png"
+                "image":"/assets/images/products/talent/Lets-go.png"
             }
         ]
     }

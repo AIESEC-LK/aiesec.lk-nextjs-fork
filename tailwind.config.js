@@ -32,7 +32,7 @@ module.exports = {
       'white': '#FFFFFF',
       'transparent': 'transparent',
       'black': '#000000',
-      'aiesec-light-blue': '#0CB9C1',
+      'global-talent': '#0CB9C1',
       'aiesec-green': '#00C16E',
       'aiesec-purple': '#7552CC',
       'aiesec-dark-grey': '#52565E',
