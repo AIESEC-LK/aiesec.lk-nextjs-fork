@@ -65,7 +65,7 @@ const Carousel = () =>{
                             <div className=" relative ">
                                 <div className=" relative z-0 float-right"><Image src={slide.img1} width={300} className=""/></div>
                                 <div className=" absolute float-left xl:float-none w-64 md:pt-8 md:pb-8 px-6 py-6 z-10 bg-white rounded-2xl shadow-aiesec-mid-grey shadow-2xl xl:top-[70px] xl:right-44 top-[50px]">
-                                    <h2 className=" text-aiesec-light-blue font-semibold text-center">{slide.title1}</h2><br></br>
+                                    <h2 className=" text-global-talent font-semibold text-center">{slide.title1}</h2><br></br>
                                     <p className=" text-center">{slide.content1}</p>
                                 </div>
                             </div>
