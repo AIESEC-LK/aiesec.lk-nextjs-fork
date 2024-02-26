@@ -2,7 +2,7 @@
 import React from "react";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import GVData from "@pages/products/global-talent/data.json";
+import GVData from "@pages/products/global-teacher/data.json";
 
 import HtmlHead from "@components/partner-portal/HtmlHead";
 import Nav from "@components/Nav";
@@ -25,7 +25,7 @@ function Volunteer() {
   const volunteerColor = "global-volunteer";
   const pathname = usePathname();
   //change the path here
-  const isHome = pathname === "/products/global-talent";
+  const isHome = pathname === "/products/global-teacher";
   const [isLoading, setIsLoading] = useState(isHome);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ function Volunteer() {
   return (
     <>
       <HtmlHead
-        title={"Global Talent - AIESEC in Sri Lanka"}
+        title={"Global Teacher - AIESEC in Sri Lanka"}
         description={
           "Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world."
         }
@@ -81,7 +81,7 @@ function Volunteer() {
             )}
           </div>
           {/* Video Testimonials */}
-          <div className="bg-global-talent">
+          <div className="bg-global-teacher">
             {GVData.map(
               (data) =>
                 data.basicdetails &&
@@ -92,7 +92,7 @@ function Volunteer() {
           </div>
           {/* Our Projects */}
           {/* <h2
-            className={`text-global-talent flex justify-center text-3xl font-bold pb-14 p-8`}
+            className={`text-global-teacher flex justify-center text-3xl font-bold pb-14 p-8`}
           >
             Our Projects
           </h2>
@@ -111,7 +111,7 @@ function Volunteer() {
           </div> */}
           {/* Our Destinations */}
           <h2
-            className={`text-global-talent flex justify-center text-3xl font-bold pb-14 p-8`}
+            className={`text-global-teacher flex justify-center text-3xl font-bold pb-14 p-8`}
           >
             Our Destinations
           </h2>
@@ -132,7 +132,7 @@ function Volunteer() {
           <br />
           <Whyvolunteer />
           <h2
-            className={`text-global-talent flex justify-center text-3xl font-bold pb-14 p-8`}
+            className={`text-global-teacher flex justify-center text-3xl font-bold pb-14 p-8`}
           >
             Process
           </h2>

@@ -38,9 +38,9 @@ module.exports = {
       'aiesec-dark-grey': '#52565E',
       'aiesec-mid-grey': '#CACCD1',
       'aiesec-light-grey': '#F3F4F7',
-      'aiesec-orange-dark': '#F85A40',
+      'global-teacher-dark': '#F85A40',
       'global-volunteer': '#F85A40',
-      'aiesec-orange': '#F48924',
+      'global-teacher': '#F48924',
       'aiesec-yellow': '#FFC845',
     },
     extend: {
