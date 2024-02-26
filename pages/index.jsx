@@ -13,13 +13,31 @@ import ContactFrom from "@components/form";
 import Footer from "@components/Footer";
 import Head from "next/head";
 import HtmlHead from "@components/partner-portal/HtmlHead";
+import SplashScreen from "@components/SplashScreen";
+
+import {usePathname} from "next/navigation";
+import React, {useEffect, useState} from "react";
+  
 
 const MainPage = () => {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const [isLoading, setIsLoading] = useState(isHome);
+
+  useEffect(() => {
+    if (isLoading) return;
+  }, [isLoading]);
+
   return (
     <>
       <HtmlHead title={"AIESEC in Sri Lanka"}
                 description={"AIESEC is a global platform for young people to explore and develop their leadership potential."}/>
-      <Nav/>
+                <body>
+    {isLoading && isHome ? (
+      <SplashScreen finishLoading={() => setIsLoading(false)}/>
+    ) : (
+      <div className=" overflow-hidden">
+        <Nav/>
       <HomeVideo/>
       <Counter/>
       <About/>
@@ -33,9 +51,14 @@ const MainPage = () => {
       <FnQ/>
       <ContactFrom/>
       <Footer/>
+      </div>
+    )}
+    </body>
+      
     </>
   )
 }
+
 
 MainPage.displayName = 'Home Page';
 
