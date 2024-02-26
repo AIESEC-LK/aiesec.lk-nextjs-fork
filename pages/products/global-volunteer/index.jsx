@@ -125,7 +125,19 @@ function Volunteer() {
       <br />
       <Whyvolunteer />
       <h2 className={`text-${volunteerColor} flex justify-center text-3xl font-bold pb-14 p-8`}>Process</h2>
-      <Process />
+      <div className="flex flex-col justify-around md:flex-row">
+        {
+          GVData.map((info) => (
+            info.process && info.process.map((process) => (
+              <Process
+                key={process.id}
+                title={process.title}
+                image={process.image}
+                description={process.description}
+              />
+            ))
+          ))}
+      </div>
       {/* Sign Up Banner */}
       <div>
       {
