@@ -10,9 +10,12 @@
             "duration": "6-8 weeks",
             "organization": "NGO and School",
             "url":"https://www.aiesec.lk/global-volunteer/#disclaimer"
+            
             }
         ]
     },
+    
+    
     {
         "testimonials":[
             {
@@ -242,6 +245,59 @@
                 "countryname": "Sri Lanka",
                 "projecttype": "Volunteer and Intern",
                 "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            }
+        ]
+    },
+    {
+        "whyproducts": [
+            {
+            "id":1,
+            "title": "Cross Cultural Experience",
+            "image": "/assets/images/products/volunteer/Cross culture.png"
+        },
+        {
+            "id":2,
+            "title": "Contribution Towards the SDGs",
+            "image": "/assets/images/products/volunteer/SDGs.png"
+        },
+        {
+            "id":3,
+            "title": "Personal Development",
+            "image": "/assets/images/products/volunteer/Personal growth.png"
+        }
+        ]
+    },
+    {
+        "process": [
+            {
+                "id": 1,
+                "title": "Sign Up",
+                "description": "Sign up to create your account and access our opportunities. It's free!",
+                "image":"/assets/images/products/volunteer/Signup.png"
+            },
+            {
+                "id": 2,
+                "title": "Apply",
+                "description": "Fill out your profile and apply for opportunities.",
+                "image":"/assets/images/products/volunteer/Apply.png"
+            },
+            {
+                "id": 3,
+                "title": "Selection",
+                "description": "You will be contacted for an interview by the compan",
+                "image":"/assets/images/products/volunteer/Selection.png"
+            },
+            {
+                "id": 4,
+                "title": "Approved",
+                "description": "Once the interview is completed successfully, pay the AIESEC program registration fee to get approved.",
+                "image":"/assets/images/products/volunteer/Approved.png"
+            },
+            {
+                "id": 5,
+                "title": "Let’s Go",
+                "description": "AIESEC will now support in visa, departure and experience abroad.",
+                "image":"/assets/images/products/volunteer/Lets go.png"
             }
         ]
     }

@@ -19,6 +19,7 @@ import Intro from "@components/products/Intro";
 import SplashScreen from "@components/SplashScreen";
 import Process from "@components/products/Process";
 import FnQ from "@components/FnQ";
+import WhyProducts from "@components/products/WhyProducts";
 
 function Volunteer() {
   const volunteerColor = 'global-volunteer';
@@ -61,10 +62,27 @@ function Volunteer() {
                 duration={pdata.duration}
                 organization={pdata.organization}
                 url={pdata.url}
+                
+                
               />
             ))
           ))}
       </div>
+      {/* Why Products */}
+      <div className="flex flex-col justify-around items-center md:flex-row pb-10">
+        {
+          GVData.map((data) => (
+            data.whyproducts && data.whyproducts.map((pdata) => (
+              <WhyProducts
+                key={pdata.id}
+                subtitle={pdata.title}
+                image={pdata.image}
+              />
+            ))
+          ))
+        }
+      </div>
+      {/* Video Testimonials */}
       {
           GVData.map((data) => (
             data.basicdetails && data.basicdetails.map((pdata) => (
@@ -107,7 +125,19 @@ function Volunteer() {
       <br />
       <Whyvolunteer />
       <h2 className={`text-${volunteerColor} flex justify-center text-3xl font-bold pb-14 p-8`}>Process</h2>
-      <Process />
+      <div className="flex flex-col justify-around md:flex-row">
+        {
+          GVData.map((info) => (
+            info.process && info.process.map((process) => (
+              <Process
+                key={process.id}
+                title={process.title}
+                image={process.image}
+                description={process.description}
+              />
+            ))
+          ))}
+      </div>
       {/* Sign Up Banner */}
       <div>
       {
