@@ -33,58 +33,23 @@
         "ourprojects":[
             {
                 "id":1,
-                "title": "Project ABCrrrrD",
-                "path": "/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+                "title": "Explorer",
+                "path": "/assets/images/projects/explorer.png"
             },
             {
                 "id":2,
-                "title": "Project Ashanthher",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+                "title": "Happy Bus",
+                "path":"/assets/images/projects/happy bus.png"
             },
             {
                 "id":3,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+                "title": "Fingerprints",
+                "path":"/assets/images/projects/fingerprint.png"
             },
             {
                 "id":4,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":5,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":6,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":7,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":8,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":9,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":10,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":11,
-                "title": "Project Heartbeat",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+                "title": "Eco City",
+                "path":"/assets/images/projects/eco city.png"
             }
         ]
     },
@@ -199,51 +164,6 @@
                 "id":7,
                 "countryname": "Egypt",
                 "projecttype": "NOUR Project",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":8,
-                "countryname": "Mexico",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":9,
-                "countryname": "Mexico",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":10,
-                "countryname": "Turkey",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":11,
-                "countryname": "Italy",
-                "projecttype": "Volunteer",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },
-            {
-                "id":12,
-                "countryname": "India",
-                "projecttype": "Volunteer and Intern",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },          {
-                "id":13,
-                "countryname": "Portugaul",
-                "projecttype": "Volunteer and Intern",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },          {
-                "id":14,
-                "countryname": "Greece",
-                "projecttype": "Volunteer and Intern",
-                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
-            },          {
-                "id":15,
-                "countryname": "Sri Lanka",
-                "projecttype": "Volunteer and Intern",
                 "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
             }
         ]
