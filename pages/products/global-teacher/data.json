@@ -2,14 +2,14 @@
     {
         "basicdetails": [
             {
-            "title": "Global Talent",
-            "color": "global-volunteer",
+            "title": "Global Teacher",
+            "color": "global-teacher",
             "path": "/assets/images/products/igv/Rectangle_3844.png",
-            "content": "Global Volunteer is a cross-cultural experience for youth (age 18 – 30) who want to gain personal development and leave an impact on the world.",
-            "logo": "/assets/images/products/logos/volunteer-logo.png",
-            "duration": "6-8 weeks",
-            "organization": "NGOs",
-            "url":"https://www.aiesec.lk/global-volunteer/"
+            "content": "Global Teacher is a global teaching internship opportunity for young people who seek to develop themselves and their career by engaging with a professional teaching experience.",
+            "logo": "/assets/images/products/logos/teacher-logo.png",
+            "duration": "9-78 Weeks",
+            "organization": "Educational Institutions",
+            "url":"https://www.aiesec.lk/global-teacher/"
             
             }
         ]
@@ -118,8 +118,8 @@
                 "id":1,
                 "path":"/assets/images/products/talent/TalentBanner.png",
                 "content":"Global Talent is an internship experience for young people aiming towards professional career development in a global setting.",
-                "url":"https://www.aiesec.lk/global-volunteer/",
-                "color":"global-volunteer"
+                "url":"https://www.aiesec.lk/global-teacher/",
+                "color":"global-teacher"
             }
         ]
     },
@@ -174,17 +174,17 @@
             {
             "id":1,
             "title": "Cross Cultural Experience",
-            "image": "/assets/images/products/volunteer/Cross-culture.png"
+            "image": "/assets/images/products/teacher/Cross-culture.png"
         },
         {
             "id":2,
             "title": "Contribution Towards the SDGs",
-            "image": "/assets/images/products/volunteer/SDGs.png"
+            "image": "/assets/images/products/teacher/SDGs.png"
         },
         {
             "id":3,
             "title": "Personal Development",
-            "image": "/assets/images/products/volunteer/Personal-growth.png"
+            "image": "/assets/images/products/teacher/Personal-growth.png"
         }
         ]
     },
@@ -194,31 +194,31 @@
                 "id": 1,
                 "title": "Sign Up",
                 "description": "Sign up to create your account and access our opportunities. It's free!",
-                "image":"/assets/images/products/volunteer/Signup.png"
+                "image":"/assets/images/products/teacher/Signup.png"
             },
             {
                 "id": 2,
                 "title": "Apply",
                 "description": "Fill out your profile and apply for opportunities.",
-                "image":"/assets/images/products/volunteer/Apply.png"
+                "image":"/assets/images/products/teacher/Apply.png"
             },
             {
                 "id": 3,
                 "title": "Selection",
                 "description": "You will be contacted for an interview by the compan",
-                "image":"/assets/images/products/volunteer/Selection.png"
+                "image":"/assets/images/products/teacher/Selection.png"
             },
             {
                 "id": 4,
                 "title": "Approved",
                 "description": "Once the interview is completed successfully, pay the AIESEC program registration fee to get approved.",
-                "image":"/assets/images/products/volunteer/Approved.png"
+                "image":"/assets/images/products/teacher/Approved.png"
             },
             {
                 "id": 5,
                 "title": "Let’s Go",
                 "description": "AIESEC will now support in visa, departure and experience abroad.",
-                "image":"/assets/images/products/volunteer/Lets-go.png"
+                "image":"/assets/images/products/teacher/Lets-go.png"
             }
         ]
     }
