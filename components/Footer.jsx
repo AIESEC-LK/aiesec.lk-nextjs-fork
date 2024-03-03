@@ -55,6 +55,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="text-center py-3">Made with Love 💗 by DevTeam - AIESEC in Sri Lanka</div>
 
     </footer>
   );
