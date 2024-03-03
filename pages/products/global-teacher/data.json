@@ -128,22 +128,22 @@
             {
                 "id":1,
                 "countryname": "Gahana",
-                "path": "/assets/images/destinations/ghana.jpg"
+                "path": "/assets/images/Destinations/Ghana.jpg"
             },
             {
                 "id":1,
                 "countryname": "Brazil",
-                "path": "/assets/images/destinations/brazil.jpg"
+                "path": "/assets/images/Destinations/Brazil.jpg"
             },
             {
                 "id":1,
                 "countryname": "Serbia",
-                "path": "/assets/images/destinations/serbia.jpg"
+                "path": "/assets/images/Destinations/Serbia.jpg"
             },
             {
                 "id":1,
                 "countryname": "Uganda",
-                "path": "/assets/images/destinations/uganda.jpg"
+                "path": "/assets/images/Destinations/Uganda.jpg"
             }
             
         ]
