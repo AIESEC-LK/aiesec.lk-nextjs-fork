@@ -128,24 +128,45 @@
             {
                 "id":1,
                 "countryname": "Gahana",
-                "path": "/assets/images/Destinations/Ghana.jpg"
+                "projecttype": "Medicine Project",
+                "path": "/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
             },
             {
-                "id":1,
-                "countryname": "Brazil",
-                "path": "/assets/images/Destinations/Brazil.jpg"
-            },
-            {
-                "id":1,
-                "countryname": "Serbia",
-                "path": "/assets/images/Destinations/Serbia.jpg"
-            },
-            {
-                "id":1,
+                "id":2,
                 "countryname": "Uganda",
-                "path": "/assets/images/Destinations/Uganda.jpg"
+                "projecttype": "Medicine and Health Project",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":3,
+                "countryname": "Brazil",
+                "projecttype": "Volunteer and Intern",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":4,
+                "countryname": "Serbia",
+                "projecttype": "Volunteer and Intern",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":5,
+                "countryname": "Tunisia",
+                "projecttype": "NOUR Project",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":6,
+                "countryname": "Romania",
+                "projecttype": "Volunteer and Intern",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
+            },
+            {
+                "id":7,
+                "countryname": "Egypt",
+                "projecttype": "NOUR Project",
+                "path":"/assets/images/partners/global/Ezm8xJc2RrpZeK87WdxXjTuY-min.png"
             }
-            
         ]
     },
     {
