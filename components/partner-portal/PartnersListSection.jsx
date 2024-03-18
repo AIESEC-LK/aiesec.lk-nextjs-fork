@@ -1,4 +1,5 @@
 import PartnerCard from "@components/partner-portal/PartnerCard";
+import PartnerListNew from "@components/partner-portal/PartnerListNew";
 
 const PartnersListSection = ({partners}) => {
   const uniqueTypes = [...new Set(partners.map((partner) => partner.type))];
@@ -24,6 +25,7 @@ const PartnersListSection = ({partners}) => {
             </div>
           </div>
         ))}
+        <PartnerListNew />
       </div>
     </section>
   )
