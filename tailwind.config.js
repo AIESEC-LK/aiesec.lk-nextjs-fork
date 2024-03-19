@@ -42,6 +42,8 @@ module.exports = {
       'global-volunteer': '#F85A40',
       'global-teacher': '#F48924',
       'aiesec-yellow': '#FFC845',
+      'twinery-red': '#EB2027',
+      'twinery-black': '#200055',
     },
     extend: {
       backgroundImage: {
