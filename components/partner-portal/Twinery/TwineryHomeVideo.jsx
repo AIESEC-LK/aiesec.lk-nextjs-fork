@@ -11,7 +11,7 @@ function TwineryHomeVideo() {
       <div className="absolute bottom-5 left-5 sm:bottom-10 sm:left-10 md:bottom-18 md:left-18 xl:bottom-72 xl:left-32 z-20 ">
         <VideoMultiText />
       </div>
-      <div className=" absolute bg-gradient-to-t from-aiesec-blue to-transparent h-2/3 z-10 w-screen bottom-0"></div>
+      <div className=" absolute bg-gradient-to-t from-twinery-black via-twinery-red to-transparent h-1/5 z-10 w-screen bottom-0"></div>
     </section>
   );
 }
