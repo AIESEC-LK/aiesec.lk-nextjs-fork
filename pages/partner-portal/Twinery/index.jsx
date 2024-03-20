@@ -6,6 +6,7 @@ import TwineryHomeVideo from '@components/partner-portal/Twinery/TwineryHomeVide
 import PartnerIntro from '@components/partner-portal/Twinery/PartnerIntro'
 import AboutInnobee from '@components/partner-portal/Twinery/AboutInnobee'
 import Oppoprtunities from '@components/partner-portal/Twinery/Opportunities'
+import FooterImages from '@components/partner-portal/Twinery/FooterImages'
 
 function index() {
   return (
@@ -16,6 +17,7 @@ function index() {
       <PartnerIntro/>
       <AboutInnobee/>
       <Oppoprtunities/>
+      <FooterImages/>
       <Footer/>
     </div>
   ) 
