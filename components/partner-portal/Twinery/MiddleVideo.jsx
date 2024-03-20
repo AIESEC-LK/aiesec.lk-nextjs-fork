@@ -13,7 +13,7 @@ export default class YoutubeVideo extends React.Component {
     };
 
     return (
-      <div className="flex-row lg:flex justify-evenly">
+      <div className="flex justify-center">
         <YouTube
           videoId="Jo9qj8r8SE8"
           opts={opts}

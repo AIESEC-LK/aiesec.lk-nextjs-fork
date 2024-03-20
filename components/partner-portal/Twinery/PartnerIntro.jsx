@@ -10,7 +10,7 @@ function PartnerIntro() {
           Innobee by twinery
         </h2>
       </div>
-      <div className="flex px-36">
+      <div className="flex-row lg:flex lg:px-12">
         <MiddleVideo />
         <div className="px-10">
           <Image
