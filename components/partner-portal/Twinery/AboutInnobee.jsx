@@ -3,7 +3,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 function AboutInnobee() {
   return (
     <div>
-      <div className="text-center">
+      <div className="text-center pt-14">
         <h2 className="text-center text-3xl bg-gradient-to-r from-twinery-black to-twinery-red inline-block text-transparent bg-clip-text font-semibold pb-10 px-3">
           all you need to know about Innobee
         </h2>

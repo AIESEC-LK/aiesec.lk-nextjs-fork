@@ -5,6 +5,7 @@ import Footer from '@components/Footer'
 import TwineryHomeVideo from '@components/partner-portal/Twinery/TwineryHomeVideo'
 import PartnerIntro from '@components/partner-portal/Twinery/PartnerIntro'
 import AboutInnobee from '@components/partner-portal/Twinery/AboutInnobee'
+import Oppoprtunities from '@components/partner-portal/Twinery/Opportunities'
 
 function index() {
   return (
@@ -12,12 +13,12 @@ function index() {
       <HtmlHead title={"Twinery Partner Portal - AIESEC in Sri Lanka"} description={"Explore Twinery partners and opportunities."}/>
       <Nav/>
       <TwineryHomeVideo/>
-      <br />
       <PartnerIntro/>
       <AboutInnobee/>
+      <Oppoprtunities/>
       <Footer/>
     </div>
-  )
+  ) 
 }
 
 export default index
