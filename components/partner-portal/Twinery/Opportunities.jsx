@@ -27,7 +27,9 @@ function Opportunities({ opportunities }) {
                 <p className="text-left">for Undergratuates</p>
                 <p className="text-left">Job Description</p>
               </div>
-              <p className="text-left">Application Deadline: <span>{opportunity.deadline}</span></p>
+              <p className="text-left">
+                Application Deadline: <span>{opportunity.deadline}</span>
+              </p>
             </div>
             <div className="font-normal text-md pb-2 text-aiesec-dark-grey"></div>
             <div className="mt-1 text-center">
