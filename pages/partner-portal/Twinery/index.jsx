@@ -4,6 +4,7 @@ import HtmlHead from '../../../components/partner-portal/HtmlHead'
 import Footer from '@components/Footer'
 import TwineryHomeVideo from '@components/partner-portal/Twinery/TwineryHomeVideo'
 import PartnerIntro from '@components/partner-portal/Twinery/PartnerIntro'
+import AboutInnobee from '@components/partner-portal/Twinery/AboutInnobee'
 
 function index() {
   return (
@@ -13,6 +14,7 @@ function index() {
       <TwineryHomeVideo/>
       <br />
       <PartnerIntro/>
+      <AboutInnobee/>
       <Footer/>
     </div>
   )
