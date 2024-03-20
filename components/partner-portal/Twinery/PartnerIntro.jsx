@@ -4,7 +4,7 @@ import MiddleVideo from "@components/partner-portal/Twinery/MiddleVideo";
 
 function PartnerIntro() {
   return (
-    <div className="text-center">
+    <div className="text-center pt-20">
       <div className="text-center">
         <h2 className="text-center text-3xl bg-gradient-to-r from-twinery-black to-twinery-red inline-block text-transparent bg-clip-text font-semibold pb-10 px-3">
           Innobee by twinery
