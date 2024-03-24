@@ -27,8 +27,20 @@ const items = [
     },
     {
         title: "Twinery and Aiesec",
-        content: (<p>Coming soon</p>)
-    }
+        content: (<div>
+            <div className=" flex">
+            <p className=" text-xl sm:text-2xl mx-1 my-1 font-bold to-twinery-red via-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent ">Twinery and Aiesec</p>
+            <div className="flex absolute right-0 lg:right-20">
+            <Image src="/assets/images/partner-portal/Twinery/image1.png" width={100} height={30} alt="icon"/>
+            <Image src="/assets/images/partner-portal/Twinery/aiesec.png" width={100} height={100} alt="icon"/>
+            </div>
+            
+            </div>
+            <div className=" w-full text-justify flex flex-wrap">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    )}
 ];
 
 const WhatisTwinary = () => {
@@ -40,12 +52,12 @@ const WhatisTwinary = () => {
     }, []);
 
     return (
-        <div className="mt-6 lg:mx-auto w-full">
+        <div className="mt-6 lg:mx-12 mx-8 md:mx-6">
             <div className="text-center">
-                <h3 className="text-2xl font-semibold italic text-twinery-red w-full text-center">welcome to</h3>
+                <h3 className="text-2xl font-semibold italic text-twinery-red text-center">welcome to</h3>
                 <h1 className="text-3xl font-black">TWINERY's PARTNER PORTAL</h1>
             </div>
-            <div className="mx-4 my-8 lg:mx-14 lg:my-14 w-full">
+            <div className="mx-2  lg:mx-14 lg:my-14 ">
                 <div className=" content-center">
                     {items.map((item, index) => (
                         <button key={index} ref={index === 0 ? firstBtnRef : null} onClick={()=>setactive(index)} className={`lg:text-2xl text-xl mx-4 my-4 font-bold to-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent outline-none ${tabactive === index ? 'border-b-4 border-twinery-black pb-2' : ''}`}>
@@ -53,11 +65,12 @@ const WhatisTwinary = () => {
                         </button>
                     ))}
                 </div>
-                <div>
+                <div className=" w-full">
                     {items.map((item,index)=>(
                         <div key={index} className={`${tabactive === index ? '' : 'hidden'}`}>
-                            <div className=" drop-shadow-md pl-2 pr-8">
-                            {item.content}
+                            <div className=" w-full drop-shadow-md mx-auto">
+                                <div className="w-full">{item.content}</div>
+                            
                             </div>
                         </div>
                     ))}
