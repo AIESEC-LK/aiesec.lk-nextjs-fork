@@ -7,7 +7,7 @@ function PartnerIntro() {
     <div className="text-center pt-20">
       <div className="text-center">
         <h2 className="text-center text-3xl bg-gradient-to-r from-twinery-black to-twinery-red inline-block text-transparent bg-clip-text font-semibold pb-10 px-3">
-          Innobee by twinery
+          Innobee by MAS Innovation
         </h2>
       </div>
       <div className="flex-row lg:flex lg:px-12">
@@ -21,15 +21,14 @@ function PartnerIntro() {
           />
           <br />
           <p className="text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            "Innobee" is a Pathway program specifically designed by MAS
+            Innovation to attract talented AIESECers for internship
+            opportunities. This program provides the company with direct access
+            to the talented pool of undergraduates in universities, while
+            offering AIESECers a valuable opportunity to gain industrial
+            exposure in a reputed company like MAS Innovation. It serves as a
+            springboard for undergraduates to excel, showcase, and groom their
+            talents for the future.
           </p>
         </div>
       </div>
