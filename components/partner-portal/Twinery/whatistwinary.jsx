@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const items = [
     {
-        title: "What is Twineray?",
+        title:(<div className=" mr-2 sm:mr-0"><p>What is Twineray?</p></div>),
         content: (
             <div>
                 <div className=" w-full grid grid-cols-7 ">
@@ -13,26 +13,26 @@ const items = [
                     </div>
                     <div className=" lg:col-span-2 col-span-7 content-center text-center object-center">
                         <div className=" flex justify-center mt-3">
-                            <Image src="/assets/images/partner-portal/Twinery/image1.png" alt="logo" width={200} height={100}/>
+                            <Image src="/assets/images/partners/national/Twinery/TwineryLogo.jpeg" alt="logo" width={200} height={100}/>
                         </div>
                     </div>
                 </div>
                 <div className="w-full grid grid-cols-3 font-bold md:text-lg text-md text-md mt-5 text-center">
-                    <div className=" flex"><Image src="/assets/images/partner-portal/Twinery/iconx.png" width={30} height={10} alt="icon"/><h2>Innovation</h2></div>
-                    <div className=" flex"><Image src="/assets/images/partner-portal/Twinery/iconx.png" width={30} height={10} alt="icon"/><h2>Digital</h2></div>
-                    <div className=" flex"><Image src="/assets/images/partner-portal/Twinery/iconx.png" width={30} height={10} alt="icon"/><h2>Sustainability</h2></div>
+                    <div className=" flex"><Image src="/assets/images/partner-portal/Twinery/iconx.png" width={25} height={2} alt="icon"/><h2 className=" text-sm sm:text-lg">Innovation</h2></div>
+                    <div className=" flex"><Image src="/assets/images/partner-portal/Twinery/iconx.png" width={25} height={2} alt="icon"/><h2 className=" text-sm sm:text-lg">Digital</h2></div>
+                    <div className=" flex"><Image src="/assets/images/partner-portal/Twinery/iconx.png" width={25} height={2} alt="icon"/><h2 className=" text-sm sm:text-lg">Sustainability</h2></div>
                 </div>
             </div>
         )
     },
     {
-        title: "Twinery and Aiesec",
+        title: (<div className=" ml-2 sm:ml-0"><p>Twinery and Aiesec</p></div>),
         content: (<div>
-            <div className=" flex">
+            <div className=" flex flex-wrap">
             <p className=" text-xl sm:text-2xl mx-1 my-1 font-bold to-twinery-red via-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent ">Twinery and Aiesec</p>
-            <div className="flex absolute right-0 lg:right-20">
-            <Image src="/assets/images/partner-portal/Twinery/image1.png" width={100} height={30} alt="icon"/>
-            <Image src="/assets/images/partner-portal/Twinery/aiesec.png" width={100} height={100} alt="icon"/>
+            <div className="flex flex-wrap right-0 lg:right-0 sm:ml-4 md:ml-8 lg:ml-10">
+            <Image src="/assets/images/partners/national/Twinery/TwineryLogo.jpeg" width={120} height={30} alt="icon"/>
+            <Image src="/assets/images/bluelogo.png" width={180} height={100} alt="icon"/>
             </div>
             
             </div>
@@ -57,10 +57,10 @@ const WhatisTwinary = () => {
                 <h3 className="text-2xl font-semibold italic text-twinery-red text-center">welcome to</h3>
                 <h1 className="text-3xl font-black">TWINERY's PARTNER PORTAL</h1>
             </div>
-            <div className="mx-2  lg:mx-14 lg:my-14 ">
+            <div className="mx-0 lg:mx-14 lg:my-14 ">
                 <div className=" content-center">
                     {items.map((item, index) => (
-                        <button key={index} ref={index === 0 ? firstBtnRef : null} onClick={()=>setactive(index)} className={`lg:text-2xl text-xl mx-4 my-4 font-bold to-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent outline-none ${tabactive === index ? 'border-b-4 border-twinery-black pb-2' : ''}`}>
+                        <button key={index} ref={index === 0 ? firstBtnRef : null} onClick={()=>setactive(index)} className={`lg:text-2xl xs:text-base mx-1/2 sm:mx-2 my-2 font-bold to-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent outline-none ${tabactive === index ? 'border-b-4 border-twinery-black pb-2' : ''}`}>
                             {item.title}
                         </button>
                     ))}
