@@ -18,8 +18,12 @@ function AboutInnobee() {
           <p>
             Any undergraduate from any Sri Lankan university can participate.
             However, for the pilot stage, we will be accepting students only
-            from the University of Moratuwa, University of Colombo, and
-            University of Peradeniya.
+            from the University of Moratuwa: Department of Electronic &
+            Telecommunication Engineering, Department & Telecommunication
+            Engineering, Faculty of Engineering, University of Colombo:
+            Department of Statistics, Faculty of Science, University of
+            Peradeniya: Department of Electrical and Electronic Engineering,
+            Faculty of Engineering
           </p>
         </AccordionItem>
         <AccordionItem
