@@ -24,13 +24,16 @@ function Opportunities({ opportunities }) {
                   {opportunity.title}
                 </h5>
                 <br />
-                <p className="text-left">for Undergratuates</p>
-                <p className="text-left">Job Description</p>
+                <p className="text-left">{opportunity.mode}</p>
               </div>
-              <p className="text-left">
-                Application Deadline: <span>{opportunity.deadline}</span>
-              </p>
+              {opportunity.deadline && (
+                <p className="text-left">
+                  Application Deadline: <span>{opportunity.deadline}</span>
+                </p>
+              )}
             </div>
+            <hr />  
+            <p className="text-left">{opportunity.jd}</p>
             <div className="font-normal text-md pb-2 text-aiesec-dark-grey"></div>
             <div className="mt-1 text-center">
               <Link href={opportunity.link} target="_blank">
