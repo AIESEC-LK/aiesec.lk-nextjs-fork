@@ -1,16 +1,42 @@
 [
-    {
-        "id": 1,
-        "title": "University Coordinator",
-        "deadline": "31-05-2024",
-        "link": "https://www.imdb.com/title/tt0111161/"
-
-    },
-    {
-        "id": 2,
-        "title": "Marketing Manager",
-        "deadline": "15-04-2024",
-        "link": "https://www.imdb.com/title/tt0111161/"
-
-    }
+  {
+    "id": 1,
+    "title": "Intern - Administration & Operations",
+    "deadline": "",
+    "mode": "for Undergratuates",
+    "jd": "Team -Human Resources",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "title": "Intern – Data Science",
+    "deadline": "",
+    "mode": "for Undergratuates",
+    "jd": "Team – Data Insights",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "title": "Intern – Engineering",
+    "deadline": "",
+    "mode": "for Undergratuates",
+    "jd": "Team : Machine Build",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "title": "Intern – Logistics",
+    "deadline": "",
+    "mode": "for Undergratuates",
+    "jd": "Team - Machine Build",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "title": "Intern – Intellectual Property",
+    "deadline": "",
+    "mode": "for Undergratuates",
+    "jd": "Team - Intellectual Property",
+    "link": ""
+  }
 ]

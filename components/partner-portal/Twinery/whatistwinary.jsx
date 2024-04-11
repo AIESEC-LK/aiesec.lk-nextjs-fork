@@ -82,7 +82,7 @@ const items = [
       <div>
         <div className=" flex flex-wrap">
           <p className=" text-xl sm:text-2xl mx-1 my-1 font-bold to-twinery-red via-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent ">
-            Twinery and Aiesec
+            Twinery and AIESEC
           </p>
           <div className="flex flex-wrap right-0 lg:right-0 sm:ml-4 md:ml-8 lg:ml-10">
             <Image
