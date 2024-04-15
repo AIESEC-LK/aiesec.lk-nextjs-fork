@@ -23,7 +23,7 @@ function PartnerListNew() {
                 alt="Twinery-Logo"
               />
               <h2 className="text-2xl font-semibold text-center px-4 mb-8 mt-2">
-                Twinery
+              MAS Innovation
               </h2>
             </div>
           </Link>

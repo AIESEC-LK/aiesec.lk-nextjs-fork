@@ -5,7 +5,7 @@ const items = [
   {
     title: (
       <div className=" mr-2 sm:mr-0">
-        <p>What is Twinery?</p>
+        <p>What is MAS Innovation?</p>
       </div>
     ),
     content: (
@@ -13,11 +13,11 @@ const items = [
         <div className=" w-full grid grid-cols-7 ">
           <div className=" lg:col-span-5 col-span-7">
             <p className=" text-xl mx-1 my-1 font-bold to-twinery-red via-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent">
-              What is Twinery ?
+              What is MAS Innovation ?
             </p>
             <p className=" text-justify mt-4">
               As the source of innovation for MAS Holdings, the largest apparel
-              and textile manufacturer in South Asia, Twinery is home to over 50
+              and textile manufacturer in South Asia, MAS Innovation is home to over 50
               disruptive technologies across materials, lighting, heating, odor
               protection, and aqua-repellency. With 30+ years of experience
               manufacturing for the world’s largest brands, we have unparalleled
@@ -75,14 +75,14 @@ const items = [
   {
     title: (
       <div className=" ml-2 sm:ml-0">
-        <p>Twinery and AIESEC</p>
+        <p>MAS Innovation and AIESEC</p>
       </div>
     ),
     content: (
       <div>
         <div className=" flex flex-wrap">
           <p className=" text-xl sm:text-2xl mx-1 my-1 font-bold to-twinery-red via-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent ">
-            Twinery and AIESEC
+          MAS Innovation and AIESEC
           </p>
           <div className="flex flex-wrap right-0 lg:right-0 sm:ml-4 md:ml-8 lg:ml-10">
             <Image
@@ -133,7 +133,7 @@ const WhatisTwinary = () => {
             Welcome to
           </div>
           <div>
-            <span className="text-twinery-red">Twinery's</span> Partner Portal
+            <span className="text-twinery-red">MAS Innovation's</span> Partner Portal
           </div>
         </h2>
       </div>
