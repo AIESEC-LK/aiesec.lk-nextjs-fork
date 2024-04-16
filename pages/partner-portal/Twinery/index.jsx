@@ -19,7 +19,8 @@ function index() {
       <PartnerIntro/>
       <AboutInnobee/>
       <Oppoprtunities/>
-      <FooterImages/>
+      <br /><br />
+      {/* <FooterImages/> */}
       <Footer/>
     </div>
   ) 

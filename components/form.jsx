@@ -32,7 +32,7 @@ const ContactFrom = () => {
             </div>
             <div className=" float-left flex px-10 mb-5">
               <Image src={icon3} />
-              <p>srilanka@aiesec.net</p>
+              <p>info@aiesec.lk</p>
             </div>
             <div className=" float-left flex px-10">
               <Image src={icon1} />
