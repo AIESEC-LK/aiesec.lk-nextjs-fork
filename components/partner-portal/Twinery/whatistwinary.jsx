@@ -17,13 +17,13 @@ const items = [
             </p>
             <p className=" text-justify mt-4">
               As the source of innovation for MAS Holdings, the largest apparel
-              and textile manufacturer in South Asia, MAS Innovation is home to over 50
-              disruptive technologies across materials, lighting, heating, odor
-              protection, and aqua-repellency. With 30+ years of experience
-              manufacturing for the world’s largest brands, we have unparalleled
-              knowledge of the human body and biomechanics, as well as fabric
-              wearability and material science. Our business is built around 3
-              main pillars: Innovation, Digital, and Sustainability.
+              and textile manufacturer in South Asia, MAS Innovation is home to
+              over 50 disruptive technologies across materials, lighting,
+              heating, odor protection, and aqua-repellency. With 30+ years of
+              experience manufacturing for the world’s largest brands, we have
+              unparalleled knowledge of the human body and biomechanics, as well
+              as fabric wearability and material science. Our business is built
+              around 3 main pillars: Innovation, Digital, and Sustainability.
             </p>
           </div>
           <div className=" lg:col-span-2 col-span-7 content-center text-center object-center">
@@ -82,7 +82,7 @@ const items = [
       <div>
         <div className=" flex flex-wrap">
           <p className=" text-xl sm:text-2xl mx-1 my-1 font-bold to-twinery-red via-twinery-red from-twinery-black bg-gradient-to-r bg-clip-text text-transparent ">
-          MAS Innovation and AIESEC
+            MAS Innovation and AIESEC
           </p>
           <div className="flex flex-wrap right-0 lg:right-0 sm:ml-4 md:ml-8 lg:ml-10">
             <Image
@@ -101,15 +101,23 @@ const items = [
         </div>
         <div className=" w-full text-justify flex flex-wrap">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            MAS Innovation's partnership with AIESEC is a win-win for both
+            organizations. AIESEC's global network of potential future young
+            leaders injects fresh perspectives and innovative ideas into MAS
+            Innovation's established units like Twinery, Process Excellence,
+            Digital Excellence, Softmatter, and Femography. This can lead to
+            groundbreaking solutions across the board, from sustainable
+            materials to different business unlocks.
+            <br />
+            <br />
+            Furthermore, the
+            partnership fosters future talent development. AIESEC interns gain
+            exposure to cutting-edge technologies and innovative business
+            models, while MAS Innovation benefits from a pool of talented
+            individuals ready to contribute to the future of the apparel
+            industry. This collaboration has the potential to drive impactful
+            change, addressing global needs for sustainability and empowering
+            future leaders who share a vision for a better tomorrow.
           </p>
         </div>
       </div>
@@ -133,7 +141,8 @@ const WhatisTwinary = () => {
             Welcome to
           </div>
           <div>
-            <span className="text-twinery-red">MAS Innovation's</span> Partner Portal
+            <span className="text-twinery-red">MAS Innovation's</span> Partner
+            Portal
           </div>
         </h2>
       </div>
