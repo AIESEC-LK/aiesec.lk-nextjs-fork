@@ -33,7 +33,7 @@ function PartnerIntro() {
         </div>
       </div>
       <div className="py-8">
-        <Link href="https://github.com/ashandimantha2000" target="_blank">
+        <Link href="#opportunities">
           <button className=" text-white h-10 bg-gradient-to-r from-twinery-black to-twinery-red px-10 py-1 font-semibold rounded-2xl ">
             Explore all our opportunities
           </button>

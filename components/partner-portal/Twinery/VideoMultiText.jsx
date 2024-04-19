@@ -4,7 +4,7 @@ import '@styles/multitext.css';
 const VideoMultiText = () => {
   return (
     <div className=' text-white text-2xl sm:text-3xl md:text-4xl xl:text-6xl'>
-      <h1 className=''>What is MAS Innovation?</h1>
+      <h1 className=''></h1>
     </div>
   );
 };
