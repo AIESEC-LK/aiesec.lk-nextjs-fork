@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center py-3 bg-white">Made with Love 💗 by DevTeam - AIESEC in Sri Lanka</div>
+      <div className="text-center py-3 bg-white">Made with Love 💗 by &lt;/Dev.Team	&gt; of AIESEC in Sri Lanka</div>
 
     </footer>
   );
