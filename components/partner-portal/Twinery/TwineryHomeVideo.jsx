@@ -4,7 +4,7 @@ import VideoMultiText from "./VideoMultiText";
 
 function TwineryHomeVideo() {
   return (
-    <section id="home" className="relative h-screen overflow-hidden">
+    <section id="home" className="relative w-fit overflow-hidden">
       <div className=" w-screen z-0 sm:mt-0 mt-20 overflow-hidden">
         <video src={require("@public/assets/videos/twinery-home-hd.mp4")} muted autoPlay loop />
       </div>
