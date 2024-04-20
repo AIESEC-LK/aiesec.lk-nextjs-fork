@@ -29,10 +29,10 @@ const items = [
           <div className=" lg:col-span-2 col-span-7 content-center text-center object-center">
             <div className=" flex justify-center mt-3">
               <Image
-                src="/assets/images/partners/national/Twinery/TwineryLogo.jpeg"
+                src="/assets/images/partners/national/Twinery/Twinery logo - black.png"
                 alt="logo"
-                width={200}
-                height={100}
+                width={240}
+                height={150}
               />
             </div>
           </div>
@@ -86,14 +86,15 @@ const items = [
           </p>
           <div className="flex flex-wrap right-0 lg:right-0 sm:ml-4 md:ml-8 lg:ml-10">
             <Image
-              src="/assets/images/partners/national/Twinery/TwineryLogo.jpeg"
+              src="/assets/images/partners/national/Twinery/Twinery logo - black.png"
               width={120}
               height={30}
               alt="icon"
+              className="pr-4"
             />
             <Image
               src="/assets/images/bluelogo.png"
-              width={180}
+              width={230}
               height={100}
               alt="icon"
             />
@@ -110,14 +111,13 @@ const items = [
             materials to different business unlocks.
             <br />
             <br />
-            Furthermore, the
-            partnership fosters future talent development. AIESEC interns gain
-            exposure to cutting-edge technologies and innovative business
-            models, while MAS Innovation benefits from a pool of talented
-            individuals ready to contribute to the future of the apparel
-            industry. This collaboration has the potential to drive impactful
-            change, addressing global needs for sustainability and empowering
-            future leaders who share a vision for a better tomorrow.
+            Furthermore, the partnership fosters future talent development.
+            AIESEC interns gain exposure to cutting-edge technologies and
+            innovative business models, while MAS Innovation benefits from a
+            pool of talented individuals ready to contribute to the future of
+            the apparel industry. This collaboration has the potential to drive
+            impactful change, addressing global needs for sustainability and
+            empowering future leaders who share a vision for a better tomorrow.
           </p>
         </div>
       </div>
