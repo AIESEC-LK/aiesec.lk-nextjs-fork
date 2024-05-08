@@ -15,14 +15,13 @@ import Head from "next/head";
 import HtmlHead from "@components/partner-portal/HtmlHead";
 import SplashScreen from "@components/SplashScreen";
 
-import {usePathname} from "next/navigation";
-import React, {useEffect, useState} from "react";
-  
+import { usePathname } from "next/navigation";
+import React, { useEffect, useState } from "react";
 
 const MainPage = () => {
   const pathname = usePathname();
   const isHome = pathname === "/";
-  const [isLoading, setIsLoading] = useState(isHome);
+  const [isLoading, setIsLoading] = useState("");
 
   useEffect(() => {
     if (isLoading) return;
@@ -30,36 +29,37 @@ const MainPage = () => {
 
   return (
     <>
-      <HtmlHead title={"AIESEC in Sri Lanka"}
-                description={"AIESEC is a global platform for young people to explore and develop their leadership potential."}/>
-                <body>
-    {isLoading && isHome ? (
-      <SplashScreen finishLoading={() => setIsLoading(false)}/>
-    ) : (
-      <div className=" overflow-hidden">
-        <Nav/>
-      <HomeVideo/>
-      <Counter/>
-      <About/>
-      <LocalChapters/>
-      {/* <Home/> */}
-      <Opportunities/>
-      <EPCarousel/>
-      <Partners/>
-      <BlogsSection/>
-      <NewsUpdates/>
-      <FnQ/>
-      <ContactFrom/>
-      <Footer/>
-      </div>
-    )}
-    </body>
-      
+      <HtmlHead
+        title={"AIESEC in Sri Lanka"}
+        description={
+          "AIESEC is a global platform for young people to explore and develop their leadership potential."
+        }
+      />
+
+      {isLoading ? (
+        <SplashScreen finishLoading={() => setIsLoading(false)} />
+      ) : (
+        <div className=" overflow-hidden">
+          <Nav />
+          <HomeVideo />
+          <Counter />
+          <About />
+          <LocalChapters />
+          {/* <Home/> */}
+          <Opportunities />
+          <EPCarousel />
+          <Partners />
+          <BlogsSection />
+          <NewsUpdates />
+          <FnQ />
+          <ContactFrom />
+          <Footer />
+        </div>
+      )}
     </>
-  )
-}
+  );
+};
 
-
-MainPage.displayName = 'Home Page';
+MainPage.displayName = "Home Page";
 
 export default MainPage;

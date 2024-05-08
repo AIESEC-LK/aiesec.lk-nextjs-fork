@@ -3,15 +3,15 @@
     "id": 1,
     "title": "Intern - Administration & Operations",
     "deadline": "",
-    "mode": "for Undergratuates",
+    "mode": "for Undergraduate",
     "jd": "Team - Human Resources",
     "link": "https://www.aiesec.lk/twinery-internships"
   },
   {
     "id": 2,
-    "title": "Intern – Data Science",
+    "title": "Intern – Data Insights",
     "deadline": "",
-    "mode": "for Undergratuates",
+    "mode": "for Undergraduate",
     "jd": "Team - Data Insights",
     "link": "https://www.aiesec.lk/twinery-internships"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Intern – Engineering",
     "deadline": "",
-    "mode": "for Undergratuates",
+    "mode": "for Undergraduate",
     "jd": "Team - Machine Build",
     "link": "https://www.aiesec.lk/twinery-internships"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Intern – Logistics",
     "deadline": "",
-    "mode": "for Undergratuates",
+    "mode": "for Undergraduate",
     "jd": "Team - Machine Build",
     "link": "https://www.aiesec.lk/twinery-internships"
   },
@@ -35,8 +35,24 @@
     "id": 5,
     "title": "Intern – Intellectual Property",
     "deadline": "",
-    "mode": "for Undergratuates",
+    "mode": "for Undergraduate",
     "jd": "Team - Intellectual Property",
+    "link": "https://www.aiesec.lk/twinery-internships"
+  },
+  {
+    "id": 6,
+    "title": "Intern – Talent Management",
+    "deadline": "",
+    "mode": "for Undergraduate",
+    "jd": "Team - Human Resources",
+    "link": "https://www.aiesec.lk/twinery-internships"
+  },
+  {
+    "id": 7,
+    "title": "Intern – Marketing",
+    "deadline": "",
+    "mode": "for Undergraduate",
+    "jd": "Team - Machine Build",
     "link": "https://www.aiesec.lk/twinery-internships"
   }
 ]
