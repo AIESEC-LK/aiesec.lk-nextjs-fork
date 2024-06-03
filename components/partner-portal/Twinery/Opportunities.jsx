@@ -6,7 +6,7 @@ import Data from "@pages/partner-portal/Twinery/data.json";
 function Opportunities({ opportunities }) {
   return (
     <div>
-      <div className="text-center pt-24" id="opportunities">
+      <div className="text-center" id="opportunities">
         <h2 className="text-center text-3xl bg-gradient-to-r from-twinery-black to-twinery-red inline-block text-transparent bg-clip-text font-semibold pb-10 px-3">
           Internship opportunities specially for AIESECers
         </h2>

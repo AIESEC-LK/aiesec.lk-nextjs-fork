@@ -6,6 +6,7 @@ import Footer from "@components/Footer";
 import PortalBG from "@components/partner-portal/PortalBG";
 import HtmlHead from "@components/partner-portal/HtmlHead";
 
+
 const PartnerPortalPage = () => {
   return (
     <>
@@ -14,6 +15,8 @@ const PartnerPortalPage = () => {
       <Nav/>
       <HeroSection/>
       <PartnersListSection partners={data.jsonData}/>
+
+
       <Footer/>
     </>
   );
