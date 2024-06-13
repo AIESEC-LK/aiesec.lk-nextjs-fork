@@ -2,13 +2,14 @@ import Link from "next/link";
 import { Button, Card } from "flowbite-react";
 import { HiArrowRight } from "react-icons/hi";
 import Data from "@pages/partner-portal/Emerald/data.json";
+import { FaCheck } from "react-icons/fa";
 
 function OppCard({ OppCard }) {
   return (
     <div id="opportunities" className="mb-20 mt-10">
       <div className="flex justify-center">
         <div>
-          <h4 className="text-4xl p-3 text-aiesec-dark-grey font-bold">
+          <h4 className="text-4xl p-3 text-aiesec-dark-grey font-bold pb-6">
             Opportunities specially for AIESECers
           </h4>
           <hr className="w-1/2 mx-auto mt-1 mb-4" />
@@ -26,7 +27,7 @@ function OppCard({ OppCard }) {
                 <h5 className="text-2xl text-left font-bold mt-0 mb-0">
                   {opportunity.title}
                 </h5>
-                
+
                 <p className="text-left">{opportunity.mode}</p>
               </div>
               {opportunity.deadline && (
@@ -36,7 +37,16 @@ function OppCard({ OppCard }) {
               )}
             </div>
             <hr />
-            <p className="text-left">{opportunity.jd}</p>
+            <div className="text-left">
+              <ul>
+                {opportunity.jd.map((item, index) => (
+                  <li key={index} className="flex justify-between mb-2 ">
+                    &#9989;
+                    <p className="ml-2">{item}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <div className="font-normal text-md pb-2 text-aiesec-dark-grey"></div>
             <div className="mt-1 text-center">
               <Link href={opportunity.link} target="_blank">

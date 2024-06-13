@@ -1,10 +1,64 @@
 [
   {
     "id": 1,
-    "title": "Intern - Software Engineering",
+    "title": "Junior Executive Human Resources",
     "deadline": "",
-    "mode": "for Undergraduate",
-    "jd": "Experience in software development, including a clear understanding of data structures, algorithms, software design and core programming concepts. Proficiency in at least one programming language such as Java, C++, C# or Python. Strong object-oriented design and coding skills. Ability to work in a dynamic environment. Strong communication skills.",
-    "link": "https://www.aiesec.lk/twinery-internships"
+    "mode": "",
+    "jd": [
+      "Bachelor's degree or professional qualification in Human Resources.",
+      "Minimum of two years of relevant work experience.",
+      "Proficiency in MS Office applications and Human Resource Information Systems (HRIS).",
+      "Excellent communication skills in both English and Sinhala.",
+      "Strong attention to detail and ability to maintain accuracy in HR documentation and records.",
+      "Demonstrated ability to work collaboratively in a team environment and support HR initiatives effectively"
+    ],
+    "link": "https://forms.gle/wDiH2G8o9Bnx4aB87"
+  },
+  {
+    "id": 2,
+    "title": "Intern - Marketing",
+    "deadline": "",
+    "mode": "",
+    "jd": [
+      "Currently enrolled in a Bachelor's degree program in Marketing, Business Administration, or related field.",
+      "Strong passion for marketing and eagerness to learn about various marketing strategies and tactics.",
+      "Familiarity with social media platforms and digital marketing concepts is a plus.",
+      "Ability to work well in a fast-paced environment and collaborate effectively with team members.",
+      "Proactive attitude with a willingness to take on new challenges and contribute fresh ideas to marketing campaigns.",
+      "Availability to work 40 hours per week for a six-month internship period."
+    ],
+    "link": "https://forms.gle/wDiH2G8o9Bnx4aB87"
+  },
+  {
+    "id": 3,
+    "title": "Intern - Design",
+    "deadline": "",
+    "mode": "",
+    "jd": [
+      "Currently enrolled in a Bachelor's degree program in Fashion Design, Textile Design, Graphic Design, or related field.",
+      "Strong passion for design, particularly in the field of fashion.",
+      "Proficiency in design software such as Adobe Illustrator, Photoshop, and/or other relevant design tools.",
+      "Ability to conceptualize and create innovative designs for clothing, accessories, or related fashion items.",
+      "Strong sketching and illustration skills..",
+      "Availability to work 40 hours per week for a six-month internship period."
+    ],
+    "link": "https://forms.gle/wDiH2G8o9Bnx4aB87"
+  },
+  {
+    "id": 4,
+    "title": "Visual Merchandising",
+    "deadline": "",
+    "mode": "",
+    "jd": [
+      "Currently enrolled in a Bachelor's degree program in Visual Merchandising, Retail Management, Fashion Design, Marketing, Business, or related field.",
+      "Strong interest in visual merchandising and a passion for creating visually appealing displays.",
+      "Creative flair and ability to conceptualize and execute innovative display ideas.",
+      "Knowledge of retail and consumer behavior principles.",
+      "Proficiency in design software such as Adobe Illustrator, Photoshop, and/or other relevant design tools is a plus.",
+      "Strong communication and interpersonal skills.",
+      "Ability to work well in a team environment and collaborate effectively with store personnel.",
+      "Availability to work 40 hours per week for a six-month internship period."
+    ],
+    "link": "https://forms.gle/wDiH2G8o9Bnx4aB87"
   }
 ]
