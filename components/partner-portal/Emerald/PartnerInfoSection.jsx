@@ -56,7 +56,7 @@ const PartnerInfoSection = () => {
       {/* <div className="pb-6">
       <YouTubePlayer videoId="juKVUM1-cKE" />
       </div> */}
-      <div className="px-10 sm:px-36 pb-10">
+      <div className="px-10 sm:px-28 pb-10">
         <h4 className="text-4xl p-3 text-aiesec-dark-grey font-bold">
           Partnership between AIESEC and Emerald
         </h4>

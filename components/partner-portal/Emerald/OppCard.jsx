@@ -9,7 +9,7 @@ function OppCard({ OppCard }) {
     <div id="opportunities" className="mb-20 mt-10">
       <div className="flex justify-center">
         <div>
-          <h4 className="text-4xl p-3 text-aiesec-dark-grey font-bold pb-6">
+          <h4 className="text-4xl p-3 px-6 text-aiesec-dark-grey font-bold pb-6 flex justify-center text-center">
             Opportunities specially for AIESECers
           </h4>
           <hr className="w-1/2 mx-auto mt-1 mb-4" />
