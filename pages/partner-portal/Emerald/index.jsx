@@ -13,21 +13,18 @@ function Emerald() {
   const [isLoading, setIsLoading] = useState(true);
   const [partnerData, setPartnerData] = useState(false);
   return (
-//   return isLoading ? (
-//     <>
-//       <HtmlHead title={"Loading"} description={"Partner details page"} />
-//       <FullscreenLoadingSpinner />
-//     </>
-//   ) : (
+    //   return isLoading ? (
+    //     <>
+    //       <HtmlHead title={"Loading"} description={"Partner details page"} />
+    //       <FullscreenLoadingSpinner />
+    //     </>
+    //   ) : (
     <>
-      <HtmlHead
-        title={`Emerald - Partner Portal`}
-        description={""}
-      />
+      <HtmlHead title={`Emerald - Partner Portal`} description={""} />
       {/* <PartnerHero /> */}
-      <PartnerInfoSection/>
+      <PartnerInfoSection />
       {/* <PartnerOpportunitiesSection opportunities={partnerData?.opportunities} /> */}
-    <OppCard/>
+      <OppCard />
       <Footer />
     </>
   );

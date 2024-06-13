@@ -11,7 +11,7 @@ const PartnerInfoSection = () => {
             <div className="font-cursive text-6xl pb-2 text-aiesec-mid-grey">
               Welcome to
             </div>
-            <div>
+            <div className="px-2">
               <span className="text-black">Emerald</span>{" "}
               <span className="text-aiesec-blue">Partner Portal</span>
             </div>
@@ -56,21 +56,31 @@ const PartnerInfoSection = () => {
       {/* <div className="pb-6">
       <YouTubePlayer videoId="juKVUM1-cKE" />
       </div> */}
-
-      <div className="my-3 container mx-auto">
-        <h4 className="text-2xl p-3 text-aiesec-dark-grey font-bold">
+      <div className="px-10 sm:px-36 pb-10">
+        <h4 className="text-4xl p-3 text-aiesec-dark-grey font-bold">
+          Partnership between AIESEC and Emerald
+        </h4>
+        <p>
+          We entered into partnership with AIESEC in Sri Lanka owing to their
+          distinguished local impact. Aligned with our corporate ethos of
+          community engagement, we are dedicated to empowering youth and
+          fulfilling our social responsibility. AIESEC's exemplary track record
+          underscores their capacity to facilitate meaningful change, bolstering
+          our joint commitment to advancing societal welfare through
+          strategic collaboration.
+        </p>
+      </div>
+      <div className="px-10 sm:px-36">
+        <h4 className="text-4xl p-3 text-aiesec-dark-grey font-bold">
           Why should an AIESECer join Emerald ?
         </h4>
-        <hr className="w-1/2 mx-auto mt-1 mb-4" />
-        <div className=" mt-10">
-          <p>
-            At our company, AIESECers can find a dynamic environment where their
-            talents are valued, along with a rich heritage of trust and
-            excellence. Our vibrant culture prioritizes innovation and social
-            responsibility, making us an ideal destination for those seeking to
-            make a meaningful impact in their careers.
-          </p>
-        </div>
+        <p>
+          At our company, AIESECers can find a dynamic environment where their
+          talents are valued, along with a rich heritage of trust and
+          excellence. Our vibrant culture prioritizes innovation and social
+          responsibility, making us an ideal destination for those seeking to
+          make a meaningful impact in their careers.
+        </p>
       </div>
       <div className="px-6">
         <Link href="#opportunities" className="mt-10 flex justify-center">
@@ -79,7 +89,6 @@ const PartnerInfoSection = () => {
           </button>
         </Link>
       </div>
-     
     </section>
   );
 };
