@@ -3,13 +3,13 @@ import Nav from "@components/Nav";
 import Footer from "@components/Footer";
 import FullscreenLoadingSpinner from "@components/partner-portal/FullscreenLoadingSpinner";
 import HtmlHead from "@components/partner-portal/HtmlHead";
-import partnerData from "@pages/partner-portal/Emerald/data.json";
-import PartnerHero from "@components/partner-portal/Emerald/PartnerHero";
-import PartnerInfoSection from "@components/partner-portal/Emerald/PartnerInfoSection";
+import partnerData from "@pages/partner-portal/Dimo/data.json";
+import PartnerHero from "@components/partner-portal/Dimo/PartnerHero";
+import PartnerInfoSection from "@components/partner-portal/Dimo/PartnerInfoSection";
 import PartnerOpportunitiesSection from "@components/partner-portal/PartnerOpportunitiesSection";
-import OppCard from "@components/partner-portal/Emerald/OppCard";
+import OppCard from "@components/partner-portal/Dimo/OppCard";
 
-function Emerald() {
+function Dimo() {
   const [isLoading, setIsLoading] = useState(true);
   const [partnerData, setPartnerData] = useState(false);
   return (
@@ -20,13 +20,14 @@ function Emerald() {
     //     </>
     //   ) : (
     <>
-      <HtmlHead title={`Emerald - Partner Portal`} description={""} />
-      {/* <PartnerHero /> */}
+      <HtmlHead title={`Dimo - Partner Portal`} description={""} />
+
       <PartnerInfoSection />
-      {/* <PartnerOpportunitiesSection opportunities={partnerData?.opportunities} /> */}
+
       <OppCard />
+      <Footer />
     </>
   );
 }
 
-export default Emerald;
+export default Dimo;
