@@ -59,6 +59,13 @@ const PartnerInfoSection = () => {
           making sustainable living commonplace.
         </p>
       </div>
+      <div>
+        <Link href="#opportunities" className="my-10 flex justify-center">
+          <button className=" text-white bg-aiesec-blue px-8 py-3 font-bold rounded-3xl">
+            Explore Our Opportunities
+          </button>
+        </Link>
+      </div>
 
       {/* Carousal */}
       <div className="h-72 sm:h-72 xl:h-80 2xl:h-96">
@@ -82,11 +89,15 @@ const PartnerInfoSection = () => {
       </div>
 
       <div className="px-6">
-        <Link href="#opportunities" className="mt-10 flex justify-center">
-          <button className=" text-white bg-aiesec-blue px-8 py-3 font-bold rounded-3xl">
-            Explore Our Opportunities
-          </button>
-        </Link>
+        <p className="p-6">
+          If you were to ask an AIESECer in Sri Lanka to name one of the most
+          used words in their AIESEC vocabulary, Unilever is bound to be on the
+          list. It is not only because of the proud presence of the organization
+          but because of the purposeful partnership that binds two like-minded
+          organizations, AIESEC Sri Lanka and Unilever LK since 2015 and its
+          impact. Unilever LK has always been a proud partner that we’ve had to
+          develop the talent of our membership.
+        </p>
       </div>
     </section>
   );
