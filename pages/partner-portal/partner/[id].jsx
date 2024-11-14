@@ -4,7 +4,7 @@ import data from "@pages/partner-portal/data.json";
 import PartnerInfoSection from "@components/partner-portal/PartnerInfoSection";
 import PartnerOpportunitiesSection from "@components/partner-portal/PartnerOpportunitiesSection";
 import Footer from "@components/Footer";
-import PartnerHero from "@components/partner-portal/PartnerHero";
+import PartnerHero from "@components/partner-portal/PartnerHeroVideo";
 import {useEffect, useState} from "react";
 import Nav from "@components/Nav";
 import FullscreenLoadingSpinner from "@components/partner-portal/FullscreenLoadingSpinner";
